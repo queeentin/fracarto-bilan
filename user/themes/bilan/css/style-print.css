@@ -1,0 +1,158 @@
+@media print{
+
+    @page{
+        size: A4;
+        bleed: 6mm; 
+        marks: crop;
+        @bottom-center{
+            content: counter(page);
+        }
+    }
+
+    @page:left {
+        margin-top: 8mm;
+        margin-bottom: 23mm;
+        margin-left: 12mm;
+        margin-right: 8mm;
+      }
+      
+      @page:right {
+        margin-top: 8mm;
+        margin-bottom: 23mm;
+        margin-left: 8mm;
+        margin-right: 12mm;
+      }
+    
+}
+
+body{
+
+}
+
+h1{
+    font-family: "Fana";
+    font-size: 51pt;
+    line-height: 54pt;
+    page-break-before: always;
+    page-break-after: always;
+    width: 100%;
+    word-break: break-all;
+}
+
+h2{
+    font-family: "Big Daily";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 46pt;
+    line-height: 39pt;
+    text-align: center;
+    page-break-before: always;
+    page-break-after: always;
+    margin: 0;
+}
+
+h3{
+    font-family: "Area Web";
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 9pt;
+    line-height: 13pt;
+    width: 106.86mm;
+    margin: 13pt 0;
+}
+
+h4{
+    font-family: "Area Web";
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 9pt;
+    line-height: 13pt;
+    width: 106.86mm;
+    margin: 13pt 0;
+}
+
+p{
+    font-family: "Area Web";
+    font-size: 9pt;
+    line-height: 13pt;
+    font-weight: 400;
+    margin: 0;
+    width: 106.86mm;
+    text-indent: 8mm;
+}
+
+hr {
+    border: 0;
+    page-break-after: always;
+}
+
+ul{
+    font-family: "Area Web";
+    font-size: 9pt;
+    line-height: 13pt;
+    font-weight: 400;
+    margin: 0;
+    width: 106.86mm;
+}
+
+.block p:first-child{
+    text-indent: 0;
+}
+
+#image{
+    max-width: 100%;
+}
+
+tr{
+    background-color: lightgrey;
+}
+
+/** Columns classes **/
+
+/* Columns left position */
+
+.pos-1{
+    margin-left: 12mm;
+}
+.pos-2{
+    margin-left: 39.71mm;
+}
+.pos-3{
+    margin-left: 67.43mm;
+}
+.pos-4{
+    margin-left: 95.19mm;
+}
+.pos-5{
+    margin-left: 122.85mm;
+}
+.pos-6{
+    margin-left: 150.57mm;
+}
+.pos-7{
+    margin-left: 178.29mm;
+}
+
+/* Columns width */
+
+.col-1{
+    width: 23.71mm;
+}
+.col-2{
+    width: 51.43mm;
+}
+.col-3{
+    width: 79.14mm;
+}
+.col-4{
+    width: 106.86mm;
+}
+.col-5{
+    width: 134.57mm;
+}
+.col-6{
+    width: 162.33mm;
+}
+.col-7{
+    width: 190mm;
+}

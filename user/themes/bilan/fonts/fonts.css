@@ -1,0 +1,327 @@
+/* FANA */
+
+@font-face {
+    font-family: "Fana";
+    src: url("fana/FANA-Regular.woff") format("woff"),
+      url("fana/FANA-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** AREA **/
+
+/* Normal */
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 50;
+    font-style: normal;
+    src:
+      url("area/Area-Hairline.woff") format("woff"),
+      url("area/Area-Hairline.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 100;
+    font-style: normal;
+    src:
+      url("area/Area-Thin.woff") format("woff"),
+      url("area/Area-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 200;
+    font-style: normal;
+    src:
+      url("area/Area-Extralight.woff") format("woff"),
+      url("area/Area-Extralight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 300;
+    font-style: normal;
+    src:
+      url("area/Area-Light.woff") format("woff"),
+      url("area/Area-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 400;
+    font-style: normal;
+    src:
+      url("area/Area-Regular.woff") format("woff"),
+      url("area/Area-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 500;
+    font-style: normal;
+    src:
+      url("area/Area-Medium.woff") format("woff"),
+      url("area/Area-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 600;
+    font-style: normal;
+    src:
+      url("area/Area-Semibold.woff") format("woff"),
+      url("area/Area-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 700;
+    font-style: normal;
+    src:
+      url("area/Area-Bold.woff") format("woff"),
+      url("area/Area-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 800;
+    font-style: normal;
+    src:
+      url("area/Area-Extrabold.woff") format("woff"),
+      url("area/Area-Extrabold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 900;
+    font-style: normal;
+    src:
+      url("area/Area-Black.woff") format("woff"),
+      url("area/Area-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Area Web";
+    font-weight: 950;
+    font-style: normal;
+    src:
+      url("area/Area-Extrablack.woff") format("woff"),
+      url("area/Area-Extrablack.woff2") format("woff2");
+}
+
+/* Italic */
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 50;
+  font-style: italic;
+  src:
+    url("area/Area-HairlineItalic.woff") format("woff"),
+    url("area/Area-HairlineItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 100;
+  font-style: italic;
+  src:
+    url("area/Area-ThinItalic.woff") format("woff"),
+    url("area/Area-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 200;
+  font-style: italic;
+  src:
+    url("area/Area-ExtralightItalic.woff") format("woff"),
+    url("area/Area-ExtralightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 300;
+  font-style: italic;
+  src:
+    url("area/Area-LightItalic.woff") format("woff"),
+    url("area/Area-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 400;
+  font-style: italic;
+  src:
+    url("area/Area-RegularItalic.woff") format("woff"),
+    url("area/Area-RegularItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 500;
+  font-style: italic;
+  src:
+    url("area/Area-MediumItalic.woff") format("woff"),
+    url("area/Area-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 600;
+  font-style: italic;
+  src:
+    url("area/Area-SemiboldItalic.woff") format("woff"),
+    url("area/Area-SemiboldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 700;
+  font-style: italic;
+  src:
+    url("area/Area-BoldItalic.woff") format("woff"),
+    url("area/Area-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 800;
+  font-style: italic;
+  src:
+    url("area/Area-ExtraboldItalic.woff") format("woff"),
+    url("area/Area-ExtraboldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 900;
+  font-style: italic;
+  src:
+    url("area/Area-BlackItalic.woff") format("woff"),
+    url("area/Area-BlackItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Area Web";
+  font-weight: 950;
+  font-style: italic;
+  src:
+    url("area/Area-ExtrablackItalic.woff") format("woff"),
+    url("area/Area-ExtrablackItalic.woff2") format("woff2");
+}
+
+/* BIG DAILY */
+
+/* Normal */
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 100;
+  font-style: normal;
+  src:
+    url("bigdaily/bigdailyshort-extralight.woff") format("woff"),
+    url("bigdaily/bigdailyshort-extralight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 200;
+  font-style: normal;
+  src:
+    url("bigdaily/bigdailyshort-light.woff") format("woff"),
+    url("bigdaily/bigdailyshort-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 300;
+  font-style: normal;
+  src:
+    url("bigdaily/bigdailyshort-semilight.woff") format("woff"),
+    url("bigdaily/bigdailyshort-semilight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url("bigdaily/bigdailyshort-regular.woff") format("woff"),
+    url("bigdaily/bigdailyshort-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 700;
+  font-style: normal;
+  src:
+    url("bigdaily/bigdailyshort-bold.woff") format("woff"),
+    url("bigdaily/bigdailyshort-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 900;
+  font-style: normal;
+  src:
+    url("bigdaily/bigdailyshort-black.woff") format("woff"),
+    url("bigdaily/bigdailyshort-black.woff2") format("woff2");
+}
+
+/* Italic */
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 100;
+  font-style: italic;
+  src:
+    url("bigdaily/bigdailyshort-extralightitalic.woff") format("woff"),
+    url("bigdaily/bigdailyshort-extralightitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 200;
+  font-style: italic;
+  src:
+    url("bigdaily/bigdailyshort-lightitalic.woff") format("woff"),
+    url("bigdaily/bigdailyshort-lightitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 300;
+  font-style: italic;
+  src:
+    url("bigdaily/bigdailyshort-semilightitalic.woff") format("woff"),
+    url("bigdaily/bigdailyshort-semilightitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 400;
+  font-style: italic;
+  src:
+    url("bigdaily/bigdailyshort-regularitalic.woff") format("woff"),
+    url("bigdaily/bigdailyshort-regularitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 700;
+  font-style: italic;
+  src:
+    url("bigdaily/bigdailyshort-bolditalic.woff") format("woff"),
+    url("bigdaily/bigdailyshort-bolditalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Daily";
+  font-weight: 900;
+  font-style: italic;
+  src:
+    url("bigdaily/bigdailyshort-blackitalic.woff") format("woff"),
+    url("bigdaily/bigdailyshort-blackitalic.woff2") format("woff2");
+}

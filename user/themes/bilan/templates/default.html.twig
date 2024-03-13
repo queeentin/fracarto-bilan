@@ -1,0 +1,23 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <body class="interface-bar-bottom">
+
+        <header id="interface-header" w3-include-html="{{ url('theme://pagedjs/interface.html') }}"></header>
+        <div id="render-book"></div>
+    
+        <template id="book-content">
+            {% for parent_page in pages.children %}
+                <h1>{{ parent_page.title }}</h1>
+                {{ parent_page.content|raw }}
+                {% for child_page in parent_page.children %}
+                    <h2>{{ child_page.title }}</h2>
+                    {{ child_page.content|raw }}
+                {% endfor %}
+            {% endfor %}
+        </template>
+
+    </body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ (grav.language.getActive ?: grav.config.site.default_lang)|e }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e }} | {% endif %}{{ site.title|e }}</title>
+
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}" />
+    <link rel="canonical" href="{{ page.canonical(true)|e }}" />
+  
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Book template Paged.js</title>
+
+    <!-- Paged.js-->
+    <script src="{{ url('theme://pagedjs/paged.js') }}"></script>
+    <script src="{{ url('theme://pagedjs/interface.js') }}"></script>
+    <script src="{{ url('theme://pagedjs/reload-in-place.js') }}"></script>
+    <script src="{{ url('theme://js/handlers.js') }}"></script>
+    <script src="{{ url('theme://js/scripts.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url('theme://pagedjs/interface-header.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url('theme://pagedjs/interface.css') }}"/>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="{{ url('theme://fonts/fonts.css') }}">
+    
+</head>
+{% endblock head %}
+
+<body>
+    {% block body %}
+        {% block content %}{% endblock %}
+    {% endblock %}
+</body>
+
+</html>
