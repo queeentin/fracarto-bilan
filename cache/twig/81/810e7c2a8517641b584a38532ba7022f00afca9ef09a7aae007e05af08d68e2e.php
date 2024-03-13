@@ -75,6 +75,6 @@ class __TwigTemplate_aea3453fc56a752c10e98d03d982192343c5be2dbe058e8834e8bf74109
         return new Source("{% for entry in feed %}
 <li><span class=\"date\">{{ entry.nicetime }}</span> <a href=\"{{ entry.url }}\" target=\"_blank\" title=\"{{ entry.title|striptags|e('html_attr') }}\">{{ entry.title }}</a>
 {% endfor %}
-", "partials/feed-block.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
+", "partials/feed-block.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/partials/feed-block.html.twig");
     }
 }

@@ -62,6 +62,6 @@ class __TwigTemplate_2cc816c25e6c8500a3006f21514f05781a2255131c282c6d6461cfb4d62
     {
         return new Source("{% set user_avatar = admin.user.getAvatarUrl() %}
 <img src=\"{{ user_avatar ~ '?s=80' }}\" />
-", "partials/nav-user-avatar.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

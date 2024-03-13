@@ -82,6 +82,6 @@ class __TwigTemplate_1d236bec0d03da9bf825ab41015876b28da6fca6afa9011d2f781db9f50
         {{ page.content|raw }}
     </div>
 {% endblock %}
-", "error.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/themes/bilan/templates/error.html.twig");
+", "error.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/themes/bilan/templates/error.html.twig");
     }
 }

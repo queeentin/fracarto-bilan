@@ -114,6 +114,6 @@ class __TwigTemplate_8486ba128df9bf3a9dadc056fed417d5f10258309a3c5b7076f58149879
         <div class=\"{{ message.scope }} alert\">{{ message.message|raw }}</div>
     {%- endfor -%}
 </div>
-", "partials/messages.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
+", "partials/messages.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/partials/messages.html.twig");
     }
 }

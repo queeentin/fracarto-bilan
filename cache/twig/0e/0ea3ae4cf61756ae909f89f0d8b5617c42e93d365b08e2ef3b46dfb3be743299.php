@@ -70,7 +70,7 @@ class __TwigTemplate_28e108bd7a52a6240590fb26d5205d40da503892425f740dc8e42a902f6
             echo "
     ";
             // line 14
-            $this->loadTemplate("forms/fields/section/section.html.twig", "forms/fields/section/section.html.twig", 14, "103184364")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
+            $this->loadTemplate("forms/fields/section/section.html.twig", "forms/fields/section/section.html.twig", 14, "626182379")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
             // line 22
             echo "
 ";
@@ -126,13 +126,13 @@ class __TwigTemplate_28e108bd7a52a6240590fb26d5205d40da503892425f740dc8e42a902f6
 
 {% endif %}
 {% endblock %}
-", "forms/fields/section/section.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+", "forms/fields/section/section.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }
 
 
 /* forms/fields/section/section.html.twig */
-class __TwigTemplate_28e108bd7a52a6240590fb26d5205d40da503892425f740dc8e42a902f692600___103184364 extends \Twig\Template
+class __TwigTemplate_28e108bd7a52a6240590fb26d5205d40da503892425f740dc8e42a902f692600___626182379 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -225,6 +225,6 @@ class __TwigTemplate_28e108bd7a52a6240590fb26d5205d40da503892425f740dc8e42a902f6
 
 {% endif %}
 {% endblock %}
-", "forms/fields/section/section.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+", "forms/fields/section/section.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }

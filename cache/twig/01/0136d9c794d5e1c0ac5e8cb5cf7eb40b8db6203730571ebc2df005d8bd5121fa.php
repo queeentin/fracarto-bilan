@@ -96,6 +96,6 @@ class __TwigTemplate_1378cce8c0975b669fb856be40c294b28558f041d5ac41780037407f237
     {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
     name=\"{{ (scope ~ field.name)|fieldName }}\"
     value=\"{{ blueprints.name }}\" />
-{% endblock %}", "forms/fields/blueprint/blueprint.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
+{% endblock %}", "forms/fields/blueprint/blueprint.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
     }
 }

@@ -93,6 +93,6 @@ class __TwigTemplate_a50d81f70b5c53b0545d42ab448e50d0a81c90a3b045e844f71fdd49103
         return new Source("{% for meta in page.metadata %}
     <meta {% if meta.name %}name=\"{{ meta.name|e }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv|e }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset|e }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property|e }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content|raw }}\" {% endif %}/>
 {% endfor %}
-", "partials/metadata.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/system/templates/partials/metadata.html.twig");
+", "partials/metadata.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/system/templates/partials/metadata.html.twig");
     }
 }

@@ -634,6 +634,6 @@ $context["add_modal"], "with", []), []))));
         </form>
     </div>
 {% endblock %}
-", "flex-objects/types/pages/list/columns.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/list/columns.html.twig");
+", "flex-objects/types/pages/list/columns.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/list/columns.html.twig");
     }
 }

@@ -75,6 +75,6 @@ class __TwigTemplate_ca3fac3422470129bb57f3482c47c9a1dd5f051528130544aa59abfd4fc
     <i class=\"fa fa-cog\"></i> {{ 'PLUGIN_ADMIN.CONFIGURATION'|tu }}
 </a>
 {% endif %}
-", "flex-objects/types/default/buttons/configuration.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/default/buttons/configuration.html.twig");
+", "flex-objects/types/default/buttons/configuration.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/default/buttons/configuration.html.twig");
     }
 }

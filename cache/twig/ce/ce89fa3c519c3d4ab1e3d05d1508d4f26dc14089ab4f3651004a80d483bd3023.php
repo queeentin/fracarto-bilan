@@ -65,6 +65,6 @@ class __TwigTemplate_fc81d39db7278873f1b0149d37be5582c2b79e78b06a134833e44eba3aa
         return new Source("<a id=\"titlebar-button-back\" class=\"button\" href=\"{{ back_url }}\" title=\"{{ \"PLUGIN_ADMIN.BACK\"|tu }}\">
     <i class=\"fa fa-reply\"></i>
 </a>
-", "flex-objects/types/pages/buttons/back.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/back.html.twig");
+", "flex-objects/types/pages/buttons/back.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/back.html.twig");
     }
 }
