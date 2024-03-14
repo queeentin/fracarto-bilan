@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/03.actions-du-frac-artotheque-en-2022/01.des-collections-qui-voyagent/default.md',
-    'modified' => 1710318268,
+    'modified' => 1710355644,
     'size' => 20071,
     'data' => [
         'header' => [

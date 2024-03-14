@@ -65,6 +65,6 @@ class __TwigTemplate_a7c061df12a6e2d880aa11a3296a55f114edb00648bd5bdbf79ebc9d853
 <a id=\"titlebar-button-copy\" href=\"#modal-page-copy\" data-remodal-target=\"modal-page-copy\" class=\"button page-copy\">
     <i class=\"fa fa-copy\"></i> {{ \"PLUGIN_ADMIN.COPY\"|tu }}
 </a>
-", "flex-objects/types/pages/buttons/copy.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/copy.html.twig");
+", "flex-objects/types/pages/buttons/copy.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/copy.html.twig");
     }
 }

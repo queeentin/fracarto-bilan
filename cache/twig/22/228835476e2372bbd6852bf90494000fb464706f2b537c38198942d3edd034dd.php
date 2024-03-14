@@ -80,6 +80,6 @@ class __TwigTemplate_1a96b429bbfb7810dd3686e504a4d32a8ebae82df3ff4584462ccd81f7a
     <i class=\"fa fa-chevron-down\"></i>
 </span>
 {% endif %}
-", "flex-objects/types/pages/buttons/nav-child.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/nav-child.html.twig");
+", "flex-objects/types/pages/buttons/nav-child.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/nav-child.html.twig");
     }
 }

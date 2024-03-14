@@ -67,7 +67,7 @@ class __TwigTemplate_1573a1b3f1f968544a78955612adf118fef3e247554d27c3aa0df95cd45
         echo ">
     ";
         // line 12
-        $this->loadTemplate("partials/blueprints.html.twig", "partials/blueprints.html.twig", 12, "21499288")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
+        $this->loadTemplate("partials/blueprints.html.twig", "partials/blueprints.html.twig", 12, "74316402")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
         // line 16
         echo "
     ";
@@ -210,13 +210,13 @@ class __TwigTemplate_1573a1b3f1f968544a78955612adf118fef3e247554d27c3aa0df95cd45
         {{ nonce_field('admin-form', 'admin-nonce')|raw }}
     {% endif %}
 </form>
-", "partials/blueprints.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
+", "partials/blueprints.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
     }
 }
 
 
 /* partials/blueprints.html.twig */
-class __TwigTemplate_1573a1b3f1f968544a78955612adf118fef3e247554d27c3aa0df95cd45837df___21499288 extends \Twig\Template
+class __TwigTemplate_1573a1b3f1f968544a78955612adf118fef3e247554d27c3aa0df95cd45837df___74316402 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -313,6 +313,6 @@ class __TwigTemplate_1573a1b3f1f968544a78955612adf118fef3e247554d27c3aa0df95cd45
         {{ nonce_field('admin-form', 'admin-nonce')|raw }}
     {% endif %}
 </form>
-", "partials/blueprints.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
+", "partials/blueprints.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
     }
 }

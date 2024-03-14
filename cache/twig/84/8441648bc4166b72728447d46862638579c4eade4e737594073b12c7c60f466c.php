@@ -71,6 +71,6 @@ class __TwigTemplate_d1d7b0a07fca5c182e6ff417e14bf815c296b2e2cfb5cf06dba39fac2d8
 </a>
 <div class=\"remodal parents-container\" data-remodal-id=\"move\" data-remodal-options=\"hashTracking: false\">
     {% include 'partials/page-move.html.twig' with { blueprints: admin.blueprints('admin/pages/move'), data: context } %}
-</div>", "flex-objects/types/pages/buttons/move.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/move.html.twig");
+</div>", "flex-objects/types/pages/buttons/move.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/buttons/move.html.twig");
     }
 }

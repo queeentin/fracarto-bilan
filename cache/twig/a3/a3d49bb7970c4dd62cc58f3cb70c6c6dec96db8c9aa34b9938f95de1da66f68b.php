@@ -81,6 +81,6 @@ class __TwigTemplate_db5bb5b8d39361f0297b6a3fb9718e07fd7c77ebceaa2732c1338b79021
     {% set codemirrorOptions = codemirrorOptions|merge({'ignore': []}) %}
 {% endif %}
 {# end backward compatibility #}
-", "forms/fields/codemirror/codemirror.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/codemirror/codemirror.html.twig");
+", "forms/fields/codemirror/codemirror.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/codemirror/codemirror.html.twig");
     }
 }

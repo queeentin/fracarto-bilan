@@ -1,0 +1,31 @@
+form: flex-pages
+id: 'tmp://forms/session/d7301d7df3172823676d9ab77c482727'
+unique_id: d7301d7df3172823676d9ab77c482727
+url: '/pages/actions-du-frac-artotheque-en-2022/des-collections-pour-tous/focus-la-crosiere-de-lart/:add'
+user:
+  username: quentin
+  email: hello@quentinastie.space
+timestamps:
+  created: 1710409196
+  updated: 1710409196
+data: null
+files: {  }
+object:
+  type: pages
+  key: actions-du-frac-artotheque-en-2022/des-collections-pour-tous/focus-la-crosiere-de-lart
+  storage_key: ''
+  timestamp: 0
+  serialized:
+    __META: {  }
+    storage_key: ''
+    parent_key: 03.actions-du-frac-artotheque-en-2022/02.des-collections-pour-tous
+    order: false
+    folder: focus-la-crosiere-de-lart
+    template: default
+    lang: ''
+    root: false
+    route: /actions-du-frac-artotheque-en-2022/des-collections-pour-tous
+    name: default
+    header:
+      title: 'focus : la crosière de l''art'
+    frontmatter: "title: 'focus : la crosière de l''art'\n"

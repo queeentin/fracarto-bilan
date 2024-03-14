@@ -51,24 +51,37 @@ h2{
     margin: 0;
 }
 
-h3{
-    font-family: "Area Web";
-    font-weight: 800;
-    text-transform: uppercase;
+h3, h4, h5{
     font-size: 9pt;
     line-height: 13pt;
     width: 106.86mm;
     margin: 13pt 0;
 }
 
+h3{
+    font-family: "Area Web";
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
 h4{
     font-family: "Area Web";
     font-weight: 700;
     text-decoration: underline;
-    font-size: 9pt;
-    line-height: 13pt;
+}
+
+h5{
+    font-family: "Area Web";
+    font-weight: 400;
+}
+
+div.textblock{
     width: 106.86mm;
-    margin: 13pt 0;
+    margin-bottom: 13pt;
+}
+
+div.textblock p:first-of-type{
+    text-indent: 0;
 }
 
 p{
@@ -77,7 +90,6 @@ p{
     line-height: 13pt;
     font-weight: 400;
     margin: 0;
-    width: 106.86mm;
     text-indent: 8mm;
 }
 
@@ -112,25 +124,25 @@ tr{
 /* Columns left position */
 
 .pos-1{
-    margin-left: 12mm;
+    margin-left: 0;
 }
 .pos-2{
-    margin-left: 39.71mm;
+    margin-left: 27.71mm;
 }
 .pos-3{
-    margin-left: 67.43mm;
+    margin-left: 55.43mm;
 }
 .pos-4{
-    margin-left: 95.19mm;
+    margin-left: 83.19mm;
 }
 .pos-5{
-    margin-left: 122.85mm;
+    margin-left: 110.85mm;
 }
 .pos-6{
-    margin-left: 150.57mm;
+    margin-left: 138.57mm;
 }
 .pos-7{
-    margin-left: 178.29mm;
+    margin-left: 166.29mm;
 }
 
 /* Columns width */

@@ -85,6 +85,6 @@ class __TwigTemplate_6406197519e769309873e8889515315b95af6f4cb2bfe5fd87a2b65b518
         <i class=\"fa fa-refresh\"></i>
     </div>
 {% endblock %}
-", "forms/fields/folder-slug/folder-slug.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/folder-slug/folder-slug.html.twig");
+", "forms/fields/folder-slug/folder-slug.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/folder-slug/folder-slug.html.twig");
     }
 }

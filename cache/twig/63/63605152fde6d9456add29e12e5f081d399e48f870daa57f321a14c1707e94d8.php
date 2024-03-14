@@ -196,6 +196,6 @@ $context["name"]), "name" =>             // line 28
     {% include 'forms/fields/select/select.html.twig' %}
 {% endfor %}
 {% endblock %}
-", "forms/fields/taxonomy/taxonomy.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/taxonomy/taxonomy.html.twig");
+", "forms/fields/taxonomy/taxonomy.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/taxonomy/taxonomy.html.twig");
     }
 }

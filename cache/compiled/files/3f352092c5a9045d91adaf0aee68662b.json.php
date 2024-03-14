@@ -2,18 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/data/flex/indexes/pages.json',
-    'modified' => 1710318462,
+    'modified' => 1710410894,
     'size' => 7007,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1710318462,
+        'timestamp' => 1710410894,
         'count' => 19,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1710318266,
+                'storage_timestamp' => 1710351388,
                 'children' => [
                     '01.home' => 1710318266,
                     '02.preambule' => 1710318266,
@@ -22,7 +22,7 @@ return [
                     '05.annexes' => 1710318266,
                     '06.outro' => 1710318266
                 ],
-                'checksum' => '834882a9774f1251955a5e4fba71b0ac'
+                'checksum' => '111713801bd92f2e3cdb3eab99934db8'
             ],
             '01.home' => [
                 'key' => 'home',
@@ -52,55 +52,55 @@ return [
                 'key' => 'actions-du-frac-artotheque-en-2022',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022',
                 'template' => 'default',
-                'storage_timestamp' => 1710318266,
+                'storage_timestamp' => 1710410191,
                 'markdown' => [
                     '' => [
                         'default' => 1710318266
                     ]
                 ],
                 'children' => [
-                    '01.des-collections-qui-voyagent' => 1710318268,
-                    '02.des-collections-pour-tous' => 1710318268,
-                    '03.tableaux-de-frequentations' => 1710318268,
+                    '02.des-collections-pour-tous' => 1710410075,
+                    '02.des-collections-qui-voyagent' => 1710410191,
+                    '03.tableaux-de-frequentations' => 1710405296,
                     '04.enrichissement-et-gestion-des-collections' => 1710318268
                 ],
-                'checksum' => '1e15d88aa1f2369b4fa22ee2212b8053'
+                'checksum' => '4795b663e2cd1cf0251c4e70c9c97588'
             ],
-            '03.actions-du-frac-artotheque-en-2022/01.des-collections-qui-voyagent' => [
-                'key' => 'actions-du-frac-artotheque-en-2022/des-collections-qui-voyagent',
-                'storage_key' => '03.actions-du-frac-artotheque-en-2022/01.des-collections-qui-voyagent',
-                'template' => 'default',
-                'storage_timestamp' => 1710318268,
-                'markdown' => [
-                    '' => [
-                        'default' => 1710318268
-                    ]
-                ],
-                'checksum' => '94d3925674f3e81a853e710a615edb87'
-            ],
-            '03.actions-du-frac-artotheque-en-2022/02.des-collections-pour-tous' => [
+            '03.actions-du-frac-artotheque-en-2022/01.des-collections-pour-tous' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/des-collections-pour-tous',
-                'storage_key' => '03.actions-du-frac-artotheque-en-2022/02.des-collections-pour-tous',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/01.des-collections-pour-tous',
                 'template' => 'default',
-                'storage_timestamp' => 1710318268,
+                'storage_timestamp' => 1710410894,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318268
+                        'default' => 1710410894
                     ]
                 ],
-                'checksum' => '8284e561f72ed62b4ea44db8d1e13793'
+                'checksum' => '0ad1697342278006a158465277453a68'
+            ],
+            '03.actions-du-frac-artotheque-en-2022/02.des-collections-qui-voyagent' => [
+                'key' => 'actions-du-frac-artotheque-en-2022/des-collections-qui-voyagent',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/02.des-collections-qui-voyagent',
+                'template' => 'default',
+                'storage_timestamp' => 1710410191,
+                'markdown' => [
+                    '' => [
+                        'default' => 1710355644
+                    ]
+                ],
+                'checksum' => 'c6e0e3d6682e933beff91d59492c77e1'
             ],
             '03.actions-du-frac-artotheque-en-2022/03.tableaux-de-frequentations' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/tableaux-de-frequentations',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022/03.tableaux-de-frequentations',
                 'template' => 'default',
-                'storage_timestamp' => 1710318268,
+                'storage_timestamp' => 1710405296,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318268
+                        'default' => 1710405296
                     ]
                 ],
-                'checksum' => 'ecc645ebc57a668274d3599ac12d3919'
+                'checksum' => 'ac0c75a8aeba6e6db29cccbf840f98fb'
             ],
             '03.actions-du-frac-artotheque-en-2022/04.enrichissement-et-gestion-des-collections' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/enrichissement-et-gestion-des-collections',

@@ -881,6 +881,6 @@ class __TwigTemplate_7310edbfecafb2329df8e89e5e672a5a6a2734ad1728d74d1c6b437b969
         \$('.admin-pages .form-tabs .tabs-nav').css('margin-right', (\$('#admin-topbar').width() + 20) + 'px');
     </script>
 {% endblock bottom %}
-", "flex-objects/types/pages/edit.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/edit.html.twig");
+", "flex-objects/types/pages/edit.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/pages/edit.html.twig");
     }
 }

@@ -84,6 +84,6 @@ class __TwigTemplate_59022e7149b5aadd17f5d093089eea41b91f8c0922696432821e1ba67bb
     {% include 'forms/default/fields.html.twig' with {name: field.name|parent_field, fields: field.fields, fallback_field: 'column', cols: cols} %}
 </div>
 {% endblock %}
-", "forms/fields/columns/columns.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/admin/themes/grav/templates/forms/fields/columns/columns.html.twig");
+", "forms/fields/columns/columns.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/admin/themes/grav/templates/forms/fields/columns/columns.html.twig");
     }
 }

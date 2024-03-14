@@ -252,6 +252,6 @@ class __TwigTemplate_2a25860049ddfb22b8dbbd4988191dfce5e08de5bf59fcce342c7066b28
     {% endblock titlebar_title %}
 
 {% endblock %}
-", "flex-objects/types/default/titlebar/edit.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/plugins/flex-objects/admin/templates/flex-objects/types/default/titlebar/edit.html.twig");
+", "flex-objects/types/default/titlebar/edit.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/plugins/flex-objects/admin/templates/flex-objects/types/default/titlebar/edit.html.twig");
     }
 }

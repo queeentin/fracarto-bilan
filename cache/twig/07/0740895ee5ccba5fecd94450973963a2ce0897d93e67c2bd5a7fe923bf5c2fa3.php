@@ -59,7 +59,7 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
             echo "</h1>
                 ";
             // line 12
-            echo $this->getAttribute($context["parent_page"], "content", []);
+            echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["parent_page"], "content", []));
             echo "
                 ";
             // line 13
@@ -72,20 +72,41 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
                 echo "</h2>
                     ";
                 // line 15
-                echo $this->getAttribute($context["child_page"], "content", []);
+                echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["child_page"], "content", []));
                 echo "
-                ";
+                    ";
+                // line 16
+                $context['_parent'] = $context;
+                $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child_page"], "header", []), "sections", []));
+                foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+                    // line 17
+                    echo "                        <div class=\"textblock ";
+                    echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "class_name", []), "html", null, true);
+                    echo "\">
+                            ";
+                    // line 18
+                    echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["item"], "content", []));
+                    echo "
+                        </div>
+                    ";
+                }
+                $_parent = $context['_parent'];
+                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+                $context = array_intersect_key($context, $_parent) + $_parent;
+                // line 21
+                echo "                ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child_page'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 17
-            echo "            ";
+            // line 22
+            echo "
+            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['parent_page'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 18
+        // line 24
         echo "        </template>
 
     </body>
@@ -106,7 +127,7 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
 
     public function getDebugInfo()
     {
-        return array (  89 => 18,  83 => 17,  75 => 15,  70 => 14,  66 => 13,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  42 => 4,  39 => 3,  29 => 1,);
+        return array (  110 => 24,  103 => 22,  97 => 21,  88 => 18,  83 => 17,  79 => 16,  75 => 15,  70 => 14,  66 => 13,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  42 => 4,  39 => 3,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -130,11 +151,17 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
         <template id=\"book-content\">
             {% for parent_page in pages.children %}
                 <h1>{{ parent_page.title }}</h1>
-                {{ parent_page.content|raw }}
+                {{ parent_page.content|raw|markdown }}
                 {% for child_page in parent_page.children %}
                     <h2>{{ child_page.title }}</h2>
-                    {{ child_page.content|raw }}
+                    {{ child_page.content|raw|markdown }}
+                    {% for item in child_page.header.sections %}
+                        <div class=\"textblock {{ item.class_name }}\">
+                            {{ item.content|raw|markdown }}
+                        </div>
+                    {% endfor %}
                 {% endfor %}
+
             {% endfor %}
         </template>
 
@@ -142,6 +169,6 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
 </html>
 
 {% endblock %}
-", "default.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/grav/user/themes/bilan/templates/default.html.twig");
+", "default.html.twig", "/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d'activité/2024/bilan-2023/user/themes/bilan/templates/default.html.twig");
     }
 }
