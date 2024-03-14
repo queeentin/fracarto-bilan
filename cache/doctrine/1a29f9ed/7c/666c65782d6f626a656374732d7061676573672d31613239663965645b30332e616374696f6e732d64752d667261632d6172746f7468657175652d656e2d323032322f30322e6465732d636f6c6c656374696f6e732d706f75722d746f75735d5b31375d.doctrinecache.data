@@ -1,6 +1,0 @@
-1710408680
-O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:60:"actions-du-frac-artotheque-en-2022/des-collections-pour-tous";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:25:"Des collections pour tous";s:8:"sections";a:1:{i:0;a:2:{s:7:"content";s:9:"#### test";s:10:"class_name";s:5:"pos-4";}}}s:11:"frontmatter";s:105:"title: 'Des collections pour tous'
-sections:
-    -
-        content: '#### test'
-        class_name: pos-4";s:8:"markdown";s:84:"### L’ART POUR TOUTES ET TOUS : DE LA CAMPAGNE, AUX QUARTIERS OU EN CENTRE-VILLE ";}s:7:"storage";a:6:{s:3:"key";s:60:"actions-du-frac-artotheque-en-2022/des-collections-pour-tous";s:11:"storage_key";s:66:"03.actions-du-frac-artotheque-en-2022/02.des-collections-pour-tous";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1710408080;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1710408080;}}s:8:"checksum";s:32:"99b8f69f2e4f915b4157d48ab101aeeb";}}
