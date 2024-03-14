@@ -1,0 +1,15 @@
+1710416598
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:5:"outro";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:1:{s:5:"title";s:5:"Outro";}s:11:"frontmatter";s:12:"title: Outro";s:8:"markdown";s:391:"Le FRAC-ARTOTHÈQUE NOUVELLE-AQUITAINE
+est financé par :
+la Région Nouvelle-Aquitaine 
+et l’État (Ministère de la Culture / DRAC Nouvelle-Aquitaine)
+
+FRAC-ARTOTHÈQUE NOUVELLE-AQUITAINE
+Maison de la Région
+27, boulevard de la Corderie
+87031 Limoges cedex
+Tél : 05 55 52 03 03
+
+bonjour@fracarto.fr
+www.fracartothequenouvelleaquitaine.fr
+Facebook, Instagram, LinkedIn : @fracartotheque";}s:7:"storage";a:6:{s:3:"key";s:5:"outro";s:11:"storage_key";s:8:"06.outro";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1710318266;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1710318266;}}s:8:"checksum";s:32:"e7d1cc98291cbf5df9513e3eb0c23b0c";}}
