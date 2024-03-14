@@ -14,7 +14,11 @@
                     <h2>{{ child_page.title }}</h2>
                     {{ child_page.content|raw|markdown }}
                     {% for item in child_page.header.sections %}
-                        <div class="textblock {{ item.class_name }}">
+                        {% set item_class = "textblock" %}
+                        {% if child_page.blueprint.blueprint == "tables" %}
+                            {% set item_class = "table" %}
+                        {% endif %}
+                        <div class="{{ item_class }} {{ item.class_name }}">
                             {{ item.content|raw|markdown }}
                         </div>
                     {% endfor %}

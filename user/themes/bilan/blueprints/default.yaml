@@ -1,3 +1,5 @@
+blueprint: default
+
 title: Markdown sections
 extends@:
   type: default

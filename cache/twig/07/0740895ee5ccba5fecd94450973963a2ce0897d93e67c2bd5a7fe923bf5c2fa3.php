@@ -80,11 +80,25 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child_page"], "header", []), "sections", []));
                 foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
                     // line 17
-                    echo "                        <div class=\"textblock ";
+                    echo "                        ";
+                    $context["item_class"] = "textblock";
+                    // line 18
+                    echo "                        ";
+                    if (($this->getAttribute($this->getAttribute($context["child_page"], "blueprint", []), "blueprint", []) == "tables")) {
+                        // line 19
+                        echo "                            ";
+                        $context["item_class"] = "table";
+                        // line 20
+                        echo "                        ";
+                    }
+                    // line 21
+                    echo "                        <div class=\"";
+                    echo twig_escape_filter($this->env, ($context["item_class"] ?? null), "html", null, true);
+                    echo " ";
                     echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "class_name", []), "html", null, true);
                     echo "\">
                             ";
-                    // line 18
+                    // line 22
                     echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["item"], "content", []));
                     echo "
                         </div>
@@ -93,20 +107,20 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 21
+                // line 25
                 echo "                ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child_page'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 22
+            // line 26
             echo "
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['parent_page'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 24
+        // line 28
         echo "        </template>
 
     </body>
@@ -127,7 +141,7 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
 
     public function getDebugInfo()
     {
-        return array (  110 => 24,  103 => 22,  97 => 21,  88 => 18,  83 => 17,  79 => 16,  75 => 15,  70 => 14,  66 => 13,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  42 => 4,  39 => 3,  29 => 1,);
+        return array (  124 => 28,  117 => 26,  111 => 25,  102 => 22,  95 => 21,  92 => 20,  89 => 19,  86 => 18,  83 => 17,  79 => 16,  75 => 15,  70 => 14,  66 => 13,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  42 => 4,  39 => 3,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -156,7 +170,11 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
                     <h2>{{ child_page.title }}</h2>
                     {{ child_page.content|raw|markdown }}
                     {% for item in child_page.header.sections %}
-                        <div class=\"textblock {{ item.class_name }}\">
+                        {% set item_class = \"textblock\" %}
+                        {% if child_page.blueprint.blueprint == \"tables\" %}
+                            {% set item_class = \"table\" %}
+                        {% endif %}
+                        <div class=\"{{ item_class }} {{ item.class_name }}\">
                             {{ item.content|raw|markdown }}
                         </div>
                     {% endfor %}

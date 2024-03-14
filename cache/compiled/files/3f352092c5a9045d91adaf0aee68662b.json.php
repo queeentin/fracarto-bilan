@@ -2,27 +2,27 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/data/flex/indexes/pages.json',
-    'modified' => 1710416728,
-    'size' => 7007,
+    'modified' => 1710444751,
+    'size' => 7023,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1710416728,
+        'timestamp' => 1710444751,
         'count' => 19,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1710351388,
+                'storage_timestamp' => 1710436644,
                 'children' => [
                     '01.home' => 1710318266,
                     '02.preambule' => 1710318266,
-                    '03.actions-du-frac-artotheque-en-2022' => 1710318266,
-                    '04.cap-sur-charles-michels-les-nouveaux-programmes' => 1710318266,
+                    '03.actions-du-frac-artotheque-en-2022' => 1710436587,
+                    '04.cap-sur-charles-michels-les-nouveaux-programmes' => 1710431416,
                     '05.annexes' => 1710318266,
                     '06.outro' => 1710318266
                 ],
-                'checksum' => '111713801bd92f2e3cdb3eab99934db8'
+                'checksum' => 'c01e638eab1944a1ca88515a9842dd57'
             ],
             '01.home' => [
                 'key' => 'home',
@@ -52,19 +52,19 @@ return [
                 'key' => 'actions-du-frac-artotheque-en-2022',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022',
                 'template' => 'default',
-                'storage_timestamp' => 1710410191,
+                'storage_timestamp' => 1710436587,
                 'markdown' => [
                     '' => [
                         'default' => 1710318266
                     ]
                 ],
                 'children' => [
-                    '02.des-collections-pour-tous' => 1710410075,
-                    '02.des-collections-qui-voyagent' => 1710410191,
-                    '03.tableaux-de-frequentations' => 1710405296,
-                    '04.enrichissement-et-gestion-des-collections' => 1710318268
+                    '01.des-collections-pour-tous' => 1710410894,
+                    '02.des-collections-qui-voyagent' => 1710416728,
+                    '03.tableaux-de-frequentations' => 1710436587,
+                    '04.enrichissement-et-gestion-des-collections' => 1710430138
                 ],
-                'checksum' => '4795b663e2cd1cf0251c4e70c9c97588'
+                'checksum' => '7bb8ac2cbcbd49b0026739e7b78500d5'
             ],
             '03.actions-du-frac-artotheque-en-2022/01.des-collections-pour-tous' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/des-collections-pour-tous',
@@ -93,66 +93,66 @@ return [
             '03.actions-du-frac-artotheque-en-2022/03.tableaux-de-frequentations' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/tableaux-de-frequentations',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022/03.tableaux-de-frequentations',
-                'template' => 'default',
-                'storage_timestamp' => 1710405296,
+                'template' => 'tables',
+                'storage_timestamp' => 1710444751,
                 'markdown' => [
                     '' => [
-                        'default' => 1710405296
+                        'tables' => 1710444751
                     ]
                 ],
-                'checksum' => 'ac0c75a8aeba6e6db29cccbf840f98fb'
+                'checksum' => '40021497cf0e11cd17609ce1a999c053'
             ],
             '03.actions-du-frac-artotheque-en-2022/04.enrichissement-et-gestion-des-collections' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/enrichissement-et-gestion-des-collections',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022/04.enrichissement-et-gestion-des-collections',
                 'template' => 'default',
-                'storage_timestamp' => 1710318268,
+                'storage_timestamp' => 1710430138,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318268
+                        'default' => 1710430138
                     ]
                 ],
-                'checksum' => 'd0612cef044452490fada8bdbb584139'
+                'checksum' => '3eb1ade1d3b83006567aa35fe33e0096'
             ],
             '04.cap-sur-charles-michels-les-nouveaux-programmes' => [
                 'key' => 'cap-sur-charles-michels-les-nouveaux-programmes',
                 'storage_key' => '04.cap-sur-charles-michels-les-nouveaux-programmes',
                 'template' => 'default',
-                'storage_timestamp' => 1710318266,
+                'storage_timestamp' => 1710431416,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318266
+                        'default' => 1710431416
                     ]
                 ],
                 'children' => [
-                    'programmes-artistiques' => 1710318268,
-                    'programmes-de-developpement-et-de-valorisation' => 1710318268
+                    '01.programmes-artistiques' => 1710431394,
+                    '02.programmes-de-developpement-et-de-valorisation' => 1710431394
                 ],
-                'checksum' => 'bb31bc7a011b2786703725ba852e48f6'
+                'checksum' => '2f0c889684c18d2068f23a3d8139cb88'
             ],
-            '04.cap-sur-charles-michels-les-nouveaux-programmes/programmes-artistiques' => [
+            '04.cap-sur-charles-michels-les-nouveaux-programmes/01.programmes-artistiques' => [
                 'key' => 'cap-sur-charles-michels-les-nouveaux-programmes/programmes-artistiques',
-                'storage_key' => '04.cap-sur-charles-michels-les-nouveaux-programmes/programmes-artistiques',
+                'storage_key' => '04.cap-sur-charles-michels-les-nouveaux-programmes/01.programmes-artistiques',
                 'template' => 'default',
-                'storage_timestamp' => 1710318268,
+                'storage_timestamp' => 1710431394,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318268
+                        'default' => 1710431385
                     ]
                 ],
-                'checksum' => 'e252d9383b95ba168beb41a78364a0b0'
+                'checksum' => 'e1d8fa0e1a095ba7199727fbb6d9f523'
             ],
-            '04.cap-sur-charles-michels-les-nouveaux-programmes/programmes-de-developpement-et-de-valorisation' => [
+            '04.cap-sur-charles-michels-les-nouveaux-programmes/02.programmes-de-developpement-et-de-valorisation' => [
                 'key' => 'cap-sur-charles-michels-les-nouveaux-programmes/programmes-de-developpement-et-de-valorisation',
-                'storage_key' => '04.cap-sur-charles-michels-les-nouveaux-programmes/programmes-de-developpement-et-de-valorisation',
+                'storage_key' => '04.cap-sur-charles-michels-les-nouveaux-programmes/02.programmes-de-developpement-et-de-valorisation',
                 'template' => 'default',
-                'storage_timestamp' => 1710318268,
+                'storage_timestamp' => 1710434198,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318268
+                        'default' => 1710434198
                     ]
                 ],
-                'checksum' => '0ba442942fead2ceca9223f82a49672d'
+                'checksum' => 'f64729d0010ebf3cb1b42b595fe90934'
             ],
             '05.annexes' => [
                 'key' => 'annexes',
