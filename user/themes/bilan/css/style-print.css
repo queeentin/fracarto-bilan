@@ -32,7 +32,7 @@
       } 
 }
 
-/* Pagination */
+/* Headers */
 
 
 h1{
@@ -80,8 +80,27 @@ h5{
     font-weight: 400;
 }
 
-.textblock{
+/* Floating elements */
+
+h3{
+    width: calc(var(--column-width) * 3 + var(--gutter-width) * 2);
+}
+
+h4, figure{
+    float: inline-start;
+    clear: left;
+    width: calc(var(--column-width) * 3 + var(--gutter-width) * 2);
+}
+
+.textblock > p, .textblock > ul, h5{
+    margin-left: calc((var(--column-width) + var(--gutter-width)) * 3);
     width: calc(var(--column-width) * 4 + var(--gutter-width) * 3);
+}
+
+/* Paragraphes */
+
+.textblock{
+    /* margin-left: calc((var(--column-width) + var(--gutter-width)) * 3); */
     margin-bottom: 13pt;
 }
 
@@ -101,15 +120,6 @@ p{
     hyphenate-limit-chars: 10;
 }
 
-.textblock img{
-    width: 100%;
-}
-
-/* p:has(> img) {
-    text-indent: 0;
-    margin: 13pt 0 13pt 0;
-} */
-
 /* Images */
 
 figure{
@@ -117,33 +127,26 @@ figure{
     margin: 13pt 0 13pt 0;
 }
 
+figure img{
+    width: 100%;
+}
+
 figcaption{
     font-family: "Big Daily";
     font-weight: 200;
     font-size: 9pt;
     line-height: 13pt;
-    position: absolute;
-    bottom: 0;
-    left: calc(100% + var(--gutter-width));
     width: calc(var(--column-width) * 2 + var(--gutter-width));
 }
 
-.pos-2 figure{
-    margin-left: calc((var(--column-width) + var(--gutter-width)) * -1);
-}
-
-.pos-3 figure{
-    margin-left: calc(((var(--column-width) + var(--gutter-width)) * 2) * -1);
-}
-
-.pos-4 figure{
-    margin-left: calc(((var(--column-width) + var(--gutter-width)) * 3) * -1);
-}
+/* Saut de ligne */
 
 hr {
     border: 0;
     page-break-after: always;
 }
+
+/* Listes */
 
 ul{
     font-family: "Area Web";
@@ -163,24 +166,14 @@ ul li p{
     display: inline;
 }
 
-.block p:first-child{
-    text-indent: 0;
-}
-
-#image{
-    max-width: 100%;
-}
-
-/** Columns classes **/
-
-/* Columns x-position */
+/* Columns */
 
 .pagedjs_area{
     /* background-image: url("../images/fond-grille.png"); */
     background-size: cover;
 }
 
-.pos-1{
+/* .pos-1{
     margin-left: 0;
 }
 .pos-2{
@@ -200,11 +193,11 @@ ul li p{
 }
 .pos-7{
     margin-left: calc((var(--column-width) + var(--gutter-width)) * 6);
-}
+} */
 
 /* Columns width */
 
-.col-1{
+/* .col-1{
     width: var(--column-width);
 }
 .col-2{
@@ -224,4 +217,4 @@ ul li p{
 }
 .col-7{
     width: var(--page-width);
-}
+} */
