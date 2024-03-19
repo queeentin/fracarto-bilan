@@ -1,0 +1,145 @@
+/* Tableaux */
+
+.table table{
+    font-family: "Area Web";
+    font-size: 7pt;
+    line-height: 9pt;
+    border-collapse: collapse;
+    break-inside: auto
+}
+
+table *{
+    border-spacing: 0;
+}
+
+th{
+    font-weight: 800;
+}
+
+th, td{
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
+}
+
+td{
+    padding: 0.5em 0;
+    border-top: 1px solid black;
+}
+
+td:empty{
+    border: 0 !important;
+}
+
+tr td:first-of-type{
+    font-weight: 800;
+}
+
+tr td:not(:last-child){
+    padding-right: 4mm;
+}
+
+tr th:last-child{
+    text-align: right;
+}
+
+tr:last-child td{
+    font-weight: 800;
+    padding-top: 2em;
+    border-bottom: 1px solid black;
+}
+
+/* 5 colonnes */
+
+/* .t-col-5 tr td:first-of-type{
+    width: 27.7mm;
+}
+
+.t-col-5 tr td:nth-of-type(2){
+    width: 79.2mm;
+}
+
+.t-col-5 tr td:nth-of-type(3){
+    width: 27.7mm;
+}
+
+.t-col-5 tr td:nth-of-type(4){
+    width: 37.3mm;
+} */
+
+.t-col-5 tr td:last-of-type{
+    /* width: 18.1mm; */
+    text-align: right;
+}
+
+/* 5 colonnes bis (fréquentation indirecte/directe) */
+
+/* .t-col-5b tr td:first-of-type{
+    width: 27.7mm;
+}
+
+.t-col-5b tr td:nth-of-type(2){
+    width: 79.2mm;
+}
+
+.t-col-5b tr td:nth-of-type(3){
+    width: 27.7mm;
+}
+
+.t-col-5b tr td:nth-of-type(4){
+    width: 37.3mm;
+} */
+
+.t-col-5b tr td:last-of-type{
+    /* width: 18.1mm; */
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 5 colonnes bis (abonnés artothèque) */
+
+/* .t-col-5t tr td:first-of-type{
+    width: 79.2mm;
+}
+
+.t-col-5t tr td:nth-of-type(2){
+    width: 23.7mm;
+}
+
+.t-col-5t tr td:nth-of-type(3){
+    width: 23.7mm;
+} */
+
+.t-col-5t tr td:nth-of-type(4){
+    /* width: 23.7mm; */
+    text-align: right;
+}
+
+.t-col-5t tr td:last-of-type{
+    /* width: 23.7mm; */
+    text-align: right;
+}
+
+.t-col-5t td:empty{
+    border-top: 1px solid black !important;
+}
+
+/* 4 colonnes */
+
+/* .t-col-4 tr td:first-of-type{
+    width: 79.2mm;
+}
+
+.t-col-4 tr td:nth-of-type(2){
+    width: 23.7mm;
+}
+
+.t-col-4 tr td:nth-of-type(3){
+    width: 23.7mm;
+} */
+
+.t-col-4 tr td:last-of-type{
+    /* width: 51.4mm; */
+    text-align: right;
+}

@@ -1,0 +1,64 @@
+title: Custom Items
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          fields:
+
+            header.items:
+              type: list
+              fields:
+              
+                .text_items:
+                  type: fieldset
+                  title: Texte
+                  collapsed: true
+                  collapsible: true
+                  fields:
+                    .text_content:
+                      type: markdown
+                      label: Texte
+                    .text_class:
+                      type: select
+                      label: Position
+                      options:
+                        pos-1: position 1
+                        pos-2: position 2
+                        pos-3: position 3
+                        pos-4: position 4
+                      default: pos-1
+
+                .image_items:
+                  type: fieldset
+                  title: Image
+                  collapsed: true
+                  collapsible: true
+                  fields:
+                    .image_file:
+                      type: file
+                      label: Image
+                      modes:
+                        - file:
+                            type: image
+                            extensions: [jpg, jpeg, png, gif, svg]
+                    .image-caption:
+                      type: textarea
+                      label: Légende
+
+                .link_items:
+                  type: fieldset
+                  title: Liens
+                  collapsed: true
+                  collapsible: true
+                  fields:
+                    .link_url:
+                      type: text
+                      label: Link URL

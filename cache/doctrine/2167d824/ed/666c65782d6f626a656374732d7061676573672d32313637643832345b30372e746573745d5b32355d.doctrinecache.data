@@ -1,0 +1,26 @@
+1710791704
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"test";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:4:"Test";s:5:"items";a:2:{i:0;a:3:{s:10:"text_items";a:2:{s:12:"text_content";s:6:"blabla";s:10:"text_class";s:5:"pos-1";}s:11:"image_items";a:2:{s:13:"image-caption";N;s:10:"image_file";a:1:{s:67:"2. Preac Formation jour 1 - Atelier Repas paysage Bulle Dupont.jpeg";a:4:{s:4:"name";s:67:"2. Preac Formation jour 1 - Atelier Repas paysage Bulle Dupont.jpeg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:3880550;s:4:"path";s:67:"2. Preac Formation jour 1 - Atelier Repas paysage Bulle Dupont.jpeg";}}}s:10:"link_items";a:1:{s:8:"link_url";N;}}i:1;a:3:{s:10:"text_items";a:2:{s:12:"text_content";s:9:"blablabla";s:10:"text_class";s:5:"pos-1";}s:11:"image_items";a:2:{s:13:"image-caption";N;s:10:"image_file";a:0:{}}s:10:"link_items";a:1:{s:8:"link_url";N;}}}}s:11:"frontmatter";s:802:"title: Test
+items:
+    -
+        text_items:
+            text_content: blabla
+            text_class: pos-1
+        image_items:
+            image-caption: null
+            image_file:
+                '2. Preac Formation jour 1 - Atelier Repas paysage Bulle Dupont.jpeg':
+                    name: '2. Preac Formation jour 1 - Atelier Repas paysage Bulle Dupont.jpeg'
+                    type: image/jpeg
+                    size: 3880550
+                    path: '2. Preac Formation jour 1 - Atelier Repas paysage Bulle Dupont.jpeg'
+        link_items:
+            link_url: null
+    -
+        text_items:
+            text_content: blablabla
+            text_class: pos-1
+        image_items:
+            image-caption: null
+            image_file: {  }
+        link_items:
+            link_url: null";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:4:"test";s:11:"storage_key";s:7:"07.test";s:8:"template";s:12:"custom-items";s:17:"storage_timestamp";i:1710791077;s:8:"markdown";a:1:{s:0:"";a:1:{s:12:"custom-items";i:1710791077;}}s:8:"checksum";s:32:"4746ba7744a86a26da6dc157947cc840";}}

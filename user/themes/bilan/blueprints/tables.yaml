@@ -30,5 +30,6 @@ form:
                     t-col-4: 4 colonnes
                     t-col-5: 5 colonnes
                     t-col-5b: 5 colonnes bis
+                    t-col-5t: 5 colonnes ter
                     t-col-6: 6 colonnes
                   default: 4 colonnes

@@ -19,10 +19,12 @@ form:
               type: list
               style: vertical
               fields:
+
                 .content:
                   type: markdown
                   validate:
                     type: textarea
+
                 .class_name:
                   type: select
                   label: Position

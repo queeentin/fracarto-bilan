@@ -1,0 +1,25 @@
+1710795221
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"test";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:4:"Test";s:5:"items";a:2:{i:0;a:3:{s:10:"text_items";a:2:{s:12:"text_content";s:1460:"### L’ART POUR TOUTES ET TOUS : DE LA CAMPAGNE, AUX QUARTIERS OU EN CENTRE-VILLE
+
+#### Focus : La croisiere de l’art #4
+La Croisière de l’art est un programme d’éducation artistique et culturelle porté par le Frac-Artothèque Nouvelle-Aquitaine depuis 2020 en partenariat avec le centre social associatif Vital de Limoges et la commune de Saint-Sulpice-Laurière (adhérente au FACLIM), puis avec le centre social La Bastide depuis 2023. Il s’adresse à des familles de quartiers prioritaires de la ville de Limoges et à des habitants en zone rurale.  Le programme se présente sous la forme d’une résidence d’artistes en milieu rural, d’une production éditoriale, et d’une itinérance estivale. Cette dernière comprend la découverte de lieux d’art, des rencontres avec des artistes, et des expériences de pratiques artistiques à travers une série d’ateliers développés et animés par des artistes récemment diplômés de l’École Nationale Supérieure d’Art et de Design de Limoges (Ensad). 
+La Croisière de l’art offre à des publics éloignés de l’art contemporain une expérience artistique chaleureuse et conviviale. Elle permet d’encourager la découverte de démarches plastiques émergentes et confirmées, et d’engager des discussions autour de l’art. Elle a la volonté de créer et nourrir du lien entre les générations et entre les territoires urbains et ruraux.";s:10:"text_class";s:5:"pos-1";}s:11:"image_items";a:2:{s:13:"image-caption";N;s:10:"image_file";a:0:{}}s:10:"link_items";a:1:{s:8:"link_url";N;}}i:1;a:3:{s:10:"text_items";a:2:{s:12:"text_content";s:9:"blablabla";s:10:"text_class";s:5:"pos-1";}s:11:"image_items";a:2:{s:13:"image-caption";N;s:10:"image_file";a:0:{}}s:10:"link_items";a:1:{s:8:"link_url";N;}}}}s:11:"frontmatter";s:1917:"title: Test
+items:
+    -
+        text_items:
+            text_content: "### L’ART POUR TOUTES ET TOUS\_: DE LA CAMPAGNE, AUX QUARTIERS OU EN CENTRE-VILLE\n\n#### Focus\_: La croisiere de l’art #4\nLa Croisière de l’art est un programme d’éducation artistique et culturelle porté par le Frac-Artothèque Nouvelle-Aquitaine depuis 2020 en partenariat avec le centre social associatif Vital de Limoges et la commune de Saint-Sulpice-Laurière (adhérente au FACLIM), puis avec le centre social La Bastide depuis 2023. Il s’adresse à des familles de quartiers prioritaires de la ville de Limoges et à des habitants en zone rurale.  Le programme se présente sous la forme d’une résidence d’artistes en milieu rural, d’une production éditoriale, et d’une itinérance estivale. Cette dernière comprend la découverte de lieux d’art, des rencontres avec des artistes, et des expériences de pratiques artistiques à travers une série d’ateliers développés et animés par des artistes récemment diplômés de l’École Nationale Supérieure d’Art et de Design de Limoges (Ensad). \nLa Croisière de l’art offre à des publics éloignés de l’art contemporain une expérience artistique chaleureuse et conviviale. Elle permet d’encourager la découverte de démarches plastiques émergentes et confirmées, et d’engager des discussions autour de l’art. Elle a la volonté de créer et nourrir du lien entre les générations et entre les territoires urbains et ruraux."
+            text_class: pos-1
+        image_items:
+            image-caption: null
+            image_file: {  }
+        link_items:
+            link_url: null
+    -
+        text_items:
+            text_content: blablabla
+            text_class: pos-1
+        image_items:
+            image-caption: null
+            image_file: {  }
+        link_items:
+            link_url: null";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:4:"test";s:11:"storage_key";s:7:"07.test";s:8:"template";s:12:"custom-items";s:17:"storage_timestamp";i:1710791224;s:8:"markdown";a:1:{s:0:"";a:1:{s:12:"custom-items";i:1710791224;}}s:8:"checksum";s:32:"e93a0b1c1187038d2eeda28c03e702dd";}}

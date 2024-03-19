@@ -1,0 +1,12 @@
+blueprint: chiffres
+
+title: Markdown sections
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1

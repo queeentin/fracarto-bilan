@@ -67,38 +67,55 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["parent_page"], "children", []));
             foreach ($context['_seq'] as $context["_key"] => $context["child_page"]) {
                 // line 14
-                echo "                    <h2>";
-                echo twig_escape_filter($this->env, $this->getAttribute($context["child_page"], "title", []), "html", null, true);
-                echo "</h2>
+                echo "                    ";
+                if (($this->getAttribute($this->getAttribute($context["child_page"], "blueprint", []), "blueprint", []) == "chiffres")) {
+                    // line 15
+                    echo "                        <div class=\"chiffres\">
+                            ";
+                    // line 16
+                    echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["child_page"], "content", []));
+                    echo "
+                        </div>
                     ";
-                // line 15
-                echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["child_page"], "content", []));
-                echo "
+                } else {
+                    // line 19
+                    echo "                        <h2>";
+                    echo twig_escape_filter($this->env, $this->getAttribute($context["child_page"], "title", []), "html", null, true);
+                    echo "</h2>
+                        ";
+                    // line 20
+                    echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["child_page"], "content", []));
+                    echo "
                     ";
-                // line 16
+                }
+                // line 22
+                echo "                    ";
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child_page"], "header", []), "sections", []));
                 foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                    // line 17
+                    // line 23
                     echo "                        ";
                     $context["item_class"] = "textblock";
-                    // line 18
+                    // line 24
                     echo "                        ";
                     if (($this->getAttribute($this->getAttribute($context["child_page"], "blueprint", []), "blueprint", []) == "tables")) {
-                        // line 19
+                        // line 25
                         echo "                            ";
                         $context["item_class"] = "table";
-                        // line 20
+                        // line 26
                         echo "                        ";
                     }
-                    // line 21
+                    // line 27
+                    echo "                        ";
+                    $context["contentWithClass"] = $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["item"], "content", []));
+                    // line 28
                     echo "                        <div class=\"";
                     echo twig_escape_filter($this->env, ($context["item_class"] ?? null), "html", null, true);
                     echo " ";
                     echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "class_name", []), "html", null, true);
                     echo "\">
                             ";
-                    // line 22
+                    // line 29
                     echo $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->markdownFunction($context, $this->getAttribute($context["item"], "content", []));
                     echo "
                         </div>
@@ -107,20 +124,20 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 25
+                // line 32
                 echo "                ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child_page'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 26
+            // line 33
             echo "
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['parent_page'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 28
+        // line 35
         echo "        </template>
 
     </body>
@@ -141,7 +158,7 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
 
     public function getDebugInfo()
     {
-        return array (  124 => 28,  117 => 26,  111 => 25,  102 => 22,  95 => 21,  92 => 20,  89 => 19,  86 => 18,  83 => 17,  79 => 16,  75 => 15,  70 => 14,  66 => 13,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  42 => 4,  39 => 3,  29 => 1,);
+        return array (  141 => 35,  134 => 33,  128 => 32,  119 => 29,  112 => 28,  109 => 27,  106 => 26,  103 => 25,  100 => 24,  97 => 23,  92 => 22,  87 => 20,  82 => 19,  76 => 16,  73 => 15,  70 => 14,  66 => 13,  62 => 12,  57 => 11,  53 => 10,  46 => 6,  42 => 4,  39 => 3,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -167,13 +184,20 @@ class __TwigTemplate_9a4d1a2ff3756f1536c24c6b09b7c77932e6dc7ea777ebe8341852dafc3
                 <h1>{{ parent_page.title }}</h1>
                 {{ parent_page.content|raw|markdown }}
                 {% for child_page in parent_page.children %}
-                    <h2>{{ child_page.title }}</h2>
-                    {{ child_page.content|raw|markdown }}
+                    {% if child_page.blueprint.blueprint == \"chiffres\" %}
+                        <div class=\"chiffres\">
+                            {{ child_page.content|raw|markdown }}
+                        </div>
+                    {% else %}
+                        <h2>{{ child_page.title }}</h2>
+                        {{ child_page.content|raw|markdown }}
+                    {% endif %}
                     {% for item in child_page.header.sections %}
                         {% set item_class = \"textblock\" %}
                         {% if child_page.blueprint.blueprint == \"tables\" %}
                             {% set item_class = \"table\" %}
                         {% endif %}
+                        {% set contentWithClass = item.content|raw|markdown %}
                         <div class=\"{{ item_class }} {{ item.class_name }}\">
                             {{ item.content|raw|markdown }}
                         </div>

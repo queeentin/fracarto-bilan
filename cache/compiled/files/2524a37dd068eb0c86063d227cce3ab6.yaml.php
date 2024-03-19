@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/themes/bilan/blueprints/tables.yaml',
-    'modified' => 1710442036,
-    'size' => 767,
+    'modified' => 1710757247,
+    'size' => 812,
     'data' => [
         'blueprint' => 'tables',
         'title' => 'Markdown tables',
@@ -36,6 +36,7 @@ return [
                                                 't-col-4' => '4 colonnes',
                                                 't-col-5' => '5 colonnes',
                                                 't-col-5b' => '5 colonnes bis',
+                                                't-col-5t' => '5 colonnes ter',
                                                 't-col-6' => '6 colonnes'
                                             ],
                                             'default' => '4 colonnes'

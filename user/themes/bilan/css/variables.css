@@ -1,0 +1,12 @@
+body{
+    --margin-page-top: 8mm;
+    --margin-page-right: 12mm;
+    --margin-page-bottom: 23mm;
+    --margin-page-left: 18mm;
+    --gutter-width: 4mm;
+    --column-count: 7;
+    --gutter-count: calc(var(--column-count) - 1);
+    --page-width: calc(210mm - var(--margin-page-right) - var(--margin-page-left));
+    --page-height: calc(297mm - var(--margin-page-bottom) - var(--margin-page-top));
+    --column-width: calc((var(--page-width) - var(--gutter-width) * var(--gutter-count)) / var(--column-count));
+}

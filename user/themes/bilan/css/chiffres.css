@@ -1,0 +1,22 @@
+div.chiffres{
+    break-before: always;
+}
+
+.chiffres p{
+    margin-left: 27.7mm;
+    width: 134.6mm;
+    margin-bottom: 1em;
+    text-align: center;
+    text-indent: 0;
+}
+
+.chiffres strong{
+    /* margin-left: 27.7mm;
+    width: 79.1mm; */
+    display: block;
+    font-weight: 900;
+}
+
+.chiffres strong span{
+    font-family: "Fana";
+}

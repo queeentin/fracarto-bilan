@@ -11,13 +11,20 @@
                 <h1>{{ parent_page.title }}</h1>
                 {{ parent_page.content|raw|markdown }}
                 {% for child_page in parent_page.children %}
-                    <h2>{{ child_page.title }}</h2>
-                    {{ child_page.content|raw|markdown }}
+                    {% if child_page.blueprint.blueprint == "chiffres" %}
+                        <div class="chiffres">
+                            {{ child_page.content|raw|markdown }}
+                        </div>
+                    {% else %}
+                        <h2>{{ child_page.title }}</h2>
+                        {{ child_page.content|raw|markdown }}
+                    {% endif %}
                     {% for item in child_page.header.sections %}
                         {% set item_class = "textblock" %}
                         {% if child_page.blueprint.blueprint == "tables" %}
                             {% set item_class = "table" %}
                         {% endif %}
+                        {% set contentWithClass = item.content|raw|markdown %}
                         <div class="{{ item_class }} {{ item.class_name }}">
                             {{ item.content|raw|markdown }}
                         </div>

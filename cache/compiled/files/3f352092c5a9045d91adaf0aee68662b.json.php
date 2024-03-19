@@ -2,27 +2,28 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/data/flex/indexes/pages.json',
-    'modified' => 1710444751,
-    'size' => 7023,
+    'modified' => 1710841378,
+    'size' => 7906,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1710444751,
-        'count' => 19,
+        'timestamp' => 1710841378,
+        'count' => 22,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => NULL,
-                'storage_timestamp' => 1710436644,
+                'storage_timestamp' => 1710838882,
                 'children' => [
                     '01.home' => 1710318266,
                     '02.preambule' => 1710318266,
-                    '03.actions-du-frac-artotheque-en-2022' => 1710436587,
+                    '03.actions-du-frac-artotheque-en-2022' => 1710759809,
                     '04.cap-sur-charles-michels-les-nouveaux-programmes' => 1710431416,
                     '05.annexes' => 1710318266,
-                    '06.outro' => 1710318266
+                    '06.outro' => 1710318266,
+                    '07.test' => 1710791224
                 ],
-                'checksum' => 'c01e638eab1944a1ca88515a9842dd57'
+                'checksum' => '7402e8685a17c73fb370e1a7c0dd6827'
             ],
             '01.home' => [
                 'key' => 'home',
@@ -52,67 +53,93 @@ return [
                 'key' => 'actions-du-frac-artotheque-en-2022',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022',
                 'template' => 'default',
-                'storage_timestamp' => 1710436587,
+                'storage_timestamp' => 1710759809,
                 'markdown' => [
                     '' => [
-                        'default' => 1710318266
+                        'default' => 1710759736
                     ]
                 ],
                 'children' => [
-                    '01.des-collections-pour-tous' => 1710410894,
-                    '02.des-collections-qui-voyagent' => 1710416728,
-                    '03.tableaux-de-frequentations' => 1710436587,
-                    '04.enrichissement-et-gestion-des-collections' => 1710430138
+                    '01.chiffres' => 1710759195,
+                    '02.carte' => 1710759809,
+                    '02.des-collections-pour-tous' => 1710759195,
+                    '03.des-collections-qui-voyagent' => 1710759195,
+                    '04.tableaux-de-frequentations' => 1710759195,
+                    '05.enrichissement-et-gestion-des-collections' => 1710759195
                 ],
-                'checksum' => '7bb8ac2cbcbd49b0026739e7b78500d5'
+                'checksum' => 'f0dee4e5d1635c55076582f75f7f47fb'
             ],
-            '03.actions-du-frac-artotheque-en-2022/01.des-collections-pour-tous' => [
+            '03.actions-du-frac-artotheque-en-2022/01.chiffres' => [
+                'key' => 'actions-du-frac-artotheque-en-2022/chiffres',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/01.chiffres',
+                'template' => 'chiffres',
+                'storage_timestamp' => 1710760649,
+                'markdown' => [
+                    '' => [
+                        'chiffres' => 1710760649
+                    ]
+                ],
+                'checksum' => 'cc6048dd2a5f213d7c9e4b93e0b65565'
+            ],
+            '03.actions-du-frac-artotheque-en-2022/02.carte' => [
+                'key' => 'actions-du-frac-artotheque-en-2022/carte',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/02.carte',
+                'template' => 'chiffres',
+                'storage_timestamp' => 1710759870,
+                'markdown' => [
+                    '' => [
+                        'chiffres' => 1710759796
+                    ]
+                ],
+                'checksum' => '37f832bfe148019fe448b3ff8bd4a7da'
+            ],
+            '03.actions-du-frac-artotheque-en-2022/03.des-collections-pour-tous' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/des-collections-pour-tous',
-                'storage_key' => '03.actions-du-frac-artotheque-en-2022/01.des-collections-pour-tous',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/03.des-collections-pour-tous',
                 'template' => 'default',
-                'storage_timestamp' => 1710410894,
+                'storage_timestamp' => 1710841378,
                 'markdown' => [
                     '' => [
-                        'default' => 1710410894
+                        'default' => 1710841378
                     ]
                 ],
-                'checksum' => '0ad1697342278006a158465277453a68'
+                'checksum' => '65abda4d8eb5bff5fd8fca439e4db1ab'
             ],
-            '03.actions-du-frac-artotheque-en-2022/02.des-collections-qui-voyagent' => [
+            '03.actions-du-frac-artotheque-en-2022/04.des-collections-qui-voyagent' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/des-collections-qui-voyagent',
-                'storage_key' => '03.actions-du-frac-artotheque-en-2022/02.des-collections-qui-voyagent',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/04.des-collections-qui-voyagent',
                 'template' => 'default',
-                'storage_timestamp' => 1710416728,
+                'storage_timestamp' => 1710775220,
                 'markdown' => [
                     '' => [
-                        'default' => 1710416728
+                        'default' => 1710775220
                     ]
                 ],
-                'checksum' => 'ba6cc9e735bb66b32e79889730f06b08'
+                'checksum' => '3fe088a1ca899004d6eef56692175515'
             ],
-            '03.actions-du-frac-artotheque-en-2022/03.tableaux-de-frequentations' => [
+            '03.actions-du-frac-artotheque-en-2022/05.tableaux-de-frequentations' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/tableaux-de-frequentations',
-                'storage_key' => '03.actions-du-frac-artotheque-en-2022/03.tableaux-de-frequentations',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/05.tableaux-de-frequentations',
                 'template' => 'tables',
-                'storage_timestamp' => 1710444751,
+                'storage_timestamp' => 1710795229,
                 'markdown' => [
                     '' => [
-                        'tables' => 1710444751
+                        'tables' => 1710795229
                     ]
                 ],
-                'checksum' => '40021497cf0e11cd17609ce1a999c053'
+                'checksum' => '1dfce3bbfd30a792edbee4528e572e15'
             ],
-            '03.actions-du-frac-artotheque-en-2022/04.enrichissement-et-gestion-des-collections' => [
+            '03.actions-du-frac-artotheque-en-2022/06.enrichissement-et-gestion-des-collections' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/enrichissement-et-gestion-des-collections',
-                'storage_key' => '03.actions-du-frac-artotheque-en-2022/04.enrichissement-et-gestion-des-collections',
+                'storage_key' => '03.actions-du-frac-artotheque-en-2022/06.enrichissement-et-gestion-des-collections',
                 'template' => 'default',
-                'storage_timestamp' => 1710430138,
+                'storage_timestamp' => 1710775285,
                 'markdown' => [
                     '' => [
-                        'default' => 1710430138
+                        'default' => 1710775285
                     ]
                 ],
-                'checksum' => '3eb1ade1d3b83006567aa35fe33e0096'
+                'checksum' => '313d5680a24697eab50cd649f1ae964f'
             ],
             '04.cap-sur-charles-michels-les-nouveaux-programmes' => [
                 'key' => 'cap-sur-charles-michels-les-nouveaux-programmes',
@@ -257,6 +284,18 @@ return [
                     ]
                 ],
                 'checksum' => 'e7d1cc98291cbf5df9513e3eb0c23b0c'
+            ],
+            '07.test' => [
+                'key' => 'test',
+                'storage_key' => '07.test',
+                'template' => 'custom-items',
+                'storage_timestamp' => 1710791224,
+                'markdown' => [
+                    '' => [
+                        'custom-items' => 1710791224
+                    ]
+                ],
+                'checksum' => 'e93a0b1c1187038d2eeda28c03e702dd'
             ]
         ]
     ]
