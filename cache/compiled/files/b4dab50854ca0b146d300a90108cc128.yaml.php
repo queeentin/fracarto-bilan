@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/br.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 32085,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -180,10 +180,10 @@ return [
             'PASSWORD' => 'Ger-tremen',
             'PASSWORD_CONFIRM' => 'Kadarnat ar ger-tremen',
             'TITLE' => 'Titl',
-            'LANGUAGE' => 'Yezh',
             'ACCOUNT' => 'Kont',
             'EMAIL_VALIDATION_MESSAGE' => 'Ret eo reiñ ur chomlec\'h postel talvoudek',
             'PASSWORD_VALIDATION_MESSAGE' => 'Ret eo d\'ar ger-tremen enderc\'hel ur niverenn, ul lizherenn vras hag ul lizherenn vihan hag 8 arouezenn d\'an nebeutañ',
+            'LANGUAGE' => 'Yezh',
             'LANGUAGE_HELP' => 'Dibabit ar yezh',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Dre ziouer',

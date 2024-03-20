@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/et.yaml',
-    'modified' => 1710318268,
-    'size' => 48313,
+    'modified' => 1710754278,
+    'size' => 48336,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Palun luba oma brauseris JavaScripti kasutamine',
@@ -207,10 +207,10 @@ return [
             'PASSWORD' => 'Salasõna',
             'PASSWORD_CONFIRM' => 'Kinnita salasõna',
             'TITLE' => 'Pealkiri',
-            'LANGUAGE' => 'Keel',
             'ACCOUNT' => 'Konto',
             'EMAIL_VALIDATION_MESSAGE' => 'Palun sisesta kehtiv e-posti aadress',
             'PASSWORD_VALIDATION_MESSAGE' => 'Salasõna peab sisaldama vähemalt ühte numbrit, ühte suur- ja väiketähte ja koosnema vähemalt 8 märgist',
+            'LANGUAGE' => 'Keel',
             'LANGUAGE_HELP' => 'Määra sobiv keel',
             'MEDIA' => 'Meedia',
             'DEFAULTS' => 'Vaikimisi',

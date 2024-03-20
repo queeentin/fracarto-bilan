@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/tr.yaml',
-    'modified' => 1710318268,
-    'size' => 51960,
+    'modified' => 1710754278,
+    'size' => 51983,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Lütfen tarayıcınızda Javascript aktive edin.',
@@ -210,10 +210,10 @@ return [
             'PASSWORD' => 'Şifre',
             'PASSWORD_CONFIRM' => 'Parolayı yeniden girin',
             'TITLE' => 'Başlık',
-            'LANGUAGE' => 'Dil',
             'ACCOUNT' => 'Hesap',
             'EMAIL_VALIDATION_MESSAGE' => 'Geçerli bir eposta adresi belirtilmeli',
             'PASSWORD_VALIDATION_MESSAGE' => 'Parola en az bir sayı, bir büyük harf, bir küçük harf ve en az 8 veya daha fazla karakterden oluşmalıdır',
+            'LANGUAGE' => 'Dil',
             'LANGUAGE_HELP' => 'Favori dili belirleyin',
             'MEDIA' => 'Ortam',
             'DEFAULTS' => 'Varsayılanlar',

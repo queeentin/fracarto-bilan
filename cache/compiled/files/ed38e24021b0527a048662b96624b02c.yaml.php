@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/fa.yaml',
-    'modified' => 1710318268,
-    'size' => 68443,
+    'modified' => 1710754278,
+    'size' => 68466,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'لطفاً جاوا اسکریپت را در مرورگرتان فعال کنید.',
@@ -219,10 +219,10 @@ return [
             'PASSWORD' => 'گذرواژه',
             'PASSWORD_CONFIRM' => 'تأیید گذرواژه',
             'TITLE' => 'عنوان',
-            'LANGUAGE' => 'زبان',
             'ACCOUNT' => 'حساب کاربری',
             'EMAIL_VALIDATION_MESSAGE' => 'باید یک آدرس رایانامه معتبر باشد',
             'PASSWORD_VALIDATION_MESSAGE' => 'رمز عبور باید حداقل یک عدد و یک حرف بزرگ و یک حرف کوچک و حداقل 8 کاراکتر داشته باشد',
+            'LANGUAGE' => 'زبان',
             'LANGUAGE_HELP' => 'تنظیم زبان مورد علاقه',
             'MEDIA' => 'رسانه',
             'DEFAULTS' => 'پیش فرض ها',

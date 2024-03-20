@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/hr.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 34774,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -211,10 +211,10 @@ return [
             'PASSWORD' => 'Lozinka',
             'PASSWORD_CONFIRM' => 'Potvrdi Lozinku',
             'TITLE' => 'Naslov',
-            'LANGUAGE' => 'Jezik',
             'ACCOUNT' => 'Račun',
             'EMAIL_VALIDATION_MESSAGE' => 'Email adresa mora biti valjana.',
             'PASSWORD_VALIDATION_MESSAGE' => 'Zaporka mora sadržavati najmanje jedan broj i jedno veliko i malo slovo, i barem 8 ili više znakova.',
+            'LANGUAGE' => 'Jezik',
             'LANGUAGE_HELP' => 'Postavi omiljeni jezik',
             'MEDIA' => 'Medijske datoteke',
             'DEFAULTS' => 'Osnovno',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/lt.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 15180,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -184,10 +184,10 @@ return [
             'PASSWORD' => 'Slaptažodis',
             'PASSWORD_CONFIRM' => 'Patvirtinti slaptažodį',
             'TITLE' => 'Antraštė',
-            'LANGUAGE' => 'Kalba',
             'ACCOUNT' => 'Paskyra',
             'EMAIL_VALIDATION_MESSAGE' => 'Turi būti galiojantis el. pašto adresas',
             'PASSWORD_VALIDATION_MESSAGE' => 'Slaptažodyje turi būti bent vienas skaičius ir vienas didžiųjų ir mažoji raidė ir bent 8 ar daugiau simbolių',
+            'LANGUAGE' => 'Kalba',
             'LANGUAGE_HELP' => 'Pagrindinės kalbos nustatymas',
             'MEDIA' => 'Medija',
             'DEFAULTS' => 'Pagal nutylėjimą',

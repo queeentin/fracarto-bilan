@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/bg.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 24191,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -211,10 +211,10 @@ return [
             'PASSWORD' => 'Парола',
             'PASSWORD_CONFIRM' => 'Потвърждение на паролата',
             'TITLE' => 'Титла',
-            'LANGUAGE' => 'Език',
             'ACCOUNT' => 'Профил',
             'EMAIL_VALIDATION_MESSAGE' => 'Ел. поща трябва да бъде валидна',
             'PASSWORD_VALIDATION_MESSAGE' => 'Паролата трябва да съдържа поне един номер, една главна буква, една малка буква и да съдържа поне 8 или повече знака',
+            'LANGUAGE' => 'Език',
             'LANGUAGE_HELP' => 'Задаване на любим език',
             'MEDIA' => 'Медиа',
             'DEFAULTS' => 'По подразбиране',

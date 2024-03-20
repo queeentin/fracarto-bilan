@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/sr.yaml',
-    'modified' => 1710318268,
-    'size' => 69557,
+    'modified' => 1710754278,
+    'size' => 69580,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Ово је Бета издање! Користите га у раду на сопствену одговорност...',
@@ -205,10 +205,10 @@ return [
             'PASSWORD' => 'Лозинка',
             'PASSWORD_CONFIRM' => 'Потврди лозинку',
             'TITLE' => 'Наслов',
-            'LANGUAGE' => 'Језик',
             'ACCOUNT' => 'Налог',
             'EMAIL_VALIDATION_MESSAGE' => 'Мора бити исправна адреса е-поште',
             'PASSWORD_VALIDATION_MESSAGE' => 'Лозинка мора садржати бар један број и по једно мало и велико слово, а заједно најмање 8 или више карактера',
+            'LANGUAGE' => 'Језик',
             'LANGUAGE_HELP' => 'Подесите омиљени језик',
             'MEDIA' => 'Медији',
             'DEFAULTS' => 'Подразумевано',

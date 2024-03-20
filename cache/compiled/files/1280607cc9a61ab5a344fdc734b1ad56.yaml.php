@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/en.yaml',
-    'modified' => 1710318268,
-    'size' => 63758,
+    'modified' => 1710754278,
+    'size' => 63983,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Please enable JavaScript in your browser.',
@@ -464,6 +464,8 @@ return [
             'IMAGES_DEBUG_HELP' => 'Show an overlay over images indicating the pixel depth of the image when working with retina for example',
             'IMAGES_LOADING' => 'Image loading behavior',
             'IMAGES_LOADING_HELP' => 'The loading attribute allows a browser to defer loading offscreen images and iframes until users scroll near them. loading supports three values: auto, lazy, eager',
+            'IMAGES_DECODING' => 'Image decoding behavior',
+            'IMAGES_DECODING_HELP' => 'The decoding attribute allows a browser to defer decoding offscreen images until users scroll near them. decoding supports three values: auto, sync, async',
             'IMAGES_SEOFRIENDLY' => 'SEO-Friendly Image names',
             'IMAGES_SEOFRIENDLY_HELP' => 'When enabled, the image name is displayed first, then a smaller hash to reflect processed operations',
             'UPLOAD_LIMIT' => 'File upload limit',

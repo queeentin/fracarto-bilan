@@ -1,6 +1,8 @@
 @import "variables.css";
 @import "tables.css";
 @import "chiffres.css";
+@import "preamble.css";
+@import "communes.css";
 
 /* Page properties */
 
@@ -32,8 +34,7 @@
       } 
 }
 
-/* Pagination */
-
+/* Headers */
 
 h1{
     font-family: "Fana";
@@ -80,6 +81,8 @@ h5{
     font-weight: 400;
 }
 
+/* Paragraphs */
+
 .textblock{
     width: calc(var(--column-width) * 4 + var(--gutter-width) * 3);
     margin-bottom: 13pt;
@@ -101,20 +104,35 @@ p{
     hyphenate-limit-chars: 10;
 }
 
-.textblock img{
+/* Listes */
+
+ul{
+    font-family: "Area Web";
+    font-size: 9pt;
+    line-height: 13pt;
+    font-weight: 400;
+    margin: 0;
     width: 100%;
+    padding: 0;
 }
 
-/* p:has(> img) {
-    text-indent: 0;
-    margin: 13pt 0 13pt 0;
-} */
+ul li{
+    list-style: inside;
+}
+
+ul li p{
+    display: inline;
+}
 
 /* Images */
 
 figure{
     position: relative;
     margin: 13pt 0 13pt 0;
+}
+
+figure img{
+    width: 100%;
 }
 
 figcaption{
@@ -140,35 +158,11 @@ figcaption{
     margin-left: calc(((var(--column-width) + var(--gutter-width)) * 3) * -1);
 }
 
+/* Page breaks */
+
 hr {
     border: 0;
     page-break-after: always;
-}
-
-ul{
-    font-family: "Area Web";
-    font-size: 9pt;
-    line-height: 13pt;
-    font-weight: 400;
-    margin: 0;
-    width: 100%;
-    padding: 0;
-}
-
-ul li{
-    list-style: inside;
-}
-
-ul li p{
-    display: inline;
-}
-
-.block p:first-child{
-    text-indent: 0;
-}
-
-#image{
-    max-width: 100%;
 }
 
 /** Columns classes **/
@@ -176,7 +170,7 @@ ul li p{
 /* Columns x-position */
 
 .pagedjs_area{
-    /* background-image: url("../images/fond-grille.png"); */
+    background-image: url("../images/fond-grille.png");
     background-size: cover;
 }
 

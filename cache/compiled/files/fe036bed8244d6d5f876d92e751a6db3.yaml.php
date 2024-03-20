@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/system/languages/sr.yaml',
-    'modified' => 1710318266,
-    'size' => 4189,
+    'modified' => 1710779798,
+    'size' => 4323,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -127,7 +127,8 @@ return [
             'FORM' => [
                 'VALIDATION_FAIL' => '<b>Провера неуспела:</b>',
                 'INVALID_INPUT' => 'Неисправан унос у',
-                'MISSING_REQUIRED_FIELD' => 'Недостаје обавезн поље:'
+                'MISSING_REQUIRED_FIELD' => 'Недостаје обавезн поље:',
+                'XSS_ISSUES' => 'Потенцијална грешка у XSS-у детектована у пољу \'%s\' '
             ],
             'MONTHS_OF_THE_YEAR' => [
                 0 => 'Јануар',
@@ -152,6 +153,8 @@ return [
                 5 => 'Субота',
                 6 => 'Недеља'
             ],
+            'YES' => 'Да',
+            'NO' => 'Не',
             'CRON' => [
                 'EVERY' => 'сваки',
                 'EVERY_HOUR' => 'сваки сат',

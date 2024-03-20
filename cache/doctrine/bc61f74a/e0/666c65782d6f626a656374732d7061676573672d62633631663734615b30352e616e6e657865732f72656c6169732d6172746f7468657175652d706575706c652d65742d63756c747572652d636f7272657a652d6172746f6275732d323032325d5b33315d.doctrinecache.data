@@ -1,0 +1,67 @@
+1710894937
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:64:"annexes/relais-artotheque-peuple-et-culture-correze-artobus-2022";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:61:"Liste des communes et communautés adhérentes au FACLim 2023";s:12:"body_classes";s:8:"communes";}s:11:"frontmatter";s:93:"title: 'Liste des communes et communautés adhérentes au FACLim 2023'
+body_classes: communes";s:8:"markdown";s:1664:"<div class="dptmt">
+    <div class="head">
+        <p>Corrèze</p>
+        <p>5</p>
+        <p>dont 1 communauté de communes</p>
+    </div>
+    <ul>
+        <li>Égletons</li>
+        <li>La Roche-Canillac</li>
+        <li>Lamazière-Basse</li>
+        <li>Tulle</li>
+        <li>Xaintrie Val’ Dordogne (communauté de communes)</li>
+    </ul>
+</div>
+
+<div class="dptmt">
+    <div class="head">
+        <p>Creuse</p>
+        <p>7</p>
+    </div>
+    <ul>
+        <li>Bourganeuf</li>
+        <li>Châtelus-le-Marcheix</li>
+        <li>La Villedieu</li>
+        <li>Moutier-d'Ahun</li>
+        <li>Royère-de-Vassivière</li>
+        <li>Saint-Goussaud</li>
+        <li>Saint-Martin-Château</li>
+    </ul>
+</div>
+
+<div class="dptmt">
+    <div class="head">
+        <p>Haute-Vienne</p>
+        <p>24</p>
+    </div>
+    <ul>
+        <li>Champagnac-la-rivière</li>
+        <li>Compreignac</li>
+        <li>Condat-sur-Vienne</li>
+        <li>Droux</li>
+        <li>Eymoutiers</li>
+        <li>La Geneytouse</li>
+        <li>Le Chalard</li>
+        <li>Le Palais-sur-Vienne</li>
+        <li>Le Vigen</li>
+        <li>Meuzac</li>
+        <li>Nedde</li>
+        <li>Oradour-sur-Glane</li>
+        <li>Peyrat-le-Château</li>
+        <li>Razès</li>
+        <li>Rilhac-Rancon </li>
+        <li>Rochechouart</li>
+        <li>Saint-Brice-sur-Vienne</li>
+        <li>Saint-Gilles-les-Forêts</li>
+        <li>Saint-Junien</li>
+        <li>Saint-Léonard-de-Noblat</li>
+        <li>Saint-Martin-de-Jussac</li>
+        <li>Saint-Sulpice-Laurière</li>
+        <li>Saint-Victurnien</li>
+        <li>Saint-Yrieix-la-Perche</li>
+    </ul>
+</div>
+
+<div id="sum">Total : 36</div>";}s:7:"storage";a:6:{s:3:"key";s:64:"annexes/relais-artotheque-peuple-et-culture-correze-artobus-2022";s:11:"storage_key";s:67:"05.annexes/relais-artotheque-peuple-et-culture-correze-artobus-2022";s:8:"template";s:5:"other";s:17:"storage_timestamp";i:1710894333;s:8:"markdown";a:1:{s:0:"";a:1:{s:5:"other";i:1710894333;}}s:8:"checksum";s:32:"d3f8ee9567fc61dc3ead53b1daf258a9";}}

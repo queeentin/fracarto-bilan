@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/eu.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 8126,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -173,10 +173,10 @@ return [
             'PASSWORD' => 'Pasahitza',
             'PASSWORD_CONFIRM' => 'Pasahitza egiaztatu',
             'TITLE' => 'Izenburua',
-            'LANGUAGE' => 'Hizkuntza',
             'ACCOUNT' => 'Kontua',
             'EMAIL_VALIDATION_MESSAGE' => 'Benetako helbide elektroniko bat izan behar da',
             'PASSWORD_VALIDATION_MESSAGE' => 'Pasahitzak zenbaki bat eta letra maiuskula eta minuskula bat eduki eduki behar du gutxienez, eta 8 edo karaktere gehiago',
+            'LANGUAGE' => 'Hizkuntza',
             'LANGUAGE_HELP' => 'Gogoko hizkuntza ezarri',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Lehenetsitakoak',

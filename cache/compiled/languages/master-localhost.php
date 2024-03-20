@@ -1,201 +1,201 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1710790294,
-    'checksum' => '66b87e4e5e26ddf8b8c3c95e847d0d86',
+    'timestamp' => 1710881867,
+    'checksum' => 'f6e47f5ecc1e3fd7b8b751cbd8d1d2d8',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'bg' => [
                 'file' => 'system/languages/bg.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'eo' => [
                 'file' => 'system/languages/eo.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'et' => [
                 'file' => 'system/languages/et.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'eu' => [
                 'file' => 'system/languages/eu.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'fa' => [
                 'file' => 'system/languages/fa.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'gl' => [
                 'file' => 'system/languages/gl.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'he' => [
                 'file' => 'system/languages/he.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'id' => [
                 'file' => 'system/languages/id.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'is' => [
                 'file' => 'system/languages/is.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'ko' => [
                 'file' => 'system/languages/ko.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'lv' => [
                 'file' => 'system/languages/lv.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'mn' => [
                 'file' => 'system/languages/mn.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'my' => [
                 'file' => 'system/languages/my.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'si' => [
                 'file' => 'system/languages/si.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'sl' => [
                 'file' => 'system/languages/sl.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'sr' => [
                 'file' => 'system/languages/sr.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'sw' => [
                 'file' => 'system/languages/sw.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'zh' => [
                 'file' => 'system/languages/zh.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'zh-cn' => [
                 'file' => 'system/languages/zh-cn.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'zh-tw' => [
                 'file' => 'system/languages/zh-tw.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ]
         ],
         'user/plugins' => [
@@ -253,207 +253,211 @@ return [
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'bn' => [
                 'file' => 'user/plugins/admin/languages/bn.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'eo' => [
                 'file' => 'user/plugins/admin/languages/eo.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'et' => [
                 'file' => 'user/plugins/admin/languages/et.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'eu' => [
                 'file' => 'user/plugins/admin/languages/eu.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'gl' => [
                 'file' => 'user/plugins/admin/languages/gl.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'he' => [
                 'file' => 'user/plugins/admin/languages/he.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'id' => [
                 'file' => 'user/plugins/admin/languages/id.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
+            ],
+            'km' => [
+                'file' => 'user/plugins/admin/languages/km.yaml',
+                'modified' => 1710754278
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'ku' => [
                 'file' => 'user/plugins/admin/languages/ku.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'lv' => [
                 'file' => 'user/plugins/admin/languages/lv.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'mn' => [
                 'file' => 'user/plugins/admin/languages/mn.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'my' => [
                 'file' => 'user/plugins/admin/languages/my.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'si' => [
                 'file' => 'user/plugins/admin/languages/si.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'sl' => [
                 'file' => 'user/plugins/admin/languages/sl.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'sr' => [
                 'file' => 'user/plugins/admin/languages/sr.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'sw' => [
                 'file' => 'user/plugins/admin/languages/sw.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'zh-cn' => [
                 'file' => 'user/plugins/admin/languages/zh-cn.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ],
             'zh-tw' => [
                 'file' => 'user/plugins/admin/languages/zh-tw.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ]
         ],
         'user/plugins/login/languages' => [
@@ -842,6 +846,8 @@ return [
                 'FILE_COULD_NOT_BE_DELETED' => 'Datei konnte nicht gelöscht werden',
                 'FILE_NOT_FOUND' => 'Datei nicht gefunden',
                 'NO_FILE_FOUND' => 'Keine Datei gefunden',
+                'FIELD_REORDER_SUCCESSFUL' => 'Reihenfolge der Medien für Feld \'%s \' aktualisiert',
+                'FIELD_REORDER_FAILED' => 'Beim Speichern der Medien-Sortierreihenfolge für das Feld \'%s \' ist ein Fehler aufgetreten',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav wurde erfolgreich aktualisiert auf',
                 'GRAV_UPDATE_FAILED' => 'Grav Update fehlgeschlagen',
                 'EVERYTHING_UPDATED' => 'Alles aktualisiert',
@@ -856,11 +862,13 @@ return [
                 'PASSWORD' => 'Passwort',
                 'PASSWORD_CONFIRM' => 'Passwort bestätigen',
                 'TITLE' => 'Titel',
-                'LANGUAGE' => 'Sprache',
                 'ACCOUNT' => 'Benutzer',
                 'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Das Passwort muss mindestens eine Zahl, einen Groß- und einen Kleinbuchstaben enthalten sowie mindestens 8 Zeichen lang sein.',
+                'LANGUAGE' => 'Sprache',
                 'LANGUAGE_HELP' => 'Bevorzugte Sprache einstellen',
+                'LANGUAGE_DEBUG' => 'Debug Sprache',
+                'LANGUAGE_DEBUG_HELP' => 'Aktiviert das Debuggen von Sprachen, welche den Filter "|t twig" nutzen, indem ein span um sie herum eingefügt wird, welcher zur Unterstützung der Diagnose gestaltet werden kann',
                 'MEDIA' => 'Medien',
                 'DEFAULTS' => 'Standards',
                 'SITE_TITLE' => 'Website Titel',
@@ -1089,6 +1097,8 @@ return [
                 'LOG_HANDLER_HELP' => 'Ausgabeort von Logs',
                 'SYSLOG_FACILITY' => 'Syslog-Facility',
                 'SYSLOG_FACILITY_HELP' => 'Syslog-Facility für die Ausgabe',
+                'SYSLOG_TAG' => 'Syslog Label',
+                'SYSLOG_TAG_HELP' => 'Syslog Ausgabelabel',
                 'DEBUGGER' => 'Debugger',
                 'DEBUGGER_HELP' => 'Aktiviert den Grav Debugger und die folgenden Einstellungen',
                 'DEBUG_TWIG' => 'Twig debuggen',
@@ -1103,6 +1113,8 @@ return [
                 'IMAGES_DEBUG_HELP' => 'Wasserzeichen mit der Auflösung der Bilder anzeigen um Retina-Displays zu testen',
                 'IMAGES_LOADING' => 'Bildladeverhalten',
                 'IMAGES_LOADING_HELP' => 'Das "loading" Attribut erlaubt es dem Browser, Bilder oder iFrames erst zu laden, wenn sie in den Sichtbereich des Nutzers gelangen',
+                'IMAGES_DECODING' => 'Bilddekodierungsverhalten',
+                'IMAGES_DECODING_HELP' => 'Das Attribut "decoding" erlaubt es dem Browser das Dekodieren von Bildern außerhalb des dargestellten Bereiches zu verzögern, bis der Benutzer dort hin scrollt. decoding unterstützt drei Zustände: auto, sync und async',
                 'IMAGES_SEOFRIENDLY' => 'SEO freundliche Bildnamen',
                 'IMAGES_SEOFRIENDLY_HELP' => 'Wenn diese Option aktiviert ist, wird zuerst der Bildname und dann ein kleinerer Hash angezeigt, um verarbeitete Vorgänge anzuzeigen',
                 'UPLOAD_LIMIT' => 'Datei Upload Limit',
@@ -1789,7 +1801,11 @@ Sie haben **2FA** für dieses Konto aktiviert. Bitte benutzen Sie Ihre **2FA** A
                 'SESSION_SECURE_HTTPS_HELP' => 'Legt die Sitzungssicherheit für HTTPS, aber nicht für HTTP fest. Hat keine Auswirkung, wenn Sie obige Secure-Einstellung auf "true" gesetzt haben. Setzen Sie den Wert auf "false", wenn Ihre Website zwischen HTTP und HTTPS wechselt.',
                 'AVATAR' => 'Avatar-Generator',
                 'AVATAR_HELP' => 'Multiavatar ist ein lokal erzeugter Avatar.  Gravatar ist ein externer Dienst, der Ihre E-Mail-Adresse verwendet, um einen vorkonfigurierten Avatar extern zu beziehen',
-                'AVATAR_HASH' => 'HINWEIS: Optionale benutzerdefinierte Avatar-\'Hash\'-String'
+                'AVATAR_HASH' => 'HINWEIS: Optionale benutzerdefinierte Avatar-\'Hash\'-String',
+                'IMAGES_TITLE' => 'Bilder',
+                'LEGACY_MEDIA_MUTATION' => 'Kompatibilität zur Bearbeitung von Legacy Medien',
+                'LEGACY_MEDIA_MUTATION_HELP' => 'Aktivieren Sie diese Einstellung nur, wenn die Bildbearbeitung nach einer Grav-Aktualisierung fehlgeschlagen ist.',
+                'BACKWARD_COMPATIBILITY' => 'Abwärtskompatibilität'
             ],
             'PLUGIN_FLEX_OBJECTS' => [
                 'PLUGIN_NAME' => 'Flex Objects',
@@ -2712,6 +2728,8 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'IMAGES_DEBUG_HELP' => 'Show an overlay over images indicating the pixel depth of the image when working with retina for example',
                 'IMAGES_LOADING' => 'Image loading behavior',
                 'IMAGES_LOADING_HELP' => 'The loading attribute allows a browser to defer loading offscreen images and iframes until users scroll near them. loading supports three values: auto, lazy, eager',
+                'IMAGES_DECODING' => 'Image decoding behavior',
+                'IMAGES_DECODING_HELP' => 'The decoding attribute allows a browser to defer decoding offscreen images until users scroll near them. decoding supports three values: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'SEO-Friendly Image names',
                 'IMAGES_SEOFRIENDLY_HELP' => 'When enabled, the image name is displayed first, then a smaller hash to reflect processed operations',
                 'UPLOAD_LIMIT' => 'File upload limit',
@@ -4011,7 +4029,7 @@ Path: `%2$s`
                 'AUTHOR' => 'Autor',
                 'HOMEPAGE' => 'Página de inicio',
                 'DEMO' => 'Demo',
-                'BUG_TRACKER' => 'Bug Tracker',
+                'BUG_TRACKER' => 'Localizador de fallos',
                 'KEYWORDS' => 'Palabras Clave',
                 'LICENSE' => 'Licencia',
                 'DESCRIPTION' => 'Descripción',
@@ -4136,6 +4154,8 @@ Path: `%2$s`
                 'FILE_COULD_NOT_BE_DELETED' => 'El archivo no pudo ser eliminado',
                 'FILE_NOT_FOUND' => 'Archivo no encontrado',
                 'NO_FILE_FOUND' => 'No se encontraron archivos',
+                'FIELD_REORDER_SUCCESSFUL' => 'Orden de medios actualizado para el campo \'%s\'',
+                'FIELD_REORDER_FAILED' => 'Se produjo un error al guardar el orden de los medios para el campo \'%s\'',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav fué exitosamente actualizado a',
                 'GRAV_UPDATE_FAILED' => 'Falló la actualización de Grav',
                 'EVERYTHING_UPDATED' => 'Todo está actualizado',
@@ -4150,13 +4170,15 @@ Path: `%2$s`
                 'PASSWORD' => 'Contraseña',
                 'PASSWORD_CONFIRM' => 'Confirmar Contraseña',
                 'TITLE' => 'Título',
-                'LANGUAGE' => 'Idioma',
                 'ACCOUNT' => 'Cuenta',
                 'EMAIL_VALIDATION_MESSAGE' => 'Debe ser una cuenta de correo electrónico válida',
                 'PASSWORD_VALIDATION_MESSAGE' => 'La contraseña debe contener al menos un número y una letra mayúscula y minúscula, y al menos 8 o más caracteres',
+                'LANGUAGE' => 'Idioma',
                 'LANGUAGE_HELP' => 'Establecer el idioma favorito',
+                'LANGUAGE_DEBUG' => 'Depuración de idioma',
+                'LANGUAGE_DEBUG_HELP' => 'Habilite la depuración de idiomas que utilizan el filtro |t de twig, agregando un espacio a su alrededor al que se le puede aplicar estilo para ayudar a diagnosticar problemas.',
                 'MEDIA' => 'Multimedia',
-                'DEFAULTS' => 'Defaults',
+                'DEFAULTS' => 'Valores predeterminados',
                 'SITE_TITLE' => 'Título del sitio',
                 'SITE_TITLE_PLACEHOLDER' => 'Título en todo el sitio',
                 'SITE_TITLE_HELP' => 'Título default para el sitio, algunas veces utilizados en los temas',
@@ -4264,7 +4286,7 @@ Path: `%2$s`
                 'LONG_DATE_FORMAT' => 'Formato de fecha largo',
                 'LONG_DATE_FORMAT_HELP' => 'Establecer el formato de fecha larga que puede ser utilizado por los temas',
                 'DEFAULT_ORDERING' => 'Orden por defecto',
-                'DEFAULT_ORDERING_HELP' => 'Las páginas de la lista serán generadas utilizando este orden a menos que sea sobrepuesto',
+                'DEFAULT_ORDERING_HELP' => 'Las páginas de la lista serán generadas utilizando este orden a menos que sea anulado',
                 'DEFAULT_ORDERING_DEFAULT' => 'Por defecto - basado en el nombre de la carpeta',
                 'DEFAULT_ORDERING_FOLDER' => 'Carpeta - basado en el nombre de la carpeta sin prefijo',
                 'DEFAULT_ORDERING_TITLE' => 'Título - basado en el campo title del encabezado',
@@ -4383,6 +4405,8 @@ Path: `%2$s`
                 'LOG_HANDLER_HELP' => 'Dónde enviar los registros',
                 'SYSLOG_FACILITY' => 'Filtro del Syslog',
                 'SYSLOG_FACILITY_HELP' => 'Filtro del Syslog para el formato de salida',
+                'SYSLOG_TAG' => 'Etiqueta Syslog',
+                'SYSLOG_TAG_HELP' => 'Etiqueta Syslog para salida',
                 'DEBUGGER' => 'Depurador',
                 'DEBUGGER_HELP' => 'Habilitar depurador de Grav y ajustes siguientes',
                 'DEBUG_TWIG' => 'Depuración de twig',
@@ -4396,7 +4420,9 @@ Path: `%2$s`
                 'IMAGES_DEBUG' => 'Marca de agua de imágen de depuración',
                 'IMAGES_DEBUG_HELP' => 'Cubrir las imágenes con un texto indicando la profundidad de pixeles cuando se trabaja con retina por ejemplo',
                 'IMAGES_LOADING' => 'Comportamiento al cargar imágen',
-                'IMAGES_LOADING_HELP' => 'El atributo cargando, permite al navegador diferir la carga de las imágenes que están fuera de pantalla y los iframes, hasta que el usuario se acerca a ellos. Cargando soporta tres valores: auto, perezoso, ansioso',
+                'IMAGES_LOADING_HELP' => 'El atributo cargando, permite al navegador diferir la carga de las imágenes que están fuera de pantalla y los iframes, hasta que el usuario se acerca a ellos. Cargando soporta tres valores: auto, lazy, eager',
+                'IMAGES_DECODING' => 'Comportamiento de decodificación de imágenes',
+                'IMAGES_DECODING_HELP' => 'El atributo de decodificación permite a un navegador posponer la decodificación de imágenes fuera de la pantalla hasta que los usuarios se desplacen cerca de ellas. la decodificación admite tres valores: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'Nombres de imágenes SEO-Friendly',
                 'IMAGES_SEOFRIENDLY_HELP' => 'Cuando está activado, el nombre de la imagen se muestra primero, luego un hash menor para reflejar las operaciones procesadas',
                 'UPLOAD_LIMIT' => 'Tamaño límite para carga de archivos',
@@ -4561,9 +4587,9 @@ Path: `%2$s`
                 'FRONTMATTER_IGNORE_FIELDS_PLACEHOLDER' => 'ej. formas',
                 'PACKAGE_X_INSTALLED_SUCCESSFULLY' => 'El paquete %s se instaló satisfactoriamente',
                 'ORDERING_DISABLED_BECAUSE_PARENT_SETTING_ORDER' => 'El orden esta deshabilitado debido a que ha sido establecido en el padre',
-                'ORDERING_DISABLED_BECAUSE_PAGE_NOT_VISIBLE' => 'El orden esta deshabilitado debido a que la página no es visible',
+                'ORDERING_DISABLED_BECAUSE_PAGE_NOT_VISIBLE' => 'El orden está deshabilitado debido a que la página no es visible',
                 'ORDERING_DISABLED_BECAUSE_TOO_MANY_SIBLINGS' => 'El orden a través del admin no esta soportado debido a que contiene mas de 200 elementos hermanos',
-                'ORDERING_DISABLED_BECAUSE_PAGE_NO_PREFIX' => 'Página de pedido está deshabilitada para esta página porque <strong>el prefijo numérico de carpeta</strong> no está activada',
+                'ORDERING_DISABLED_BECAUSE_PAGE_NO_PREFIX' => 'El orden de página está deshabilitado para esta página porque <strong>el prefijo numérico de carpeta</strong> no está activado',
                 'CANNOT_ADD_MEDIA_FILES_PAGE_NOT_SAVED' => 'Nota: Usted no puede agregar archivos multimedia hasta que la página sea guardada. Solo haga clic en el botón de Guardar arriba',
                 'CANNOT_ADD_FILES_PAGE_NOT_SAVED' => 'Nota: La página debe ser guardada antes de subir archivos.',
                 'DROP_FILES_HERE_TO_UPLOAD' => 'Suelta tus archivos aquí o <strong>dale clic a esta área</strong>',
@@ -5015,9 +5041,11 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 'CONTENT_HIGHLIGHT_HELP' => 'Resaltar contenido',
                 'BUTTON_BG_HELP' => 'Fondo del botón',
                 'BUTTON_TEXT_HELP' => 'Texto del botón',
+                'NOTICE_BG_HELP' => 'Fondo del aviso',
                 'NOTICE_TEXT_HELP' => 'Texto de aviso',
                 'UPDATES_BG_HELP' => 'Actualiza fondo',
                 'UPDATES_TEXT_HELP' => 'Actualizar texto',
+                'CRITICAL_BG_HELP' => 'Fondo del texto crítico',
                 'CRITICAL_TEXT_HELP' => 'Texto crítico',
                 'BUTTON_COLORS' => 'Colores de botón',
                 'CONTENT_COLORS' => 'Colores del contenido',
@@ -5041,6 +5069,10 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 'VISITORS_HISTORY' => 'Historial de visitantes',
                 'MEDIA_RESIZE' => 'redimensionador de imágenes de la página',
                 'PAGEMEDIA_RESIZER' => '> Los siguientes ajustes se aplican a las imágenes subidas a través de la página media. El sistema de Redimensionamiento ancho / altura le hara de forma automática hacia el valor mas bajo y y guardando las proporciones de una imagen si esta excede los límites establecidos en la configuración. Los valores máximos de resolución definen los rangos de tamaño para las imágenes subidas. Establezca eso valores a 0 para evitar cualquier manipulación.',
+                'RESIZE_WIDTH' => 'Cambiar el ancho',
+                'RESIZE_WIDTH_HELP' => 'Cambiar el tamaño del ancho de las imágenes hasta el valor establecido',
+                'RESIZE_HEIGHT' => 'Cambiar el alto',
+                'RESIZE_HEIGHT_HELP' => 'Cambiar el tamaño del alto de las imágenes hasta el valor establecido',
                 'RES_MIN_WIDTH' => 'Ancho mínimo de resolución',
                 'RES_MIN_WIDTH_HELP' => 'El ancho mínimo permitido para añadir una imagen',
                 'RES_MIN_HEIGHT' => 'Altura mínima de resolución',
@@ -5055,13 +5087,19 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 'ACCESS_ADMIN_CONFIGURATION_SECURITY' => 'Administrar configuración de seguridad',
                 'SESSION_DOMAIN' => 'Dominio de sesión',
                 'SESSION_DOMAIN_HELP' => 'Usar solo si se reescribe el dominio del sitio, por ejemplo, en un contenedor Docker.',
+                'SESSION_PATH' => 'Ruta de sesión',
+                'SESSION_PATH_HELP' => 'Usar solo si reescribe la ruta del sitio, por ejemplo, en un contenedor Docker.',
+                'REDIRECT_OPTION_NO_REDIRECT' => 'Sin redireccionamiento',
+                'REDIRECT_OPTION_DEFAULT_REDIRECT' => 'Usar código de redireccionamiento predeterminado',
                 'REDIRECT_OPTION_301' => '301 - Movido permanentemente',
                 'REDIRECT_OPTION_302' => 'Movido temporalmente',
                 'REDIRECT_OPTION_303' => '303 - Ver otros',
+                'IMAGES_CLS_TITLE' => 'Cambio de diseño acumulado (CLS)',
                 'IMAGES_CLS_AUTO_SIZES' => 'Activar tamaños automáticos',
                 'IMAGES_CLS_AUTO_SIZES_HELP' => 'Añadir automáticamente los atributos \'ancho\' y \'altura\' a las imágenes para direccionar CLS',
                 'IMAGES_CLS_ASPECT_RATIO' => 'Forzar relación de aspecto',
                 'IMAGES_CLS_ASPECT_RATIO_HELP' => 'Variable CSS opcional que se aplica a través de un atributo \'estilo\' que puede ser usado en CSS para estilo personalizado',
+                'IMAGES_CLS_RETINA_SCALE' => 'Factor de escala en pantallas Retina',
                 'IMAGES_CLS_RETINA_SCALE_HELP' => 'Tomará el tamaño calculado y dividirá por factor de escala para mostrar una imagen de resolución más alta a un tamaño de píxel más pequeño para un mejor manejo de resoluciones HiDPI',
                 'AUTOREGENERATE_FOLDER_SLUG' => 'Regeneración automática basada en el título de la página',
                 'ENABLE' => 'Habilitar',
@@ -5071,7 +5109,11 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 'SESSION_SECURE_HTTPS_HELP' => 'Establecer sesión segura en HTTPS pero no en HTTP. No tiene efecto si tienes los parámetros de seguridad de arriba habilitados. Deshabilítalos si tu sitio salta entre HTTP y HTTPS.',
                 'AVATAR' => 'Generador de Avatar',
                 'AVATAR_HELP' => 'Multiavatar es un generador local de avatar. Gravatar es un servicio externo que usa tu correo electrónico para obtener un avatar pre-configurado remotamente.',
-                'AVATAR_HASH' => 'NOTA: cadena \'hash\' de avatar personalizada opcional'
+                'AVATAR_HASH' => 'NOTA: cadena \'hash\' de avatar personalizada opcional',
+                'IMAGES_TITLE' => 'Imágenes',
+                'LEGACY_MEDIA_MUTATION' => 'Compatibilidad con la Manipulación de Medios Heredados',
+                'LEGACY_MEDIA_MUTATION_HELP' => 'Active está opción sólo si la manipulación de la imagen se interrumpió después de una actualización de Grav.',
+                'BACKWARD_COMPATIBILITY' => 'Compatibilidad con versiones anteriores'
             ],
             'PLUGIN_FLEX_OBJECTS' => [
                 'PLUGIN_NAME' => 'Flex Objects',
@@ -5703,10 +5745,10 @@ Ruta: `%2$s`
                 'PASSWORD' => 'Mot de passe',
                 'PASSWORD_CONFIRM' => 'Confirmer le mot de passe',
                 'TITLE' => 'Titre',
-                'LANGUAGE' => 'Langue',
                 'ACCOUNT' => 'Compte',
                 'EMAIL_VALIDATION_MESSAGE' => 'Doit être une adresse e-mail valide',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Le mot de passe doit contenir au moins un chiffre, une lettre minuscule, majuscule et au minimum 8 caractères.',
+                'LANGUAGE' => 'Langue',
                 'LANGUAGE_HELP' => 'Définir la langue préférée',
                 'MEDIA' => 'Média',
                 'DEFAULTS' => 'Par défaut',
@@ -7193,10 +7235,10 @@ Chemin: `%2$s`
                 'PASSWORD' => 'Lozinka',
                 'PASSWORD_CONFIRM' => 'Potvrdi Lozinku',
                 'TITLE' => 'Naslov',
-                'LANGUAGE' => 'Jezik',
                 'ACCOUNT' => 'Račun',
                 'EMAIL_VALIDATION_MESSAGE' => 'Email adresa mora biti valjana.',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Zaporka mora sadržavati najmanje jedan broj i jedno veliko i malo slovo, i barem 8 ili više znakova.',
+                'LANGUAGE' => 'Jezik',
                 'LANGUAGE_HELP' => 'Postavi omiljeni jezik',
                 'MEDIA' => 'Medijske datoteke',
                 'DEFAULTS' => 'Osnovno',
@@ -8047,10 +8089,10 @@ Putanja datoteke: `%2$s`
                 'PASSWORD' => 'Jelszó',
                 'PASSWORD_CONFIRM' => 'Jelszó megerősítése',
                 'TITLE' => 'Cím',
-                'LANGUAGE' => 'Nyelv',
                 'ACCOUNT' => 'Felhasználói fiók',
                 'EMAIL_VALIDATION_MESSAGE' => 'Érvénytelen email-cím',
                 'PASSWORD_VALIDATION_MESSAGE' => 'A jelszónak legalább egy számot, egy kis- és egy nagybetűt kell tartalmaznia, és legalább 8 karakter hosszú kell, hogy legyen',
+                'LANGUAGE' => 'Nyelv',
                 'LANGUAGE_HELP' => 'Kedvenc nyelv beállítása',
                 'MEDIA' => 'Média',
                 'DEFAULTS' => 'Alapértelmezett Értékek',
@@ -9141,10 +9183,10 @@ Jūsų paskyrai yra įjungta **2FA**. Norėdami prisijungti, įveskite **6-ių s
                 'PASSWORD' => 'Slaptažodis',
                 'PASSWORD_CONFIRM' => 'Patvirtinti slaptažodį',
                 'TITLE' => 'Antraštė',
-                'LANGUAGE' => 'Kalba',
                 'ACCOUNT' => 'Paskyra',
                 'EMAIL_VALIDATION_MESSAGE' => 'Turi būti galiojantis el. pašto adresas',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Slaptažodyje turi būti bent vienas skaičius ir vienas didžiųjų ir mažoji raidė ir bent 8 ar daugiau simbolių',
+                'LANGUAGE' => 'Kalba',
                 'LANGUAGE_HELP' => 'Pagrindinės kalbos nustatymas',
                 'MEDIA' => 'Medija',
                 'DEFAULTS' => 'Pagal nutylėjimą',
@@ -9759,10 +9801,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Passord',
                 'PASSWORD_CONFIRM' => 'Bekreft passord',
                 'TITLE' => 'Tittel',
-                'LANGUAGE' => 'Språk',
                 'ACCOUNT' => 'Konto',
                 'EMAIL_VALIDATION_MESSAGE' => 'Må være en gyldig e-postadresse',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Passordet må inneholde minst ett tall og en stor og liten bokstav, samt inneholde minst 8 tegn',
+                'LANGUAGE' => 'Språk',
                 'LANGUAGE_HELP' => 'Angi favoritt språk',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Standard',
@@ -10834,10 +10876,10 @@ Você tem **2FA** habilitados nessa conta. Por favor, use seu aplicativo **2FA**
                 'PASSWORD' => 'Parolă',
                 'PASSWORD_CONFIRM' => 'Confirmați parola',
                 'TITLE' => 'Titlu',
-                'LANGUAGE' => 'Limbă',
                 'ACCOUNT' => 'Cont',
                 'EMAIL_VALIDATION_MESSAGE' => 'Trebuie să fie o adresă de e-mail validă',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Parola trebuie să conţină cel puţin un număr şi o majusculă, litere mici şi cel puţin 8 sau mai multe caractere',
+                'LANGUAGE' => 'Limbă',
                 'LANGUAGE_HELP' => 'Setează limba preferată',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Implicite',
@@ -12268,11 +12310,12 @@ Calea: `%2$s`
                 'PASSWORD' => 'Пароль',
                 'PASSWORD_CONFIRM' => 'Подтвердить пароль',
                 'TITLE' => 'Заголовок',
-                'LANGUAGE' => 'Язык',
                 'ACCOUNT' => 'Учетная запись',
                 'EMAIL_VALIDATION_MESSAGE' => 'Адрес электронной почты должен быть действительным',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Пароль должен содержать хотя бы одну цифру, одну заглавную и строчную букву, и по крайней мере 8 или более символов',
+                'LANGUAGE' => 'Язык',
                 'LANGUAGE_HELP' => 'Выберите предпочитаемый язык',
+                'LANGUAGE_DEBUG_HELP' => 'Включите отладку языков, использующих фильтр |t twig, добавив вокруг них элемент span, который можно стилизовать для диагностики проблем',
                 'MEDIA' => 'Медиа',
                 'DEFAULTS' => 'По умолчанию',
                 'SITE_TITLE' => 'Заголовок сайта',
@@ -12515,6 +12558,8 @@ Calea: `%2$s`
                 'IMAGES_DEBUG_HELP' => 'Показать накладку над изображениями с указанием глубины пикселя изображения при работе с сеткой',
                 'IMAGES_LOADING' => 'Поведение загрузки изображений',
                 'IMAGES_LOADING_HELP' => 'Атрибут loading позволяет браузеру отложить загрузку изображений и фреймов до тех пор, пока при прокрутке страницы эти элементы не окажутся в поле зрения пользователя. Этот атрибут поддерживает три значения: auto, lazy, eager',
+                'IMAGES_DECODING' => 'Поведение при декодировании изображений',
+                'IMAGES_DECODING_HELP' => 'Атрибут decoding позволяет браузеру отложить декодирование внеэкранных изображений до тех пор, пока пользователь не прокрутит страницу рядом с ними. Декодирование поддерживает три значения: автоматический, синхронный, асинхронный',
                 'IMAGES_SEOFRIENDLY' => 'ЧПУ имена изображений',
                 'IMAGES_SEOFRIENDLY_HELP' => 'Если включено, сначала отображается имя изображения, а потом небольшой хэш для отражения обрабатываемых операций',
                 'UPLOAD_LIMIT' => 'Лимит загрузки файла',
@@ -13201,7 +13246,10 @@ Calea: `%2$s`
                 'SESSION_SECURE_HTTPS_HELP' => 'Установите защиту сеанса по протоколу HTTPS. Не работает, если настройка Безопасность установлена во включено. Установите выключено, если используется оба протокола.',
                 'AVATAR' => 'Генератор аватаров',
                 'AVATAR_HELP' => 'Мультиаватар — это локально сгенерированный аватар. Gravatar — это внешний сервис, который использует ваш адрес электронной почты для получения предопределенного аватара удаленно',
-                'AVATAR_HASH' => 'ПРИМЕЧАНИЕ: Необязательная строка пользовательского аватара \'hash\''
+                'AVATAR_HASH' => 'ПРИМЕЧАНИЕ: Необязательная строка пользовательского аватара \'hash\'',
+                'IMAGES_TITLE' => 'Изображения',
+                'LEGACY_MEDIA_MUTATION_HELP' => 'Включите эту настройку, только если работа с изображениями сломалась после обновления Grav.',
+                'BACKWARD_COMPATIBILITY' => 'Обратная совместимость'
             ],
             'PLUGIN_FLEX_OBJECTS' => [
                 'PLUGIN_NAME' => 'Flex Objects',
@@ -13836,10 +13884,10 @@ title: %1$s
                 'PASSWORD' => 'Пароль',
                 'PASSWORD_CONFIRM' => 'Підтвердження паролю',
                 'TITLE' => 'Назва',
-                'LANGUAGE' => 'Мова',
                 'ACCOUNT' => 'Обліковий запис',
                 'EMAIL_VALIDATION_MESSAGE' => 'Повинна бути дійсною адресою електронної пошти',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Пароль повинен містити не менше 8 символів і серед них хоча б одну цифру та одну велику і малу літеру',
+                'LANGUAGE' => 'Мова',
                 'LANGUAGE_HELP' => 'Оберіть улюблену мову',
                 'MEDIA' => 'Медіа',
                 'DEFAULTS' => 'За визначенням',
@@ -14219,10 +14267,64 @@ title: %1$s
                 'CONFIGURATION' => 'Налаштування',
                 'CONTENT_PADDING' => 'Відступи для контенту',
                 'TIMEOUT' => 'Таймаут',
+                'HIDE_PAGE_TYPES' => 'Приховати типи сторінок в панелі адміністратора',
                 'DASHBOARD' => 'Панель керування',
+                'WIDGETS_DISPLAY' => 'Стан показу віджета',
                 'NOTIFICATIONS' => 'Сповіщення',
+                'FEED_NOTIFICATIONS' => 'Сповіщення стрічок',
+                'FEED_NOTIFICATIONS_HELP' => 'Показувати сповіщення по стрічках',
+                'DASHBOARD_NOTIFICATIONS' => 'Сповіщення стільниці',
+                'DASHBOARD_NOTIFICATIONS_HELP' => 'Показувати сповіщення зі стільниці',
+                'PLUGINS_NOTIFICATIONS' => 'Сповіщення плагінів',
+                'PLUGINS_NOTIFICATIONS_HELP' => 'Показувати сповіщення від плагінів',
+                'THEMES_NOTIFICATIONS' => 'Сповіщення тем',
+                'THEMES_NOTIFICATIONS_HELP' => 'Показувати сповіщення про теми',
+                'LOGO_BG_HELP' => 'Фон логотипу',
+                'LOGO_LINK_HELP' => 'Посилання логотипу',
+                'NAV_BG_HELP' => 'Фон навігації',
+                'NAV_TEXT_HELP' => 'Текст навігації',
+                'NAV_LINK_HELP' => 'Навігаційне посилання',
+                'NAV_SELECTED_BG_HELP' => 'Фон вибраної навігації',
+                'NAV_SELECTED_LINK_HELP' => 'Посилання вибраної навігації',
+                'NAV_HOVER_BG_HELP' => 'Фон наведеної навігації',
+                'NAV_HOVER_LINK_HELP' => 'Посилання наведеної навігації',
+                'TOOLBAR_BG_HELP' => 'Фон панелі інструментів',
+                'TOOLBAR_TEXT_HELP' => 'Текст панелі інструментів',
+                'PAGE_BG_HELP' => 'Фон сторінки',
+                'PAGE_TEXT_HELP' => 'Текст сторінки',
+                'PAGE_LINK_HELP' => 'Посилання сторінки',
+                'CONTENT_BG_HELP' => 'Фон вмісту',
+                'CONTENT_TEXT_HELP' => 'Текст вмісту',
+                'CONTENT_LINK_HELP' => 'Посилання вмісту',
+                'CONTENT_LINK2_HELP' => 'Посилання вмісту 2',
+                'UPDATE_COLORS' => 'Оновити кольори',
+                'POPULARITY' => 'Популярність',
+                'VISITOR_TRACKING' => 'Відстеження відвідувача',
+                'VISITOR_TRACKING_HELP' => 'Увімкнути збір статистики відвідувачів',
+                'DAYS_OF_STATS' => 'Днів статистики',
+                'DAYS_OF_STATS_HELP' => 'Зберігати статистику для вказаної кількості днів, потім видалити її',
+                'IGNORE_URLS' => 'Ігнорувати',
+                'DAILY_HISTORY' => 'Щоденна історія',
+                'MONTHLY_HISTORY' => 'Історія за місяць',
+                'VISITORS_HISTORY' => 'Історія відвідувань',
+                'RESIZE_WIDTH' => 'Змінити ширину',
+                'RESIZE_HEIGHT' => 'Змінити висоту',
+                'RESIZE_HEIGHT_HELP' => 'Змінити розмір високих зображень вниз до заданого значення',
+                'RES_MIN_WIDTH' => 'Мінімальна ширина',
+                'RES_MIN_WIDTH_HELP' => 'Мінімально допустима ширина доданого зображення',
+                'RES_MIN_HEIGHT' => 'Мінімальна висота',
+                'RES_MIN_HEIGHT_HELP' => 'Мінімально допустима висота доданого зображення',
+                'RES_MAX_WIDTH' => 'Максимальна ширина',
+                'RES_MAX_WIDTH_HELP' => 'Максимально допустима ширина доданого зображення',
+                'RES_MAX_HEIGHT' => 'Максимальна висота',
+                'RES_MAX_HEIGHT_HELP' => 'Максимально допустима висота зображення',
+                'RESIZE_QUALITY' => 'Якість зміни розміру',
+                'RESIZE_QUALITY_HELP' => 'Якість при зміні розміру зображення. Між 0 та 1.',
+                'PIXELS' => 'пікс.',
                 'ACCESS_ADMIN_CONFIGURATION_SECURITY' => 'Керування конфігурацією безпеки',
+                'SESSION_DOMAIN' => 'Домен сесії',
                 'SESSION_DOMAIN_HELP' => 'Використовуйте, лише якщо ви перепишете домен сайту, наприклад, у Docker контейнері.',
+                'SESSION_PATH' => 'Шлях сесії',
                 'SESSION_PATH_HELP' => 'Використовуйте, лише якщо ви перепишете шлях до сайту, наприклад, в Docker контейнері.',
                 'REDIRECT_OPTION_NO_REDIRECT' => 'Без перенаправлення',
                 'REDIRECT_OPTION_DEFAULT_REDIRECT' => 'Використовувати код перенаправлення за замовчанням',
@@ -14233,7 +14335,10 @@ title: %1$s
                 'IMAGES_CLS_ASPECT_RATIO' => 'Увімкнути пропорції',
                 'IMAGES_CLS_ASPECT_RATIO_HELP' => 'Необов\'язкова змінна CSS, яка буде застосована за допомогою атрибуту «style», який може використовуватися в CSS для користувальницького стилю',
                 'IMAGES_CLS_RETINA_SCALE' => 'Коефіцієнт масштабування сітківки',
-                'IMAGES_CLS_RETINA_SCALE_HELP' => 'Візьме обчислений розмір і поділить на  коефіцієнт маштабування для показу зображення з більшою роздільною здатністю при меншому розмірі пікселів, для кращої обробки роздільної здатності HiDPI'
+                'IMAGES_CLS_RETINA_SCALE_HELP' => 'Візьме обчислений розмір і поділить на  коефіцієнт маштабування для показу зображення з більшою роздільною здатністю при меншому розмірі пікселів, для кращої обробки роздільної здатності HiDPI',
+                'ENABLE' => 'Увімкнути',
+                'PLUGINS_MUST_BE_ENABLED' => 'Плагін треба ввімкнути для налаштування',
+                'ACTIVATION_REQUIRED' => 'Для налаштування необхідна активація'
             ],
             'PLUGIN_MARKDOWN_NOTICES' => [
                 'USE_BUILT_IN_CSS' => 'Використовувати вбудований CSS',
@@ -14727,6 +14832,8 @@ Path: `%2$s`
                 'FILE_COULD_NOT_BE_DELETED' => '无法删除文件',
                 'FILE_NOT_FOUND' => '找不到文件',
                 'NO_FILE_FOUND' => '未找到文件',
+                'FIELD_REORDER_SUCCESSFUL' => '为字段%s 更新媒体订单',
+                'FIELD_REORDER_FAILED' => '存储字段 \'%s \' 的媒体订单时出错',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav 已成功更新到',
                 'GRAV_UPDATE_FAILED' => 'Grav 更新失败',
                 'EVERYTHING_UPDATED' => '一切都是最新版本',
@@ -14741,11 +14848,13 @@ Path: `%2$s`
                 'PASSWORD' => '密码',
                 'PASSWORD_CONFIRM' => '确认密码',
                 'TITLE' => '标题',
-                'LANGUAGE' => '语言',
                 'ACCOUNT' => '帐户',
                 'EMAIL_VALIDATION_MESSAGE' => '必须是一个有效的电子邮件地址',
                 'PASSWORD_VALIDATION_MESSAGE' => '密码必须包含至少一个数字和一个大写字母和小写字母，必须有 8 个或更多字符。',
+                'LANGUAGE' => '语言',
                 'LANGUAGE_HELP' => '设置偏好语言',
+                'LANGUAGE_DEBUG' => '调试语言',
+                'LANGUAGE_DEBUG_HELP' => '启用正在使用 |t Twig 过滤器的语言调试，添加一个可以被风格化的间距，用来帮助诊断问题。',
                 'MEDIA' => '媒体',
                 'DEFAULTS' => '默认值',
                 'SITE_TITLE' => '网站标题',
@@ -14974,6 +15083,8 @@ Path: `%2$s`
                 'LOG_HANDLER_HELP' => '日志输出位置',
                 'SYSLOG_FACILITY' => 'Syslog 特性',
                 'SYSLOG_FACILITY_HELP' => 'Syslog 输出特性',
+                'SYSLOG_TAG' => 'Syslog 标签',
+                'SYSLOG_TAG_HELP' => 'Syslog 输出标签',
                 'DEBUGGER' => '调试器',
                 'DEBUGGER_HELP' => '启用Grav调试器和其设置',
                 'DEBUG_TWIG' => '调试Twig',
@@ -14988,6 +15099,8 @@ Path: `%2$s`
                 'IMAGES_DEBUG_HELP' => '显示overlay图像标示图像的像素数深度，例如当运行retina时',
                 'IMAGES_LOADING' => '图像加载行为',
                 'IMAGES_LOADING_HELP' => '加载属性允许浏览器推迟加载不在屏幕中的图像和iframes，直到用户滚动到它们的附近。加载支持三个值: auto, lazy, eager',
+                'IMAGES_DECODING' => '图像解码行为',
+                'IMAGES_DECODING_HELP' => '解码属性允许浏览器推迟解码不在屏幕中的图像和iframes，直到用户滚动到它们的附近。解码支持三个值: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'SEO加速图片名',
                 'IMAGES_SEOFRIENDLY_HELP' => '启用后, 首先显示图像名, 然后显示一个小哈希值, 以反映处理进度',
                 'UPLOAD_LIMIT' => '文件上传限制',
@@ -15674,7 +15787,11 @@ Path: `%2$s`
                 'SESSION_SECURE_HTTPS_HELP' => '在 HTTPS 上设置会话安全，但不是 HTTP。如果您在安全设置上设置为 true，将不会产生任何效果。 如果您的网站在 HTTP 和 HTTP 之间跳转，设置为 false。',
                 'AVATAR' => '头像生成器',
                 'AVATAR_HELP' => 'Multiavatar 是本地生成的头像。Gravatar 是一个外部服务，它使用您的电子邮件地址来远程拉取一个预配置的头像。',
-                'AVATAR_HASH' => '注意：可选头像自定义“哈希”字符串'
+                'AVATAR_HASH' => '注意：可选头像自定义“哈希”字符串',
+                'IMAGES_TITLE' => '图像',
+                'LEGACY_MEDIA_MUTATION' => '旧媒体操纵兼容性',
+                'LEGACY_MEDIA_MUTATION_HELP' => '只有当图像操作在Grav 更新后中断时才启用此设置。',
+                'BACKWARD_COMPATIBILITY' => '向后兼容'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => '错误',
@@ -16050,10 +16167,10 @@ Path: `%2$s`
                 'PASSWORD' => 'كلمة السر',
                 'PASSWORD_CONFIRM' => 'تأكيد كلمة السر',
                 'TITLE' => 'العنوان',
-                'LANGUAGE' => 'اللّغة',
                 'ACCOUNT' => 'الحساب',
                 'EMAIL_VALIDATION_MESSAGE' => 'يجب أن يكون البريد الإلكتروني صحيحاً',
                 'PASSWORD_VALIDATION_MESSAGE' => 'يجب أن تحتوي كلمة المرور على الأقل على رقم وعلى حرف كبير وعلى حرف صغير، و أن تكون مكونة على الأقل من 8 أحرف أو أكثر',
+                'LANGUAGE' => 'اللّغة',
                 'LANGUAGE_HELP' => 'تعيين اللغة المفضلة',
                 'MEDIA' => 'وسائط',
                 'DEFAULTS' => 'الإعدادات الافتراضية',
@@ -16521,10 +16638,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Парола',
                 'PASSWORD_CONFIRM' => 'Потвърждение на паролата',
                 'TITLE' => 'Титла',
-                'LANGUAGE' => 'Език',
                 'ACCOUNT' => 'Профил',
                 'EMAIL_VALIDATION_MESSAGE' => 'Ел. поща трябва да бъде валидна',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Паролата трябва да съдържа поне един номер, една главна буква, една малка буква и да съдържа поне 8 или повече знака',
+                'LANGUAGE' => 'Език',
                 'LANGUAGE_HELP' => 'Задаване на любим език',
                 'MEDIA' => 'Медиа',
                 'DEFAULTS' => 'По подразбиране',
@@ -16937,10 +17054,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Ger-tremen',
                 'PASSWORD_CONFIRM' => 'Kadarnat ar ger-tremen',
                 'TITLE' => 'Titl',
-                'LANGUAGE' => 'Yezh',
                 'ACCOUNT' => 'Kont',
                 'EMAIL_VALIDATION_MESSAGE' => 'Ret eo reiñ ur chomlec\'h postel talvoudek',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Ret eo d\'ar ger-tremen enderc\'hel ur niverenn, ul lizherenn vras hag ul lizherenn vihan hag 8 arouezenn d\'an nebeutañ',
+                'LANGUAGE' => 'Yezh',
                 'LANGUAGE_HELP' => 'Dibabit ar yezh',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Dre ziouer',
@@ -17561,10 +17678,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Contrasenya',
                 'PASSWORD_CONFIRM' => 'Confirma contrasenya',
                 'TITLE' => 'Títol',
-                'LANGUAGE' => 'Llengua',
                 'ACCOUNT' => 'Compte d\'usuari',
                 'EMAIL_VALIDATION_MESSAGE' => 'Ha de ser una adreça de correu electrònic vàl·lida',
                 'PASSWORD_VALIDATION_MESSAGE' => 'La contrasenya ha de contenir almenys un número i una lletra majúscula i minúscula, i almenys 8 o més caràcters',
+                'LANGUAGE' => 'Llengua',
                 'LANGUAGE_HELP' => 'Estableix la llengua preferida',
                 'MEDIA' => 'Mèdia',
                 'DEFAULTS' => 'Per defecte',
@@ -18799,6 +18916,8 @@ Ruta: `%2$s`
                 'FILE_COULD_NOT_BE_DELETED' => 'Soubor nebylo možné odstranit',
                 'FILE_NOT_FOUND' => 'Soubor nenalezen',
                 'NO_FILE_FOUND' => 'Nebyl nalezen žádný soubor',
+                'FIELD_REORDER_SUCCESSFUL' => 'Pořadí médií aktualizováno pro pole \'%s\'',
+                'FIELD_REORDER_FAILED' => 'Při ukládání pořadí médií pro pole \'%s\' došlo k chybě',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav byl úspěšně aktualizován na verzi',
                 'GRAV_UPDATE_FAILED' => 'Aktualizace Grav se nezdařila',
                 'EVERYTHING_UPDATED' => 'Vše bylo aktulizováno',
@@ -18813,11 +18932,13 @@ Ruta: `%2$s`
                 'PASSWORD' => 'Heslo',
                 'PASSWORD_CONFIRM' => 'Potvrzení hesla',
                 'TITLE' => 'Název',
-                'LANGUAGE' => 'Jazyk',
                 'ACCOUNT' => 'Účet',
                 'EMAIL_VALIDATION_MESSAGE' => 'Musíte zadat platnou e-mailovou adresu',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Heslo musí obsahovat alespoň jedno číslo, jedno velké a malé písmeno a musí být alespoň 8 znaků dlouhé',
+                'LANGUAGE' => 'Jazyk',
                 'LANGUAGE_HELP' => 'Nastavte Váš preferovaný jazyk',
+                'LANGUAGE_DEBUG' => 'Ladit jazyk',
+                'LANGUAGE_DEBUG_HELP' => 'Povolte ladění jazyků, které používají twig filtr |t, přidáním rozsahu kolem nich, který lze upravit tak, aby pomohl diagnostikovat problémy',
                 'MEDIA' => 'Média',
                 'DEFAULTS' => 'Výchozí hodnoty',
                 'SITE_TITLE' => 'Název webu',
@@ -19044,8 +19165,10 @@ Ruta: `%2$s`
                 'LOG_ERRORS_HELP' => 'Logovat chyby do /logs adresáře',
                 'LOG_HANDLER' => 'Správce logů',
                 'LOG_HANDLER_HELP' => 'Kam ukládat výstup z logu',
-                'SYSLOG_FACILITY' => 'Syslog',
-                'SYSLOG_FACILITY_HELP' => 'Výstup ze Syslog',
+                'SYSLOG_FACILITY' => 'Zařízení Syslogu',
+                'SYSLOG_FACILITY_HELP' => 'Zařízení Syslogu pro výstup',
+                'SYSLOG_TAG' => 'Štítek Syslogu',
+                'SYSLOG_TAG_HELP' => 'Štítek Syslogu pro výstup',
                 'DEBUGGER' => 'Debugger',
                 'DEBUGGER_HELP' => 'Povolit Grav debugger a následující nastavení',
                 'DEBUG_TWIG' => 'Debugovat Twig',
@@ -19060,6 +19183,8 @@ Ruta: `%2$s`
                 'IMAGES_DEBUG_HELP' => 'Zobrazit vrstvu přes obrázek znázorňující hustotu pixelů v obrázku například pro retina displaye',
                 'IMAGES_LOADING' => 'Chování načítání obrázku',
                 'IMAGES_LOADING_HELP' => 'Atribut načítání umožňuje prohlížeči oddálit načítání snímků mimo obrazovku a iframů, dokud se uživatelé neposunou poblíž. Načítání podporuje tři hodnoty: auto, lazy, eager',
+                'IMAGES_DECODING' => 'Chování načítání obrázku',
+                'IMAGES_DECODING_HELP' => 'Atribut načítání umožňuje prohlížeči odložit načítání obrázků mimo obrazovku, dokud se k nim uživatelé neposunou poblíž. Načítání podporuje tři hodnoty: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'SEO-přívětivý název obrázku',
                 'IMAGES_SEOFRIENDLY_HELP' => 'Je-li tato volba zapnuta, zobrazí se nejprve název obrázku a potom menší hodnota hash, která odráží zpracované operace',
                 'UPLOAD_LIMIT' => 'Limit pro uploadované soubory',
@@ -19522,7 +19647,7 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'ACCESS_ADMIN_MAINTENANCE' => 'Údržba webu',
                 'ACCESS_ADMIN_STATISTICS' => 'Statistiky webu',
                 'ACCESS_ADMIN_PLUGINS' => 'Správa rozšíření',
-                'ACCESS_ADMIN_THEMES' => 'Správa vzhledu',
+                'ACCESS_ADMIN_THEMES' => 'Správa šablon',
                 'ACCESS_ADMIN_TOOLS' => 'Přístup k nástrojům',
                 'ACCESS_ADMIN_USERS' => 'Správa uživatelů',
                 'USERS' => 'Uživatelé',
@@ -19652,7 +19777,7 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'DASHBOARD_NOTIFICATIONS_HELP' => 'Zobrazit oznámení na nástěnce',
                 'PLUGINS_NOTIFICATIONS' => 'Upozornění rozšíření',
                 'PLUGINS_NOTIFICATIONS_HELP' => 'Zobrazit oznámení k rozšířením',
-                'THEMES_NOTIFICATIONS' => 'Upozornění na motivy',
+                'THEMES_NOTIFICATIONS' => 'Upozornění na šablony',
                 'THEMES_NOTIFICATIONS_HELP' => 'Zobrazit oznámení zaměřená na témata',
                 'LOGO_BG_HELP' => 'Pozadí loga',
                 'LOGO_LINK_HELP' => 'Odkaz na logo',
@@ -19746,7 +19871,11 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'SESSION_SECURE_HTTPS_HELP' => 'Nastavte relaci zabezpečenou na HTTPS, ale ne na HTTP. Nemá žádný účinek, pokud máte výše uvedené nastavení Secure nastaveno na hodnotu true. Nastavte na hodnotu false, pokud váš web přeskakuje mezi HTTP a HTTPS.',
                 'AVATAR' => 'Generátor Avataru',
                 'AVATAR_HELP' => 'Multiavatar je lokálně generovaný avatar. Gravatar je externí služba, která používá vaši e-mailovou adresu ke vzdálenému stažení předem nakonfigurovaného Avatara',
-                'AVATAR_HASH' => 'POZNÁMKA: Volitelný vlastní "hash" řetězec Avatara'
+                'AVATAR_HASH' => 'POZNÁMKA: Volitelný vlastní "hash" řetězec Avatara',
+                'IMAGES_TITLE' => 'Obrázky',
+                'LEGACY_MEDIA_MUTATION' => 'Kompatibilita se staršími médii',
+                'LEGACY_MEDIA_MUTATION_HELP' => 'Povolte toto nastavení pouze v případě, že po aktualizaci Grav došlo k přerušení manipulace s obrázkem.',
+                'BACKWARD_COMPATIBILITY' => 'Zpětná kompatibilita'
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulář nebyl ověřen. Chybí jedno nebo více povinných polí.',
@@ -20237,6 +20366,8 @@ Cesta: `%2$s`
                 'FILE_COULD_NOT_BE_DELETED' => 'Filen kunne ikke slettes',
                 'FILE_NOT_FOUND' => 'Filen blev ikke fundet',
                 'NO_FILE_FOUND' => 'Ingen fil blev fundet',
+                'FIELD_REORDER_SUCCESSFUL' => 'Medieordre opdateret for feltet \'%s\'',
+                'FIELD_REORDER_FAILED' => 'En fejl opstod under lagring af medieordren for feltet \'%s\'',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav blev opdateret til',
                 'GRAV_UPDATE_FAILED' => 'Opdatering af Grav mislykkedes',
                 'EVERYTHING_UPDATED' => 'Alt opdateret',
@@ -20251,11 +20382,13 @@ Cesta: `%2$s`
                 'PASSWORD' => 'Adgangskode',
                 'PASSWORD_CONFIRM' => 'Bekræft adgangskode',
                 'TITLE' => 'Titel',
-                'LANGUAGE' => 'Sprog',
                 'ACCOUNT' => 'Konto',
                 'EMAIL_VALIDATION_MESSAGE' => 'Skal være en gyldig e-mail',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Adgangskode skal indeholde minimum ét ciffer, én versal, én minuskel samt udgøres af minimum otte tegn',
+                'LANGUAGE' => 'Sprog',
                 'LANGUAGE_HELP' => 'Opsæt foretrukne sprog',
+                'LANGUAGE_DEBUG' => 'Fejlsøg sprog',
+                'LANGUAGE_DEBUG_HELP' => 'Aktivér fejlsøgning af sprog, som bruger filteret |t twig ved at tilføje en span omkring dem, der kan stiliseres som hjælpe til problemdiagnosticeringer',
                 'MEDIA' => 'Medier',
                 'DEFAULTS' => 'Standarder',
                 'SITE_TITLE' => 'Sitets Titel',
@@ -20480,6 +20613,8 @@ Cesta: `%2$s`
                 'LOG_HANDLER_HELP' => 'Hvor loggerne skal placeres',
                 'SYSLOG_FACILITY' => 'Syslog-facilitet',
                 'SYSLOG_FACILITY_HELP' => 'Syslog-facilitet til output',
+                'SYSLOG_TAG' => 'Syslog-tag',
+                'SYSLOG_TAG_HELP' => 'Syslog-tag til output',
                 'DEBUGGER' => 'Fejlfinder',
                 'DEBUGGER_HELP' => 'Aktivér Grav-fejlfinder og flg. indstillinger',
                 'DEBUG_TWIG' => 'Fejlfind i Twig',
@@ -20492,6 +20627,8 @@ Cesta: `%2$s`
                 'CACHE_ALL_HELP' => 'Kør alle billeder - også ikke-manipulerede - gennem Gravs cache-system',
                 'IMAGES_DEBUG' => 'Vandmærke ved debugging af billeder',
                 'IMAGES_DEBUG_HELP' => 'Vis overlejring på billeder. Overlejringen indikerer billedets pixel-dybde til brug ved f.eks. visning på retina-skærme',
+                'IMAGES_DECODING' => 'Billedafkodningsadfærd',
+                'IMAGES_DECODING_HELP' => 'Afkodningsattributten lader en webbrowser udsætte billedafkodninger fra skærmen, indtil brugerne ruller i nærheden af dem. Afkodning understøtter tre værdier: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'SEO-venlige billednavne',
                 'IMAGES_SEOFRIENDLY_HELP' => 'Når aktiveret, vises billednavnet først, dernæst en mindre hash, der afspejler udførte operationer',
                 'UPLOAD_LIMIT' => 'Fil-upload grænse',
@@ -20838,7 +20975,11 @@ Du har **2FA** aktiveret for denne konto. Benyt venligst din **2FA**-app til at 
                 'SESSION_SECURE_HTTPS_HELP' => 'Opsæt sikker session for HTTPS, men ikke for HTTP. Har ingen effekt, hvis indstillinger over Sikker er sat til sand. Indstil til falsk, hvis webstedet hopper mellem HTTP og HTTPS.',
                 'AVATAR' => 'Avatargenerator',
                 'AVATAR_HELP' => 'Multiavatar er en lokalt genereret avatar. Gravatar er en ekstern tjeneste, der bruger din e-mailadresse til at trække en præopsat Avatar eksternt',
-                'AVATAR_HASH' => 'BEMÆRK: Valgfri tilpasset Avatar \'hash\'-streng'
+                'AVATAR_HASH' => 'BEMÆRK: Valgfri tilpasset Avatar \'hash\'-streng',
+                'IMAGES_TITLE' => 'Billeder',
+                'LEGACY_MEDIA_MUTATION' => 'Kompatibilitet til redigering af ældre medier',
+                'LEGACY_MEDIA_MUTATION_HELP' => 'Aktivér kun denne indstilling, hvis billedemanipulation fejlede efter Grav-opdatering.',
+                'BACKWARD_COMPATIBILITY' => 'Bagudkompatibilitet'
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formular ikke valideret. Et eller flere påkrævede felter mangler.',
@@ -21206,10 +21347,10 @@ Sti: `%2$s`
                 'PASSWORD' => 'Συνθηματικό',
                 'PASSWORD_CONFIRM' => 'Επιβεβαίωση συνθηματικού',
                 'TITLE' => 'Τίτλος',
-                'LANGUAGE' => 'Γλώσσα',
                 'ACCOUNT' => 'Λογαριασμός',
                 'EMAIL_VALIDATION_MESSAGE' => 'Πρέπει να είναι μια έγκυρη διεύθυνση email',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Το συνθηματικό πρέπει να περιέχει τουλάχιστον έναν αριθμό, ένα κεφαλαίο και ένα πεζό γράμμα και τουλάχιστον 8 ή περισσότερους χαρακτήρες',
+                'LANGUAGE' => 'Γλώσσα',
                 'LANGUAGE_HELP' => 'Ορίστε την αγαπημένη γλώσσα',
                 'MEDIA' => 'Πολυμέσα',
                 'DEFAULTS' => 'Προεπιλογές',
@@ -22098,10 +22239,10 @@ Sti: `%2$s`
                 'PASSWORD' => 'Pasvorto',
                 'PASSWORD_CONFIRM' => 'Konfirmi pasvorton',
                 'TITLE' => 'Titolo',
-                'LANGUAGE' => 'Lingvo',
                 'ACCOUNT' => 'Konto',
                 'EMAIL_VALIDATION_MESSAGE' => 'Devas esti valida retpoŝtadreso',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Pasvortoj devas enhavi almenaŭ unu numeron kaj unu majusklan kaj unu minusklan literon, kaj almenaŭ 8 signojn',
+                'LANGUAGE' => 'Lingvo',
                 'LANGUAGE_HELP' => 'Agordi la plej ŝatatan lingvon',
                 'MEDIA' => 'Aŭdvidaĵoj',
                 'DEFAULTS' => 'Defaŭltoj',
@@ -22932,10 +23073,10 @@ Vojo: `%2$s`
                 'PASSWORD' => 'Salasõna',
                 'PASSWORD_CONFIRM' => 'Kinnita salasõna',
                 'TITLE' => 'Pealkiri',
-                'LANGUAGE' => 'Keel',
                 'ACCOUNT' => 'Konto',
                 'EMAIL_VALIDATION_MESSAGE' => 'Palun sisesta kehtiv e-posti aadress',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Salasõna peab sisaldama vähemalt ühte numbrit, ühte suur- ja väiketähte ja koosnema vähemalt 8 märgist',
+                'LANGUAGE' => 'Keel',
                 'LANGUAGE_HELP' => 'Määra sobiv keel',
                 'MEDIA' => 'Meedia',
                 'DEFAULTS' => 'Vaikimisi',
@@ -23933,10 +24074,10 @@ asukoht: `%2$s`
                 'PASSWORD' => 'Pasahitza',
                 'PASSWORD_CONFIRM' => 'Pasahitza egiaztatu',
                 'TITLE' => 'Izenburua',
-                'LANGUAGE' => 'Hizkuntza',
                 'ACCOUNT' => 'Kontua',
                 'EMAIL_VALIDATION_MESSAGE' => 'Benetako helbide elektroniko bat izan behar da',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Pasahitzak zenbaki bat eta letra maiuskula eta minuskula bat eduki eduki behar du gutxienez, eta 8 edo karaktere gehiago',
+                'LANGUAGE' => 'Hizkuntza',
                 'LANGUAGE_HELP' => 'Gogoko hizkuntza ezarri',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Lehenetsitakoak',
@@ -24292,10 +24433,10 @@ asukoht: `%2$s`
                 'PASSWORD' => 'گذرواژه',
                 'PASSWORD_CONFIRM' => 'تأیید گذرواژه',
                 'TITLE' => 'عنوان',
-                'LANGUAGE' => 'زبان',
                 'ACCOUNT' => 'حساب کاربری',
                 'EMAIL_VALIDATION_MESSAGE' => 'باید یک آدرس رایانامه معتبر باشد',
                 'PASSWORD_VALIDATION_MESSAGE' => 'رمز عبور باید حداقل یک عدد و یک حرف بزرگ و یک حرف کوچک و حداقل 8 کاراکتر داشته باشد',
+                'LANGUAGE' => 'زبان',
                 'LANGUAGE_HELP' => 'تنظیم زبان مورد علاقه',
                 'MEDIA' => 'رسانه',
                 'DEFAULTS' => 'پیش فرض ها',
@@ -25245,10 +25386,10 @@ asukoht: `%2$s`
                 'PASSWORD' => 'Salasana',
                 'PASSWORD_CONFIRM' => 'Toista salasana',
                 'TITLE' => 'Otsikko',
-                'LANGUAGE' => 'Kieli',
                 'ACCOUNT' => 'Käyttäjätili',
                 'EMAIL_VALIDATION_MESSAGE' => 'Sähköpostin pitää olla validi',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Salasanan tulee sisältää vähintään yksi numero ja yksi iso ja pieni kirjain, ja olla vähintään 8 merkkiä pitkä',
+                'LANGUAGE' => 'Kieli',
                 'LANGUAGE_HELP' => 'Aseta suosikki kieli',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Oletukset',
@@ -25690,10 +25831,10 @@ Polku: `%2$s`
                 'PASSWORD' => 'Contrasinal',
                 'PASSWORD_CONFIRM' => 'Confirmar o contrasinal',
                 'TITLE' => 'Título',
-                'LANGUAGE' => 'Idioma',
                 'ACCOUNT' => 'Conta',
                 'EMAIL_VALIDATION_MESSAGE' => 'Debe de ser un enderezo de correo válido',
                 'PASSWORD_VALIDATION_MESSAGE' => 'O contrasinal debe conter un número e unha letra maiúscula e outra minúscula e cando menos 8 caracteres',
+                'LANGUAGE' => 'Idioma',
                 'LANGUAGE_HELP' => 'Determinar o idioma favorito',
                 'MEDIA' => 'Medios',
                 'DEFAULTS' => 'Predeterminados',
@@ -26726,10 +26867,10 @@ Ruta: `%2$s`
                 'PASSWORD' => 'סיסמא',
                 'PASSWORD_CONFIRM' => 'אישור סיסמא',
                 'TITLE' => 'כותרת',
-                'LANGUAGE' => 'שפה',
                 'ACCOUNT' => 'חשבון',
                 'EMAIL_VALIDATION_MESSAGE' => 'כתובת מייל לא חוקית',
                 'PASSWORD_VALIDATION_MESSAGE' => 'הסיסמא צריכה להכיל לפחות מספר, אות גדולה, אות קטנה ו 8 תווים או יותר',
+                'LANGUAGE' => 'שפה',
                 'LANGUAGE_HELP' => 'הגדרת שפה מועדפת',
                 'MEDIA' => 'מדיה',
                 'DEFAULTS' => 'ברירות מחדל',
@@ -27304,10 +27445,10 @@ Ruta: `%2$s`
                 'PASSWORD' => 'Password',
                 'PASSWORD_CONFIRM' => 'Ulangi Password',
                 'TITLE' => 'Judul',
-                'LANGUAGE' => 'Bahasa',
                 'ACCOUNT' => 'Akun',
                 'EMAIL_VALIDATION_MESSAGE' => 'Harus alamat email yang valid',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Password harus mengandung setidaknya satu angka, satu huruf besar dan huruf kecil, dan minimal 8 karakter',
+                'LANGUAGE' => 'Bahasa',
                 'LANGUAGE_HELP' => 'Jadikan bahasa favorit',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Default',
@@ -28188,6 +28329,8 @@ Lokasi: `%2$s`
                 'FILE_COULD_NOT_BE_DELETED' => 'Il file non può essere eliminato',
                 'FILE_NOT_FOUND' => 'File non trovato',
                 'NO_FILE_FOUND' => 'Nessun file trovato',
+                'FIELD_REORDER_SUCCESSFUL' => 'Ordine dei media aggiornato per il campo \'%s\'',
+                'FIELD_REORDER_FAILED' => 'Si è verificato un errore durante il salvataggio dell\'ordine dei media per il campo \'%s\'',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav è stato correttamente aggiornato a',
                 'GRAV_UPDATE_FAILED' => 'Aggiornamento di Grav fallito',
                 'EVERYTHING_UPDATED' => 'Tutto aggiornato',
@@ -28202,11 +28345,13 @@ Lokasi: `%2$s`
                 'PASSWORD' => 'Password',
                 'PASSWORD_CONFIRM' => 'Conferma Password',
                 'TITLE' => 'Titolo',
-                'LANGUAGE' => 'Lingua',
                 'ACCOUNT' => 'Profilo',
                 'EMAIL_VALIDATION_MESSAGE' => 'Deve essere un indirizzo email valido',
                 'PASSWORD_VALIDATION_MESSAGE' => 'La password deve contenere almeno un numero, una lettera maiuscola e una minuscola, ed essere lunga almeno 8 caratteri',
+                'LANGUAGE' => 'Lingua',
                 'LANGUAGE_HELP' => 'Imposta la lingua preferita',
+                'LANGUAGE_DEBUG' => 'Lingua di debug',
+                'LANGUAGE_DEBUG_HELP' => 'Abilita il debug delle lingue che stanno usando il filtro |t twig aggiungendo una span intorno che può ricevere uno style per aiutare a diagnosticare i problemi',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Impostazioni predefinite',
                 'SITE_TITLE' => 'Titolo del sito',
@@ -28435,6 +28580,8 @@ Lokasi: `%2$s`
                 'LOG_HANDLER_HELP' => 'Dove visualizzare i log',
                 'SYSLOG_FACILITY' => 'Servizi Syslog',
                 'SYSLOG_FACILITY_HELP' => 'Struttura di syslog per l\'output',
+                'SYSLOG_TAG' => 'Tag Syslog',
+                'SYSLOG_TAG_HELP' => 'Tag Syslog per l\'output',
                 'DEBUGGER' => 'Debugger',
                 'DEBUGGER_HELP' => 'Abilita il debugger di Grav ed i seguenti settaggi',
                 'DEBUG_TWIG' => 'Debug Twig',
@@ -28449,6 +28596,8 @@ Lokasi: `%2$s`
                 'IMAGES_DEBUG_HELP' => 'Mostra un overlay sopra le immagini riportante ad esempio la densità di pixel',
                 'IMAGES_LOADING' => 'Comportamento caricamento immagine',
                 'IMAGES_LOADING_HELP' => 'L\'attributo di caricamento consente a un browser di ritardare il caricamento di immagini fuori schermo e iframes fino a quando non si scorre vicino a loro. Il caricamento supporta tre valori: auto, lazy, eager',
+                'IMAGES_DECODING' => 'Comportamento della decodifica delle immagini',
+                'IMAGES_DECODING_HELP' => 'L\'attributo di decodifica consente a un browser di differire la decodifica delle immagini offscreen fino a quando gli utenti scrollano nelle loro vicinanze. La decodifica supporta tre valori: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'Nomi delle immagini SEO-Friendly',
                 'IMAGES_SEOFRIENDLY_HELP' => 'Quando abilitato, il nome dell\'immagine viene visualizzato prima, poi un hash più piccolo per indcare le operazioni elaborate',
                 'UPLOAD_LIMIT' => 'Limite di upload dei file',
@@ -29135,7 +29284,11 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'SESSION_SECURE_HTTPS_HELP' => 'Imposta la sicurezza della sessione su HTTPS ma non su HTTP. Non ha effetto se hai Impostazioni Sicure impostate a vero sopra. Impostare a falso se il vostro sito salta tra HTTP e HTTPS.',
                 'AVATAR' => 'Generatore Avatar',
                 'AVATAR_HELP' => 'Multiavatar è un avatar generato localmente. Gravatar è un servizio esterno che utilizza il tuo indirizzo email per estrarre un Avatar preconfigurato in remoto',
-                'AVATAR_HASH' => 'NOTA: Stringa \'hash\' personalizzata Avatar opzionale'
+                'AVATAR_HASH' => 'NOTA: Stringa \'hash\' personalizzata Avatar opzionale',
+                'IMAGES_TITLE' => 'Immagini',
+                'LEGACY_MEDIA_MUTATION' => 'Compatibilità Legacy Manipolazione Media',
+                'LEGACY_MEDIA_MUTATION_HELP' => 'Abilita questa impostazione solo se la manipolazione dell\'immagine ha smesso di funzionare dopo l\'aggiornamento di Grav.',
+                'BACKWARD_COMPATIBILITY' => 'Retrocompatibilità'
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
@@ -29546,10 +29699,10 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'PASSWORD' => 'パスワード',
                 'PASSWORD_CONFIRM' => 'パスワードの確認',
                 'TITLE' => 'タイトル',
-                'LANGUAGE' => '言語',
                 'ACCOUNT' => 'アカウント',
                 'EMAIL_VALIDATION_MESSAGE' => '有効なメールアドレスである必要があります。',
                 'PASSWORD_VALIDATION_MESSAGE' => 'パスワードは、少なくとも 1 つの数字、大文字、小文字を含む、8 文字以上である必要があります。',
+                'LANGUAGE' => '言語',
                 'LANGUAGE_HELP' => 'お好きな言語を設定します。',
                 'MEDIA' => 'メディア',
                 'DEFAULTS' => 'デフォルト',
@@ -30262,6 +30415,13 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 ]
             ]
         ],
+        'km' => [
+            'PLUGIN_ADMIN' => [
+                'ADMIN_REPORT_ISSUE' => 'ឃើញមានបញ្ហាមែនទេ? សូមរាយការណ៍នៅលើ GitHub។',
+                'LOGIN_BTN' => 'ចូល',
+                'LOGIN_BTN_FORGOT' => 'ភ្លេចគណនី'
+            ]
+        ],
         'ko' => [
             'PLUGIN_ADMIN' => [
                 'ADMIN_NOSCRIPT_MSG' => '브라우저의 자바스크립트를 활성화 해 주세요.',
@@ -30467,10 +30627,10 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'PASSWORD' => '비밀번호',
                 'PASSWORD_CONFIRM' => '비밀번호 확인',
                 'TITLE' => '제목',
-                'LANGUAGE' => '언어',
                 'ACCOUNT' => '성공',
                 'EMAIL_VALIDATION_MESSAGE' => '유효한 이메일 주소여야 합니다',
                 'PASSWORD_VALIDATION_MESSAGE' => '비밀번호는 대문자와 소문자를 모두 포함하여야하며, 8자 이상이어야합니다.',
+                'LANGUAGE' => '언어',
                 'LANGUAGE_HELP' => '선호 언어 설정',
                 'MEDIA' => '미디어',
                 'DEFAULTS' => '기본',
@@ -30994,10 +31154,10 @@ title: %1$s
                 'PASSWORD' => 'Parole',
                 'PASSWORD_CONFIRM' => 'Apstipriniet paroli',
                 'TITLE' => 'Virsraksts',
-                'LANGUAGE' => 'Valoda',
                 'ACCOUNT' => 'Konts',
                 'EMAIL_VALIDATION_MESSAGE' => 'Jābūt derīgai e-pasta adresei',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Parolei jāsatur vismaz viens cipars, viens lielais un viens mazais burts, un jāsastāv no vismaz 8 vai vairāk rakstzīmēm',
+                'LANGUAGE' => 'Valoda',
                 'LANGUAGE_HELP' => 'Iestatiet izlases valodu',
                 'MEDIA' => 'Multivide',
                 'DEFAULTS' => 'Noklusējums',
@@ -31457,10 +31617,10 @@ Ceļš: `%2$s`
                 'PASSWORD' => 'Нууц үг',
                 'PASSWORD_CONFIRM' => 'Нууц Үгээ Баталгаажуулах',
                 'TITLE' => 'Гарчиг',
-                'LANGUAGE' => 'Хэл',
                 'ACCOUNT' => 'Данс',
                 'EMAIL_VALIDATION_MESSAGE' => 'Бүрэн бүтэн майл хаяг байх ёстой',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Нууц үгэнд дор хаяж нэг тоо, нэг том, нэг жижиг үсэг агуулах ёстойгоос гадна дор хаяж 8 буюу түүнээс дээш тэмдэгттэй байх ёстой',
+                'LANGUAGE' => 'Хэл',
                 'LANGUAGE_HELP' => 'Үндсэн хэлээ сонгоно уу',
                 'MEDIA' => 'Медиа',
                 'DEFAULTS' => 'Үндсэн өгөгдлүүд',
@@ -32744,10 +32904,10 @@ Grav кэшийг идэвхжүүлэх/идэвхгүй болгох гол ON
                 'PASSWORD' => 'Password',
                 'PASSWORD_CONFIRM' => 'Confirm Password',
                 'TITLE' => 'Title',
-                'LANGUAGE' => 'Language',
                 'ACCOUNT' => 'Account',
                 'EMAIL_VALIDATION_MESSAGE' => 'Must be a valid email address',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters',
+                'LANGUAGE' => 'Language',
                 'LANGUAGE_HELP' => 'Set the favorite language',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Defaults',
@@ -34024,10 +34184,10 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'PASSWORD' => 'Wachtwoord',
                 'PASSWORD_CONFIRM' => 'Bevestig wachtwoord',
                 'TITLE' => 'Titel',
-                'LANGUAGE' => 'Taal',
                 'ACCOUNT' => 'Account',
                 'EMAIL_VALIDATION_MESSAGE' => 'Moet een geldig e-mailadres zijn',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Wachtwoord moet ten minste één nummer, één hoofdletter, één kleine letter en minstens 8 of meer tekens bevatten',
+                'LANGUAGE' => 'Taal',
                 'LANGUAGE_HELP' => 'Favoriete taal instellen',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Standaardwaarden',
@@ -35188,10 +35348,10 @@ Pad: `%2$s`
                 'PASSWORD' => 'Hasło',
                 'PASSWORD_CONFIRM' => 'Potwierdź hasło',
                 'TITLE' => 'Tytuł',
-                'LANGUAGE' => 'Język',
                 'ACCOUNT' => 'Konto',
                 'EMAIL_VALIDATION_MESSAGE' => 'Adres e-mail musi być poprawny',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Hasło musi zawierać co najmniej jedną cyfrę, jedną wielką i małą literę i co najmniej 8 lub więcej znaków',
+                'LANGUAGE' => 'Język',
                 'LANGUAGE_HELP' => 'Ustaw ulubiony język',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Domyślne',
@@ -36168,10 +36328,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Palavra-passe',
                 'PASSWORD_CONFIRM' => 'Confirma a tua Palavra-passe',
                 'TITLE' => 'Título',
-                'LANGUAGE' => 'Idioma',
                 'ACCOUNT' => 'Conta',
                 'EMAIL_VALIDATION_MESSAGE' => 'Deve ser um endereço de email válido',
                 'PASSWORD_VALIDATION_MESSAGE' => 'A palavra-passe deve conter pelo menos um número e uma letra maiúscula e minúsculas e pelo menos 8 ou mais caracteres',
+                'LANGUAGE' => 'Idioma',
                 'LANGUAGE_HELP' => 'Definir o idioma preferido',
                 'MEDIA' => 'Suporte multimédia',
                 'DEFAULTS' => 'Padrões',
@@ -37017,10 +37177,10 @@ Localização: `%2$s`
                 'PASSWORD' => 'මුරපදය',
                 'PASSWORD_CONFIRM' => 'මුරපදය තහවුරු කරන්න',
                 'TITLE' => 'ශීර්ෂය',
-                'LANGUAGE' => 'භාෂාව',
                 'ACCOUNT' => 'ගිණුම',
                 'EMAIL_VALIDATION_MESSAGE' => 'වලංගු ඊමේල් ලිපිනයක් විය යුතුය',
                 'PASSWORD_VALIDATION_MESSAGE' => 'මුරපදයේ අවම වශයෙන් එක් අංකයක් සහ එක් ලොකු අකුරු සහ කුඩා අකුරක් සහ අවම වශයෙන් අක්ෂර 8ක් හෝ වැඩි ගණනක් අඩංගු විය යුතුය',
+                'LANGUAGE' => 'භාෂාව',
                 'LANGUAGE_HELP' => 'ප්රියතම භාෂාව සකසන්න',
                 'MEDIA' => 'මාධ්යය',
                 'DEFAULTS' => 'පෙරනිමි',
@@ -38262,10 +38422,10 @@ Localização: `%2$s`
                 'PASSWORD' => 'Heslo',
                 'PASSWORD_CONFIRM' => 'Potvrdenie hesla',
                 'TITLE' => 'Názov',
-                'LANGUAGE' => 'Jazyk',
                 'ACCOUNT' => 'Účet',
                 'EMAIL_VALIDATION_MESSAGE' => 'Musí byť platná e-mailová adresa',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Heslo musí obsahovať najmenej jedno číslo a jedno veľké písmeno a malé písmeno a aspoň 8 znakov',
+                'LANGUAGE' => 'Jazyk',
                 'LANGUAGE_HELP' => 'Obľúbený jazyk',
                 'MEDIA' => 'Médiá',
                 'DEFAULTS' => 'Predvolené nastavenia',
@@ -38964,9 +39124,9 @@ Path: `%2$s`
                 'PASSWORD' => 'Geslo',
                 'PASSWORD_CONFIRM' => 'Potrdite geslo',
                 'TITLE' => 'Naslov',
-                'LANGUAGE' => 'Jezik',
                 'ACCOUNT' => 'Račun',
                 'EMAIL_VALIDATION_MESSAGE' => 'Prosimo, vnesite veljaven elektronski naslov',
+                'LANGUAGE' => 'Jezik',
                 'DEFAULTS' => 'Privzete vrednosti',
                 'SITE_TITLE' => 'Ime spletu',
                 'DEFAULT_AUTHOR' => 'Privzeti avtor',
@@ -39336,10 +39496,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Лозинка',
                 'PASSWORD_CONFIRM' => 'Потврди лозинку',
                 'TITLE' => 'Наслов',
-                'LANGUAGE' => 'Језик',
                 'ACCOUNT' => 'Налог',
                 'EMAIL_VALIDATION_MESSAGE' => 'Мора бити исправна адреса е-поште',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Лозинка мора садржати бар један број и по једно мало и велико слово, а заједно најмање 8 или више карактера',
+                'LANGUAGE' => 'Језик',
                 'LANGUAGE_HELP' => 'Подесите омиљени језик',
                 'MEDIA' => 'Медији',
                 'DEFAULTS' => 'Подразумевано',
@@ -40060,7 +40220,8 @@ Path: `%2$s`
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>Провера неуспела:</b>',
                     'INVALID_INPUT' => 'Неисправан унос у',
-                    'MISSING_REQUIRED_FIELD' => 'Недостаје обавезн поље:'
+                    'MISSING_REQUIRED_FIELD' => 'Недостаје обавезн поље:',
+                    'XSS_ISSUES' => 'Потенцијална грешка у XSS-у детектована у пољу \'%s\' '
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => 'Јануар',
@@ -40085,6 +40246,8 @@ Path: `%2$s`
                     5 => 'Субота',
                     6 => 'Недеља'
                 ],
+                'YES' => 'Да',
+                'NO' => 'Не',
                 'CRON' => [
                     'EVERY' => 'сваки',
                     'EVERY_HOUR' => 'сваки сат',
@@ -40305,10 +40468,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Lösenord',
                 'PASSWORD_CONFIRM' => 'Bekräfta lösenord',
                 'TITLE' => 'Titel',
-                'LANGUAGE' => 'Språk',
                 'ACCOUNT' => 'Konto',
                 'EMAIL_VALIDATION_MESSAGE' => 'Måste vara en giltig e-postadress',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Lösenordet måste innehålla minst en siffra och en versal och gemen och minst 8 tecken',
+                'LANGUAGE' => 'Språk',
                 'LANGUAGE_HELP' => 'Ställ in favoritspråk',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Standard',
@@ -41090,10 +41253,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Password',
                 'PASSWORD_CONFIRM' => 'Confirm Password',
                 'TITLE' => 'Title',
-                'LANGUAGE' => 'Language',
                 'ACCOUNT' => 'Account',
                 'EMAIL_VALIDATION_MESSAGE' => 'Must be a valid email address',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters',
+                'LANGUAGE' => 'Language',
                 'LANGUAGE_HELP' => 'Set the favorite language',
                 'MEDIA' => 'Media',
                 'DEFAULTS' => 'Defaults',
@@ -42370,10 +42533,10 @@ Njia: `%2$s`
                 'PASSWORD' => 'รหัสผ่าน',
                 'PASSWORD_CONFIRM' => 'ยืนยันรหัสผ่าน',
                 'TITLE' => 'หัวเรื่อง',
-                'LANGUAGE' => 'ภาษา',
                 'ACCOUNT' => 'บัญชีผู้ใช้',
                 'EMAIL_VALIDATION_MESSAGE' => 'ต้องเป็น e-mail ถูกต้อง',
                 'PASSWORD_VALIDATION_MESSAGE' => 'รหัสผ่านต้องประกอบด้วยอย่างน้อยหนึ่งหมายเลข และหนึ่งใหญ่ และอักษรพิมพ์เล็ก และอักขระอย่างน้อย 8 หรือมากกว่า',
+                'LANGUAGE' => 'ภาษา',
                 'LANGUAGE_HELP' => 'ตั้งค่าภาษาโปรด',
                 'MEDIA' => 'สื่อ',
                 'DEFAULTS' => 'ค่าเริ่มต้น',
@@ -43660,10 +43823,10 @@ Path: `%2$s`
                 'PASSWORD' => 'Şifre',
                 'PASSWORD_CONFIRM' => 'Parolayı yeniden girin',
                 'TITLE' => 'Başlık',
-                'LANGUAGE' => 'Dil',
                 'ACCOUNT' => 'Hesap',
                 'EMAIL_VALIDATION_MESSAGE' => 'Geçerli bir eposta adresi belirtilmeli',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Parola en az bir sayı, bir büyük harf, bir küçük harf ve en az 8 veya daha fazla karakterden oluşmalıdır',
+                'LANGUAGE' => 'Dil',
                 'LANGUAGE_HELP' => 'Favori dili belirleyin',
                 'MEDIA' => 'Ortam',
                 'DEFAULTS' => 'Varsayılanlar',
@@ -44664,10 +44827,10 @@ Yol: `%2$s`
                 'PASSWORD' => 'Mật khẩu',
                 'PASSWORD_CONFIRM' => 'Xác nhận mật khẩu',
                 'TITLE' => 'Tiêu đề',
-                'LANGUAGE' => 'Ngôn ngữ',
                 'ACCOUNT' => 'Tài khoản',
                 'EMAIL_VALIDATION_MESSAGE' => 'Phải là một địa chỉ email hợp lệ',
                 'PASSWORD_VALIDATION_MESSAGE' => 'Mật khẩu phải chứa ít nhất một số và một chữ hoa và chữ thường và ít nhất 8 ký tự trở lên',
+                'LANGUAGE' => 'Ngôn ngữ',
                 'LANGUAGE_HELP' => 'Đặt ngôn ngữ yêu thích',
                 'MEDIA' => 'Đa phương tiện',
                 'DEFAULTS' => 'Mặc định',
@@ -45247,6 +45410,8 @@ tiêu đề: %1$s
                 'FILE_COULD_NOT_BE_DELETED' => '无法删除文件',
                 'FILE_NOT_FOUND' => '找不到文件',
                 'NO_FILE_FOUND' => '未找到文件',
+                'FIELD_REORDER_SUCCESSFUL' => '为字段%s 更新媒体订单',
+                'FIELD_REORDER_FAILED' => '存储字段 \'%s \' 的媒体订单时出错',
                 'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav 已成功更新到',
                 'GRAV_UPDATE_FAILED' => 'Grav 更新失败',
                 'EVERYTHING_UPDATED' => '一切都是最新版本',
@@ -45261,11 +45426,13 @@ tiêu đề: %1$s
                 'PASSWORD' => '密码',
                 'PASSWORD_CONFIRM' => '确认密码',
                 'TITLE' => '标题',
-                'LANGUAGE' => '语言',
                 'ACCOUNT' => '帐户',
                 'EMAIL_VALIDATION_MESSAGE' => '必须是一个有效的电子邮件地址',
                 'PASSWORD_VALIDATION_MESSAGE' => '密码必须包含至少一个数字和一个大写字母和小写字母，必须有 8 个或更多字符。',
+                'LANGUAGE' => '语言',
                 'LANGUAGE_HELP' => '设置偏好语言',
+                'LANGUAGE_DEBUG' => '调试语言',
+                'LANGUAGE_DEBUG_HELP' => '启用正在使用 |t Twig 过滤器的语言调试，添加一个可以被风格化的间距，用来帮助诊断问题。',
                 'MEDIA' => '媒体',
                 'DEFAULTS' => '默认值',
                 'SITE_TITLE' => '网站标题',
@@ -45494,6 +45661,8 @@ tiêu đề: %1$s
                 'LOG_HANDLER_HELP' => '日志输出位置',
                 'SYSLOG_FACILITY' => 'Syslog 特性',
                 'SYSLOG_FACILITY_HELP' => 'Syslog 输出特性',
+                'SYSLOG_TAG' => 'Syslog 标签',
+                'SYSLOG_TAG_HELP' => 'Syslog 输出标签',
                 'DEBUGGER' => '调试器',
                 'DEBUGGER_HELP' => '启用Grav调试器和其设置',
                 'DEBUG_TWIG' => '调试Twig',
@@ -45508,6 +45677,8 @@ tiêu đề: %1$s
                 'IMAGES_DEBUG_HELP' => '显示overlay图像标示图像的像素数深度，例如当运行retina时',
                 'IMAGES_LOADING' => '图像加载行为',
                 'IMAGES_LOADING_HELP' => '加载属性允许浏览器推迟加载不在屏幕中的图像和iframes，直到用户滚动到它们的附近。加载支持三个值: auto, lazy, eager',
+                'IMAGES_DECODING' => '图像解码行为',
+                'IMAGES_DECODING_HELP' => '解码属性允许浏览器推迟解码不在屏幕中的图像和iframes，直到用户滚动到它们的附近。解码支持三个值: auto, sync, async',
                 'IMAGES_SEOFRIENDLY' => 'SEO加速图片名',
                 'IMAGES_SEOFRIENDLY_HELP' => '启用后, 首先显示图像名, 然后显示一个小哈希值, 以反映处理进度',
                 'UPLOAD_LIMIT' => '文件上传限制',
@@ -46194,7 +46365,11 @@ tiêu đề: %1$s
                 'SESSION_SECURE_HTTPS_HELP' => '在 HTTPS 上设置会话安全，但不是 HTTP。如果您在安全设置上设置为 true，将不会产生任何效果。 如果您的网站在 HTTP 和 HTTP 之间跳转，设置为 false。',
                 'AVATAR' => '头像生成器',
                 'AVATAR_HELP' => 'Multiavatar 是本地生成的头像。Gravatar 是一个外部服务，它使用您的电子邮件地址来远程拉取一个预配置的头像。',
-                'AVATAR_HASH' => '注意：可选头像自定义“哈希”字符串'
+                'AVATAR_HASH' => '注意：可选头像自定义“哈希”字符串',
+                'IMAGES_TITLE' => '图像',
+                'LEGACY_MEDIA_MUTATION' => '旧媒体操纵兼容性',
+                'LEGACY_MEDIA_MUTATION_HELP' => '只有当图像操作在Grav 更新后中断时才启用此设置。',
+                'BACKWARD_COMPATIBILITY' => '向后兼容'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -46567,10 +46742,10 @@ tiêu đề: %1$s
                 'PASSWORD' => '密碼',
                 'PASSWORD_CONFIRM' => '確認密碼',
                 'TITLE' => '職稱',
-                'LANGUAGE' => '語言',
                 'ACCOUNT' => '帳戶',
                 'EMAIL_VALIDATION_MESSAGE' => '必須是一個有效的電子郵件地址',
                 'PASSWORD_VALIDATION_MESSAGE' => '密碼必須包含至少一個數字和一個大寫和小寫字母和至少 8 個或更多字元',
+                'LANGUAGE' => '語言',
                 'LANGUAGE_HELP' => '設置喜好語言',
                 'MEDIA' => '媒體',
                 'DEFAULTS' => '預設值',

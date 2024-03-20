@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/zh.yaml',
-    'modified' => 1710318268,
-    'size' => 60308,
+    'modified' => 1710754278,
+    'size' => 61156,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => '请在您的浏览器中启用 JavaScript。',
@@ -197,6 +197,8 @@ return [
             'FILE_COULD_NOT_BE_DELETED' => '无法删除文件',
             'FILE_NOT_FOUND' => '找不到文件',
             'NO_FILE_FOUND' => '未找到文件',
+            'FIELD_REORDER_SUCCESSFUL' => '为字段%s 更新媒体订单',
+            'FIELD_REORDER_FAILED' => '存储字段 \'%s \' 的媒体订单时出错',
             'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav 已成功更新到',
             'GRAV_UPDATE_FAILED' => 'Grav 更新失败',
             'EVERYTHING_UPDATED' => '一切都是最新版本',
@@ -211,11 +213,13 @@ return [
             'PASSWORD' => '密码',
             'PASSWORD_CONFIRM' => '确认密码',
             'TITLE' => '标题',
-            'LANGUAGE' => '语言',
             'ACCOUNT' => '帐户',
             'EMAIL_VALIDATION_MESSAGE' => '必须是一个有效的电子邮件地址',
             'PASSWORD_VALIDATION_MESSAGE' => '密码必须包含至少一个数字和一个大写字母和小写字母，必须有 8 个或更多字符。',
+            'LANGUAGE' => '语言',
             'LANGUAGE_HELP' => '设置偏好语言',
+            'LANGUAGE_DEBUG' => '调试语言',
+            'LANGUAGE_DEBUG_HELP' => '启用正在使用 |t Twig 过滤器的语言调试，添加一个可以被风格化的间距，用来帮助诊断问题。',
             'MEDIA' => '媒体',
             'DEFAULTS' => '默认值',
             'SITE_TITLE' => '网站标题',
@@ -444,6 +448,8 @@ return [
             'LOG_HANDLER_HELP' => '日志输出位置',
             'SYSLOG_FACILITY' => 'Syslog 特性',
             'SYSLOG_FACILITY_HELP' => 'Syslog 输出特性',
+            'SYSLOG_TAG' => 'Syslog 标签',
+            'SYSLOG_TAG_HELP' => 'Syslog 输出标签',
             'DEBUGGER' => '调试器',
             'DEBUGGER_HELP' => '启用Grav调试器和其设置',
             'DEBUG_TWIG' => '调试Twig',
@@ -458,6 +464,8 @@ return [
             'IMAGES_DEBUG_HELP' => '显示overlay图像标示图像的像素数深度，例如当运行retina时',
             'IMAGES_LOADING' => '图像加载行为',
             'IMAGES_LOADING_HELP' => '加载属性允许浏览器推迟加载不在屏幕中的图像和iframes，直到用户滚动到它们的附近。加载支持三个值: auto, lazy, eager',
+            'IMAGES_DECODING' => '图像解码行为',
+            'IMAGES_DECODING_HELP' => '解码属性允许浏览器推迟解码不在屏幕中的图像和iframes，直到用户滚动到它们的附近。解码支持三个值: auto, sync, async',
             'IMAGES_SEOFRIENDLY' => 'SEO加速图片名',
             'IMAGES_SEOFRIENDLY_HELP' => '启用后, 首先显示图像名, 然后显示一个小哈希值, 以反映处理进度',
             'UPLOAD_LIMIT' => '文件上传限制',
@@ -1144,7 +1152,11 @@ return [
             'SESSION_SECURE_HTTPS_HELP' => '在 HTTPS 上设置会话安全，但不是 HTTP。如果您在安全设置上设置为 true，将不会产生任何效果。 如果您的网站在 HTTP 和 HTTP 之间跳转，设置为 false。',
             'AVATAR' => '头像生成器',
             'AVATAR_HELP' => 'Multiavatar 是本地生成的头像。Gravatar 是一个外部服务，它使用您的电子邮件地址来远程拉取一个预配置的头像。',
-            'AVATAR_HASH' => '注意：可选头像自定义“哈希”字符串'
+            'AVATAR_HASH' => '注意：可选头像自定义“哈希”字符串',
+            'IMAGES_TITLE' => '图像',
+            'LEGACY_MEDIA_MUTATION' => '旧媒体操纵兼容性',
+            'LEGACY_MEDIA_MUTATION_HELP' => '只有当图像操作在Grav 更新后中断时才启用此设置。',
+            'BACKWARD_COMPATIBILITY' => '向后兼容'
         ]
     ]
 ];

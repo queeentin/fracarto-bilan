@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1710790293,
-    'checksum' => 'f056a889423da542225c26104c8ea8af',
+    'timestamp' => 1710881867,
+    'checksum' => '95d38b150ef54eb7dd84e36747a8e580',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,41 +19,41 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1710790289
+                'modified' => 1710881866
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
-                'modified' => 1710318266
+                'modified' => 1710881848
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'mime' => [
                 'file' => 'system/config/mime.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'permissions' => [
                 'file' => 'system/config/permissions.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ]
         ],
         'user/plugins' => [
@@ -71,7 +71,7 @@ return [
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1710318266
+                'modified' => 1710754278
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -4059,7 +4059,8 @@ node_modules'
                     'retina_scale' => 1
                 ],
                 'defaults' => [
-                    'loading' => 'auto'
+                    'loading' => 'auto',
+                    'decoding' => 'auto'
                 ],
                 'watermark' => [
                     'image' => 'system://images/watermark.png',
@@ -4137,8 +4138,14 @@ node_modules'
         'versions' => [
             'core' => [
                 'grav' => [
-                    'version' => '1.7.44',
-                    'schema' => '1.7.0_2020-11-20_1'
+                    'version' => '1.7.45',
+                    'schema' => '1.7.0_2020-11-20_1',
+                    'history' => [
+                        0 => [
+                            'version' => '1.7.45',
+                            'date' => '2024-03-19 20:57:28'
+                        ]
+                    ]
                 ]
             ]
         ]

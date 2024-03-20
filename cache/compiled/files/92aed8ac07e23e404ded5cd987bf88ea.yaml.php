@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/system/blueprints/config/system.yaml',
-    'modified' => 1710318266,
-    'size' => 57833,
+    'modified' => 1710779798,
+    'size' => 58177,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -1493,6 +1493,18 @@ return [
                                         'auto' => 'Auto',
                                         'lazy' => 'Lazy',
                                         'eager' => 'Eager'
+                                    ]
+                                ],
+                                'images.defaults.decoding' => [
+                                    'type' => 'select',
+                                    'size' => 'small',
+                                    'label' => 'PLUGIN_ADMIN.IMAGES_DECODING',
+                                    'help' => 'PLUGIN_ADMIN.IMAGES_DECODING_HELP',
+                                    'highlight' => 'auto',
+                                    'options' => [
+                                        'auto' => 'Auto',
+                                        'sync' => 'Sync',
+                                        'async' => 'Async'
                                     ]
                                 ],
                                 'images.seofriendly' => [

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/el.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 67613,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -194,10 +194,10 @@ return [
             'PASSWORD' => 'Συνθηματικό',
             'PASSWORD_CONFIRM' => 'Επιβεβαίωση συνθηματικού',
             'TITLE' => 'Τίτλος',
-            'LANGUAGE' => 'Γλώσσα',
             'ACCOUNT' => 'Λογαριασμός',
             'EMAIL_VALIDATION_MESSAGE' => 'Πρέπει να είναι μια έγκυρη διεύθυνση email',
             'PASSWORD_VALIDATION_MESSAGE' => 'Το συνθηματικό πρέπει να περιέχει τουλάχιστον έναν αριθμό, ένα κεφαλαίο και ένα πεζό γράμμα και τουλάχιστον 8 ή περισσότερους χαρακτήρες',
+            'LANGUAGE' => 'Γλώσσα',
             'LANGUAGE_HELP' => 'Ορίστε την αγαπημένη γλώσσα',
             'MEDIA' => 'Πολυμέσα',
             'DEFAULTS' => 'Προεπιλογές',

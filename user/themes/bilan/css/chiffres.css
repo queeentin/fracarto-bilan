@@ -2,6 +2,10 @@ div.chiffres{
     break-before: always;
 }
 
+h2.chiffres {
+    display: none;
+}
+
 .chiffres p{
     margin-left: 27.7mm;
     width: 134.6mm;

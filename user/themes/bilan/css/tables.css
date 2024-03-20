@@ -1,6 +1,7 @@
 /* Tableaux */
 
 .table table{
+    page-break-inside: auto;
     font-family: "Area Web";
     font-size: 7pt;
     line-height: 9pt;

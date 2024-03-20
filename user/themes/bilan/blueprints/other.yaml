@@ -1,0 +1,30 @@
+blueprint: other
+
+title: Markdown sections
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          fields:
+
+            header.visibletitle:
+              type: toggle
+              label: Titre visible
+              highlight: 1
+              default: 1
+              options:
+                  1: 'Oui'
+                  0: 'Non'
+              validate:
+                  type: bool
+
+            header.media_order:
+              unset@: true

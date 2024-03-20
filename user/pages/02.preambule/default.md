@@ -1,5 +1,0 @@
----
-title: Préambule
----
-
-Texte CT

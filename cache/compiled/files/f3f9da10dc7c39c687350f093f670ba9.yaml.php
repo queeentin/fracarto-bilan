@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/he.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 25737,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -210,10 +210,10 @@ return [
             'PASSWORD' => 'סיסמא',
             'PASSWORD_CONFIRM' => 'אישור סיסמא',
             'TITLE' => 'כותרת',
-            'LANGUAGE' => 'שפה',
             'ACCOUNT' => 'חשבון',
             'EMAIL_VALIDATION_MESSAGE' => 'כתובת מייל לא חוקית',
             'PASSWORD_VALIDATION_MESSAGE' => 'הסיסמא צריכה להכיל לפחות מספר, אות גדולה, אות קטנה ו 8 תווים או יותר',
+            'LANGUAGE' => 'שפה',
             'LANGUAGE_HELP' => 'הגדרת שפה מועדפת',
             'MEDIA' => 'מדיה',
             'DEFAULTS' => 'ברירות מחדל',

@@ -8,27 +8,35 @@
     
         <template id="book-content">
             {% for parent_page in pages.children %}
-                <h1>{{ parent_page.title }}</h1>
-                {{ parent_page.content|raw|markdown }}
+
+                {# Blueprint chapter #}
+                <div class="{{ parent_page.header.body_classes }}">
+                    <h1>{{ parent_page.title }}</h1>
+                    {{ parent_page.content|raw|markdown }}
+                </div>
+
                 {% for child_page in parent_page.children %}
-                    {% if child_page.blueprint.blueprint == "chiffres" %}
-                        <div class="chiffres">
-                            {{ child_page.content|raw|markdown }}
-                        </div>
-                    {% else %}
-                        <h2>{{ child_page.title }}</h2>
-                        {{ child_page.content|raw|markdown }}
-                    {% endif %}
-                    {% for item in child_page.header.sections %}
-                        {% set item_class = "textblock" %}
-                        {% if child_page.blueprint.blueprint == "tables" %}
-                            {% set item_class = "table" %}
+                        
+                        {# Blueprint other #}
+                        {% if child_page.blueprint.blueprint == "other" %}
+                            <div class="{{ child_page.header.body_classes }}">
+                                {% if child_page.header.visibletitle %}
+                                    <h2>{{ child_page.title }}</h2>
+                                {% endif %}
+                                {{ child_page.content|raw|markdown }}
+                            </div>
+
+                        {# Blueprints text, tables #}
+                        {% else %}
+                            <h2>{{ child_page.title }}</h2>
+                            {% for item in child_page.header.sections %}
+                                {% set item_class = child_page.blueprint.blueprint %}
+                                <div class="{{item_class}} {{ item.class_name }}">
+                                    {{ item.content|raw|markdown }}
+                                </div>
+                            {% endfor %}
                         {% endif %}
-                        {% set contentWithClass = item.content|raw|markdown %}
-                        <div class="{{ item_class }} {{ item.class_name }}">
-                            {{ item.content|raw|markdown }}
-                        </div>
-                    {% endfor %}
+
                 {% endfor %}
 
             {% endfor %}

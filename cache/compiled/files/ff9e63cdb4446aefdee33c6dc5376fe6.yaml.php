@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/hu.yaml',
-    'modified' => 1710318268,
-    'size' => 46242,
+    'modified' => 1710754278,
+    'size' => 46265,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Kérjük, engedélyezd a JavaScriptet a böngésződben.',
@@ -204,10 +204,10 @@ return [
             'PASSWORD' => 'Jelszó',
             'PASSWORD_CONFIRM' => 'Jelszó megerősítése',
             'TITLE' => 'Cím',
-            'LANGUAGE' => 'Nyelv',
             'ACCOUNT' => 'Felhasználói fiók',
             'EMAIL_VALIDATION_MESSAGE' => 'Érvénytelen email-cím',
             'PASSWORD_VALIDATION_MESSAGE' => 'A jelszónak legalább egy számot, egy kis- és egy nagybetűt kell tartalmaznia, és legalább 8 karakter hosszú kell, hogy legyen',
+            'LANGUAGE' => 'Nyelv',
             'LANGUAGE_HELP' => 'Kedvenc nyelv beállítása',
             'MEDIA' => 'Média',
             'DEFAULTS' => 'Alapértelmezett Értékek',

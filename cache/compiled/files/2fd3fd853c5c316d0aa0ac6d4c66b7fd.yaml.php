@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/it.yaml',
-    'modified' => 1710318268,
-    'size' => 70505,
+    'modified' => 1710754278,
+    'size' => 71615,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Per cortesia, abilita JavaScript nel browser.',
@@ -197,6 +197,8 @@ return [
             'FILE_COULD_NOT_BE_DELETED' => 'Il file non può essere eliminato',
             'FILE_NOT_FOUND' => 'File non trovato',
             'NO_FILE_FOUND' => 'Nessun file trovato',
+            'FIELD_REORDER_SUCCESSFUL' => 'Ordine dei media aggiornato per il campo \'%s\'',
+            'FIELD_REORDER_FAILED' => 'Si è verificato un errore durante il salvataggio dell\'ordine dei media per il campo \'%s\'',
             'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav è stato correttamente aggiornato a',
             'GRAV_UPDATE_FAILED' => 'Aggiornamento di Grav fallito',
             'EVERYTHING_UPDATED' => 'Tutto aggiornato',
@@ -211,11 +213,13 @@ return [
             'PASSWORD' => 'Password',
             'PASSWORD_CONFIRM' => 'Conferma Password',
             'TITLE' => 'Titolo',
-            'LANGUAGE' => 'Lingua',
             'ACCOUNT' => 'Profilo',
             'EMAIL_VALIDATION_MESSAGE' => 'Deve essere un indirizzo email valido',
             'PASSWORD_VALIDATION_MESSAGE' => 'La password deve contenere almeno un numero, una lettera maiuscola e una minuscola, ed essere lunga almeno 8 caratteri',
+            'LANGUAGE' => 'Lingua',
             'LANGUAGE_HELP' => 'Imposta la lingua preferita',
+            'LANGUAGE_DEBUG' => 'Lingua di debug',
+            'LANGUAGE_DEBUG_HELP' => 'Abilita il debug delle lingue che stanno usando il filtro |t twig aggiungendo una span intorno che può ricevere uno style per aiutare a diagnosticare i problemi',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Impostazioni predefinite',
             'SITE_TITLE' => 'Titolo del sito',
@@ -444,6 +448,8 @@ return [
             'LOG_HANDLER_HELP' => 'Dove visualizzare i log',
             'SYSLOG_FACILITY' => 'Servizi Syslog',
             'SYSLOG_FACILITY_HELP' => 'Struttura di syslog per l\'output',
+            'SYSLOG_TAG' => 'Tag Syslog',
+            'SYSLOG_TAG_HELP' => 'Tag Syslog per l\'output',
             'DEBUGGER' => 'Debugger',
             'DEBUGGER_HELP' => 'Abilita il debugger di Grav ed i seguenti settaggi',
             'DEBUG_TWIG' => 'Debug Twig',
@@ -458,6 +464,8 @@ return [
             'IMAGES_DEBUG_HELP' => 'Mostra un overlay sopra le immagini riportante ad esempio la densità di pixel',
             'IMAGES_LOADING' => 'Comportamento caricamento immagine',
             'IMAGES_LOADING_HELP' => 'L\'attributo di caricamento consente a un browser di ritardare il caricamento di immagini fuori schermo e iframes fino a quando non si scorre vicino a loro. Il caricamento supporta tre valori: auto, lazy, eager',
+            'IMAGES_DECODING' => 'Comportamento della decodifica delle immagini',
+            'IMAGES_DECODING_HELP' => 'L\'attributo di decodifica consente a un browser di differire la decodifica delle immagini offscreen fino a quando gli utenti scrollano nelle loro vicinanze. La decodifica supporta tre valori: auto, sync, async',
             'IMAGES_SEOFRIENDLY' => 'Nomi delle immagini SEO-Friendly',
             'IMAGES_SEOFRIENDLY_HELP' => 'Quando abilitato, il nome dell\'immagine viene visualizzato prima, poi un hash più piccolo per indcare le operazioni elaborate',
             'UPLOAD_LIMIT' => 'Limite di upload dei file',
@@ -1144,7 +1152,11 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
             'SESSION_SECURE_HTTPS_HELP' => 'Imposta la sicurezza della sessione su HTTPS ma non su HTTP. Non ha effetto se hai Impostazioni Sicure impostate a vero sopra. Impostare a falso se il vostro sito salta tra HTTP e HTTPS.',
             'AVATAR' => 'Generatore Avatar',
             'AVATAR_HELP' => 'Multiavatar è un avatar generato localmente. Gravatar è un servizio esterno che utilizza il tuo indirizzo email per estrarre un Avatar preconfigurato in remoto',
-            'AVATAR_HASH' => 'NOTA: Stringa \'hash\' personalizzata Avatar opzionale'
+            'AVATAR_HASH' => 'NOTA: Stringa \'hash\' personalizzata Avatar opzionale',
+            'IMAGES_TITLE' => 'Immagini',
+            'LEGACY_MEDIA_MUTATION' => 'Compatibilità Legacy Manipolazione Media',
+            'LEGACY_MEDIA_MUTATION_HELP' => 'Abilita questa impostazione solo se la manipolazione dell\'immagine ha smesso di funzionare dopo l\'aggiornamento di Grav.',
+            'BACKWARD_COMPATIBILITY' => 'Retrocompatibilità'
         ]
     ]
 ];

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/zh-tw.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 37470,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -206,10 +206,10 @@ return [
             'PASSWORD' => '密碼',
             'PASSWORD_CONFIRM' => '確認密碼',
             'TITLE' => '職稱',
-            'LANGUAGE' => '語言',
             'ACCOUNT' => '帳戶',
             'EMAIL_VALIDATION_MESSAGE' => '必須是一個有效的電子郵件地址',
             'PASSWORD_VALIDATION_MESSAGE' => '密碼必須包含至少一個數字和一個大寫和小寫字母和至少 8 個或更多字元',
+            'LANGUAGE' => '語言',
             'LANGUAGE_HELP' => '設置喜好語言',
             'MEDIA' => '媒體',
             'DEFAULTS' => '預設值',

@@ -211,7 +211,9 @@ class __TwigTemplate_c254eaefc59d56235654b1029e6b87622bfb437a9fec0d7604ff54a5b7e
                 echo "            ";
             }
             // line 22
-            echo "            <div class=\"form-label form-field hint--bottom\" ";
+            echo "            <div class=\"form-label form-field hint--bottom ";
+            echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "labelclasses", []), "html", null, true);
+            echo "\" ";
             echo ($context["hint"] ?? null);
             echo ">
                 ";
@@ -241,7 +243,7 @@ class __TwigTemplate_c254eaefc59d56235654b1029e6b87622bfb437a9fec0d7604ff54a5b7e
 
     public function getDebugInfo()
     {
-        return array (  229 => 27,  223 => 24,  219 => 23,  214 => 22,  211 => 21,  208 => 20,  205 => 19,  202 => 18,  199 => 17,  193 => 60,  188 => 57,  182 => 55,  176 => 53,  174 => 52,  166 => 50,  163 => 49,  159 => 48,  153 => 46,  144 => 45,  139 => 44,  134 => 43,  129 => 42,  124 => 41,  117 => 40,  112 => 39,  105 => 38,  98 => 37,  92 => 36,  88 => 35,  83 => 33,  80 => 32,  77 => 31,  71 => 30,  65 => 28,  62 => 17,  59 => 16,  54 => 1,  51 => 13,  49 => 12,  46 => 9,  44 => 8,  42 => 7,  40 => 5,  38 => 4,  36 => 3,  30 => 1,);
+        return array (  231 => 27,  225 => 24,  221 => 23,  214 => 22,  211 => 21,  208 => 20,  205 => 19,  202 => 18,  199 => 17,  193 => 60,  188 => 57,  182 => 55,  176 => 53,  174 => 52,  166 => 50,  163 => 49,  159 => 48,  153 => 46,  144 => 45,  139 => 44,  134 => 43,  129 => 42,  124 => 41,  117 => 40,  112 => 39,  105 => 38,  98 => 37,  92 => 36,  88 => 35,  83 => 33,  80 => 32,  77 => 31,  71 => 30,  65 => 28,  62 => 17,  59 => 16,  54 => 1,  51 => 13,  49 => 12,  46 => 9,  44 => 8,  42 => 7,  40 => 5,  38 => 4,  36 => 3,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -275,7 +277,7 @@ class __TwigTemplate_c254eaefc59d56235654b1029e6b87622bfb437a9fec0d7604ff54a5b7e
             {% if field.help %}
                 {% set hint = 'data-hint=\"' ~ field.help|t|raw ~ '\"' %}
             {% endif %}
-            <div class=\"form-label form-field hint--bottom\" {{ hint|raw }}>
+            <div class=\"form-label form-field hint--bottom {{ field.labelclasses }}\" {{ hint|raw }}>
                 {{ field.label|t|raw }}
                 {{ field.validate.required in ['on', 'true', 1] ? '<span class=\"required\">*</span>' }}
             </div>

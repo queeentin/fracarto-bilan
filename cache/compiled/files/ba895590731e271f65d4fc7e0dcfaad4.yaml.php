@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/mn.yaml',
-    'modified' => 1710318268,
-    'size' => 97268,
+    'modified' => 1710754278,
+    'size' => 97291,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Хөтөч дээрээ JavaScript-ийг идэвхжүүлнэ үү.',
@@ -210,10 +210,10 @@ return [
             'PASSWORD' => 'Нууц үг',
             'PASSWORD_CONFIRM' => 'Нууц Үгээ Баталгаажуулах',
             'TITLE' => 'Гарчиг',
-            'LANGUAGE' => 'Хэл',
             'ACCOUNT' => 'Данс',
             'EMAIL_VALIDATION_MESSAGE' => 'Бүрэн бүтэн майл хаяг байх ёстой',
             'PASSWORD_VALIDATION_MESSAGE' => 'Нууц үгэнд дор хаяж нэг тоо, нэг том, нэг жижиг үсэг агуулах ёстойгоос гадна дор хаяж 8 буюу түүнээс дээш тэмдэгттэй байх ёстой',
+            'LANGUAGE' => 'Хэл',
             'LANGUAGE_HELP' => 'Үндсэн хэлээ сонгоно уу',
             'MEDIA' => 'Медиа',
             'DEFAULTS' => 'Үндсэн өгөгдлүүд',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/ko.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 15881,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -209,10 +209,10 @@ return [
             'PASSWORD' => '비밀번호',
             'PASSWORD_CONFIRM' => '비밀번호 확인',
             'TITLE' => '제목',
-            'LANGUAGE' => '언어',
             'ACCOUNT' => '성공',
             'EMAIL_VALIDATION_MESSAGE' => '유효한 이메일 주소여야 합니다',
             'PASSWORD_VALIDATION_MESSAGE' => '비밀번호는 대문자와 소문자를 모두 포함하여야하며, 8자 이상이어야합니다.',
+            'LANGUAGE' => '언어',
             'LANGUAGE_HELP' => '선호 언어 설정',
             'MEDIA' => '미디어',
             'DEFAULTS' => '기본',

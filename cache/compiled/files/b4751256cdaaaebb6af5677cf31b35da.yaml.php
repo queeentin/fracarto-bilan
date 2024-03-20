@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/de.yaml',
-    'modified' => 1710318268,
-    'size' => 70720,
+    'modified' => 1710754278,
+    'size' => 71851,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Bitte aktivieren Sie JavaScript in Ihrem Browser.',
@@ -197,6 +197,8 @@ return [
             'FILE_COULD_NOT_BE_DELETED' => 'Datei konnte nicht gelöscht werden',
             'FILE_NOT_FOUND' => 'Datei nicht gefunden',
             'NO_FILE_FOUND' => 'Keine Datei gefunden',
+            'FIELD_REORDER_SUCCESSFUL' => 'Reihenfolge der Medien für Feld \'%s \' aktualisiert',
+            'FIELD_REORDER_FAILED' => 'Beim Speichern der Medien-Sortierreihenfolge für das Feld \'%s \' ist ein Fehler aufgetreten',
             'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav wurde erfolgreich aktualisiert auf',
             'GRAV_UPDATE_FAILED' => 'Grav Update fehlgeschlagen',
             'EVERYTHING_UPDATED' => 'Alles aktualisiert',
@@ -211,11 +213,13 @@ return [
             'PASSWORD' => 'Passwort',
             'PASSWORD_CONFIRM' => 'Passwort bestätigen',
             'TITLE' => 'Titel',
-            'LANGUAGE' => 'Sprache',
             'ACCOUNT' => 'Benutzer',
             'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein',
             'PASSWORD_VALIDATION_MESSAGE' => 'Das Passwort muss mindestens eine Zahl, einen Groß- und einen Kleinbuchstaben enthalten sowie mindestens 8 Zeichen lang sein.',
+            'LANGUAGE' => 'Sprache',
             'LANGUAGE_HELP' => 'Bevorzugte Sprache einstellen',
+            'LANGUAGE_DEBUG' => 'Debug Sprache',
+            'LANGUAGE_DEBUG_HELP' => 'Aktiviert das Debuggen von Sprachen, welche den Filter "|t twig" nutzen, indem ein span um sie herum eingefügt wird, welcher zur Unterstützung der Diagnose gestaltet werden kann',
             'MEDIA' => 'Medien',
             'DEFAULTS' => 'Standards',
             'SITE_TITLE' => 'Website Titel',
@@ -444,6 +448,8 @@ return [
             'LOG_HANDLER_HELP' => 'Ausgabeort von Logs',
             'SYSLOG_FACILITY' => 'Syslog-Facility',
             'SYSLOG_FACILITY_HELP' => 'Syslog-Facility für die Ausgabe',
+            'SYSLOG_TAG' => 'Syslog Label',
+            'SYSLOG_TAG_HELP' => 'Syslog Ausgabelabel',
             'DEBUGGER' => 'Debugger',
             'DEBUGGER_HELP' => 'Aktiviert den Grav Debugger und die folgenden Einstellungen',
             'DEBUG_TWIG' => 'Twig debuggen',
@@ -458,6 +464,8 @@ return [
             'IMAGES_DEBUG_HELP' => 'Wasserzeichen mit der Auflösung der Bilder anzeigen um Retina-Displays zu testen',
             'IMAGES_LOADING' => 'Bildladeverhalten',
             'IMAGES_LOADING_HELP' => 'Das "loading" Attribut erlaubt es dem Browser, Bilder oder iFrames erst zu laden, wenn sie in den Sichtbereich des Nutzers gelangen',
+            'IMAGES_DECODING' => 'Bilddekodierungsverhalten',
+            'IMAGES_DECODING_HELP' => 'Das Attribut "decoding" erlaubt es dem Browser das Dekodieren von Bildern außerhalb des dargestellten Bereiches zu verzögern, bis der Benutzer dort hin scrollt. decoding unterstützt drei Zustände: auto, sync und async',
             'IMAGES_SEOFRIENDLY' => 'SEO freundliche Bildnamen',
             'IMAGES_SEOFRIENDLY_HELP' => 'Wenn diese Option aktiviert ist, wird zuerst der Bildname und dann ein kleinerer Hash angezeigt, um verarbeitete Vorgänge anzuzeigen',
             'UPLOAD_LIMIT' => 'Datei Upload Limit',
@@ -1144,7 +1152,11 @@ Sie haben **2FA** für dieses Konto aktiviert. Bitte benutzen Sie Ihre **2FA** A
             'SESSION_SECURE_HTTPS_HELP' => 'Legt die Sitzungssicherheit für HTTPS, aber nicht für HTTP fest. Hat keine Auswirkung, wenn Sie obige Secure-Einstellung auf "true" gesetzt haben. Setzen Sie den Wert auf "false", wenn Ihre Website zwischen HTTP und HTTPS wechselt.',
             'AVATAR' => 'Avatar-Generator',
             'AVATAR_HELP' => 'Multiavatar ist ein lokal erzeugter Avatar.  Gravatar ist ein externer Dienst, der Ihre E-Mail-Adresse verwendet, um einen vorkonfigurierten Avatar extern zu beziehen',
-            'AVATAR_HASH' => 'HINWEIS: Optionale benutzerdefinierte Avatar-\'Hash\'-String'
+            'AVATAR_HASH' => 'HINWEIS: Optionale benutzerdefinierte Avatar-\'Hash\'-String',
+            'IMAGES_TITLE' => 'Bilder',
+            'LEGACY_MEDIA_MUTATION' => 'Kompatibilität zur Bearbeitung von Legacy Medien',
+            'LEGACY_MEDIA_MUTATION_HELP' => 'Aktivieren Sie diese Einstellung nur, wenn die Bildbearbeitung nach einer Grav-Aktualisierung fehlgeschlagen ist.',
+            'BACKWARD_COMPATIBILITY' => 'Abwärtskompatibilität'
         ]
     ]
 ];

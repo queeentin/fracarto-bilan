@@ -184,8 +184,8 @@ class __TwigTemplate_5e1566e749dcdd7fcabcd8272508e8554e2dc4916a8e71477a49fd7d82d
                 ";
             }
             // line 45
-            echo "                <label";
-            echo ((($context["toggleable"] ?? null)) ? (((" class=\"toggleable\" for=\"toggleable_" . $this->getAttribute(($context["field"] ?? null), "name", [])) . "\"")) : (""));
+            echo "               <label";
+            echo (($this->getAttribute(($context["field"] ?? null), "toggleable", [])) ? (((((" class=\"toggleable " . $this->getAttribute(($context["field"] ?? null), "labelclasses", [])) . "\" for=\"toggleable_") . $this->getAttribute(($context["field"] ?? null), "name", [])) . "\"")) : (((" class=\"" . $this->getAttribute(($context["field"] ?? null), "labelclasses", [])) . "\"")));
             echo ">
                 ";
             // line 46
@@ -196,7 +196,9 @@ class __TwigTemplate_5e1566e749dcdd7fcabcd8272508e8554e2dc4916a8e71477a49fd7d82d
             // line 63
             if ($this->getAttribute(($context["field"] ?? null), "sublabel", [])) {
                 // line 64
-                echo "                <div class=\"form-sublabel\">
+                echo "                <div class=\"form-sublabel ";
+                echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "sublabelclasses", []), "html", null, true);
+                echo "\">
                     ";
                 // line 65
                 if ($this->getAttribute(($context["field"] ?? null), "markdown", [])) {
@@ -507,7 +509,7 @@ class __TwigTemplate_5e1566e749dcdd7fcabcd8272508e8554e2dc4916a8e71477a49fd7d82d
 
     public function getDebugInfo()
     {
-        return array (  494 => 110,  490 => 108,  484 => 107,  477 => 106,  470 => 105,  465 => 104,  458 => 103,  453 => 102,  448 => 101,  443 => 100,  436 => 99,  431 => 98,  424 => 97,  417 => 96,  410 => 95,  407 => 94,  402 => 84,  397 => 111,  395 => 110,  392 => 109,  389 => 94,  387 => 93,  381 => 91,  379 => 90,  375 => 89,  370 => 88,  367 => 86,  364 => 85,  362 => 84,  355 => 83,  352 => 82,  348 => 113,  345 => 82,  342 => 81,  336 => 78,  332 => 77,  327 => 76,  324 => 75,  317 => 60,  314 => 59,  308 => 57,  302 => 55,  299 => 54,  296 => 53,  288 => 51,  280 => 49,  277 => 48,  274 => 47,  271 => 46,  266 => 125,  261 => 122,  255 => 120,  249 => 118,  247 => 117,  241 => 115,  238 => 114,  236 => 81,  233 => 80,  231 => 75,  224 => 74,  220 => 72,  216 => 70,  210 => 68,  204 => 66,  202 => 65,  199 => 64,  197 => 63,  194 => 62,  192 => 46,  187 => 45,  181 => 42,  178 => 41,  174 => 40,  169 => 39,  165 => 38,  161 => 37,  155 => 35,  153 => 34,  146 => 33,  143 => 32,  140 => 31,  135 => 127,  133 => 31,  119 => 30,  116 => 29,  110 => 129,  108 => 29,  105 => 28,  103 => 27,  100 => 25,  98 => 24,  96 => 23,  94 => 22,  90 => 20,  86 => 18,  83 => 17,  81 => 16,  78 => 15,  75 => 14,  72 => 13,  69 => 12,  67 => 11,  64 => 10,  61 => 9,  58 => 8,  55 => 7,  52 => 6,  49 => 5,  46 => 4,  44 => 3,  41 => 2,  39 => 1,);
+        return array (  496 => 110,  492 => 108,  486 => 107,  479 => 106,  472 => 105,  467 => 104,  460 => 103,  455 => 102,  450 => 101,  445 => 100,  438 => 99,  433 => 98,  426 => 97,  419 => 96,  412 => 95,  409 => 94,  404 => 84,  399 => 111,  397 => 110,  394 => 109,  391 => 94,  389 => 93,  383 => 91,  381 => 90,  377 => 89,  372 => 88,  369 => 86,  366 => 85,  364 => 84,  357 => 83,  354 => 82,  350 => 113,  347 => 82,  344 => 81,  338 => 78,  334 => 77,  329 => 76,  326 => 75,  319 => 60,  316 => 59,  310 => 57,  304 => 55,  301 => 54,  298 => 53,  290 => 51,  282 => 49,  279 => 48,  276 => 47,  273 => 46,  268 => 125,  263 => 122,  257 => 120,  251 => 118,  249 => 117,  243 => 115,  240 => 114,  238 => 81,  235 => 80,  233 => 75,  226 => 74,  222 => 72,  218 => 70,  212 => 68,  206 => 66,  204 => 65,  199 => 64,  197 => 63,  194 => 62,  192 => 46,  187 => 45,  181 => 42,  178 => 41,  174 => 40,  169 => 39,  165 => 38,  161 => 37,  155 => 35,  153 => 34,  146 => 33,  143 => 32,  140 => 31,  135 => 127,  133 => 31,  119 => 30,  116 => 29,  110 => 129,  108 => 29,  105 => 28,  103 => 27,  100 => 25,  98 => 24,  96 => 23,  94 => 22,  90 => 20,  86 => 18,  83 => 17,  81 => 16,  78 => 15,  75 => 14,  72 => 13,  69 => 12,  67 => 11,  64 => 10,  61 => 9,  58 => 8,  55 => 7,  52 => 6,  49 => 5,  46 => 4,  44 => 3,  41 => 2,  39 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -564,7 +566,7 @@ class __TwigTemplate_5e1566e749dcdd7fcabcd8272508e8554e2dc4916a8e71477a49fd7d82d
                         <label for=\"toggleable_{{ field.name }}\"></label>
                     </span>
                 {% endif %}
-                <label{{ (toggleable ? ' class=\"toggleable\" for=\"toggleable_' ~ field.name ~ '\"')|raw }}>
+               <label{{ (field.toggleable ? ' class=\"toggleable ' ~ field.labelclasses ~ '\" for=\"toggleable_' ~ field.name ~ '\"' : ' class=\"' ~ field.labelclasses ~ '\"')|raw }}>
                 {% block label %}
                     {% if field.help %}
                         {% if field.markdown %}
@@ -583,7 +585,7 @@ class __TwigTemplate_5e1566e749dcdd7fcabcd8272508e8554e2dc4916a8e71477a49fd7d82d
                 {% endblock %}
                 </label>
                 {% if field.sublabel %}
-                <div class=\"form-sublabel\">
+                <div class=\"form-sublabel {{ field.sublabelclasses }}\">
                     {% if field.markdown %}
                         {{ field.sublabel|t|markdown(false)|raw }}
                     {% else %}

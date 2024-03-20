@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/vi.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 32274,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -211,10 +211,10 @@ return [
             'PASSWORD' => 'Mật khẩu',
             'PASSWORD_CONFIRM' => 'Xác nhận mật khẩu',
             'TITLE' => 'Tiêu đề',
-            'LANGUAGE' => 'Ngôn ngữ',
             'ACCOUNT' => 'Tài khoản',
             'EMAIL_VALIDATION_MESSAGE' => 'Phải là một địa chỉ email hợp lệ',
             'PASSWORD_VALIDATION_MESSAGE' => 'Mật khẩu phải chứa ít nhất một số và một chữ hoa và chữ thường và ít nhất 8 ký tự trở lên',
+            'LANGUAGE' => 'Ngôn ngữ',
             'LANGUAGE_HELP' => 'Đặt ngôn ngữ yêu thích',
             'MEDIA' => 'Đa phương tiện',
             'DEFAULTS' => 'Mặc định',

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/da.yaml',
-    'modified' => 1710318268,
-    'size' => 43932,
+    'modified' => 1710754278,
+    'size' => 44917,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Aktivér JavaScript i din browser.',
@@ -192,6 +192,8 @@ return [
             'FILE_COULD_NOT_BE_DELETED' => 'Filen kunne ikke slettes',
             'FILE_NOT_FOUND' => 'Filen blev ikke fundet',
             'NO_FILE_FOUND' => 'Ingen fil blev fundet',
+            'FIELD_REORDER_SUCCESSFUL' => 'Medieordre opdateret for feltet \'%s\'',
+            'FIELD_REORDER_FAILED' => 'En fejl opstod under lagring af medieordren for feltet \'%s\'',
             'GRAV_WAS_SUCCESSFULLY_UPDATED_TO' => 'Grav blev opdateret til',
             'GRAV_UPDATE_FAILED' => 'Opdatering af Grav mislykkedes',
             'EVERYTHING_UPDATED' => 'Alt opdateret',
@@ -206,11 +208,13 @@ return [
             'PASSWORD' => 'Adgangskode',
             'PASSWORD_CONFIRM' => 'Bekræft adgangskode',
             'TITLE' => 'Titel',
-            'LANGUAGE' => 'Sprog',
             'ACCOUNT' => 'Konto',
             'EMAIL_VALIDATION_MESSAGE' => 'Skal være en gyldig e-mail',
             'PASSWORD_VALIDATION_MESSAGE' => 'Adgangskode skal indeholde minimum ét ciffer, én versal, én minuskel samt udgøres af minimum otte tegn',
+            'LANGUAGE' => 'Sprog',
             'LANGUAGE_HELP' => 'Opsæt foretrukne sprog',
+            'LANGUAGE_DEBUG' => 'Fejlsøg sprog',
+            'LANGUAGE_DEBUG_HELP' => 'Aktivér fejlsøgning af sprog, som bruger filteret |t twig ved at tilføje en span omkring dem, der kan stiliseres som hjælpe til problemdiagnosticeringer',
             'MEDIA' => 'Medier',
             'DEFAULTS' => 'Standarder',
             'SITE_TITLE' => 'Sitets Titel',
@@ -435,6 +439,8 @@ return [
             'LOG_HANDLER_HELP' => 'Hvor loggerne skal placeres',
             'SYSLOG_FACILITY' => 'Syslog-facilitet',
             'SYSLOG_FACILITY_HELP' => 'Syslog-facilitet til output',
+            'SYSLOG_TAG' => 'Syslog-tag',
+            'SYSLOG_TAG_HELP' => 'Syslog-tag til output',
             'DEBUGGER' => 'Fejlfinder',
             'DEBUGGER_HELP' => 'Aktivér Grav-fejlfinder og flg. indstillinger',
             'DEBUG_TWIG' => 'Fejlfind i Twig',
@@ -447,6 +453,8 @@ return [
             'CACHE_ALL_HELP' => 'Kør alle billeder - også ikke-manipulerede - gennem Gravs cache-system',
             'IMAGES_DEBUG' => 'Vandmærke ved debugging af billeder',
             'IMAGES_DEBUG_HELP' => 'Vis overlejring på billeder. Overlejringen indikerer billedets pixel-dybde til brug ved f.eks. visning på retina-skærme',
+            'IMAGES_DECODING' => 'Billedafkodningsadfærd',
+            'IMAGES_DECODING_HELP' => 'Afkodningsattributten lader en webbrowser udsætte billedafkodninger fra skærmen, indtil brugerne ruller i nærheden af dem. Afkodning understøtter tre værdier: auto, sync, async',
             'IMAGES_SEOFRIENDLY' => 'SEO-venlige billednavne',
             'IMAGES_SEOFRIENDLY_HELP' => 'Når aktiveret, vises billednavnet først, dernæst en mindre hash, der afspejler udførte operationer',
             'UPLOAD_LIMIT' => 'Fil-upload grænse',
@@ -793,7 +801,11 @@ Du har **2FA** aktiveret for denne konto. Benyt venligst din **2FA**-app til at 
             'SESSION_SECURE_HTTPS_HELP' => 'Opsæt sikker session for HTTPS, men ikke for HTTP. Har ingen effekt, hvis indstillinger over Sikker er sat til sand. Indstil til falsk, hvis webstedet hopper mellem HTTP og HTTPS.',
             'AVATAR' => 'Avatargenerator',
             'AVATAR_HELP' => 'Multiavatar er en lokalt genereret avatar. Gravatar er en ekstern tjeneste, der bruger din e-mailadresse til at trække en præopsat Avatar eksternt',
-            'AVATAR_HASH' => 'BEMÆRK: Valgfri tilpasset Avatar \'hash\'-streng'
+            'AVATAR_HASH' => 'BEMÆRK: Valgfri tilpasset Avatar \'hash\'-streng',
+            'IMAGES_TITLE' => 'Billeder',
+            'LEGACY_MEDIA_MUTATION' => 'Kompatibilitet til redigering af ældre medier',
+            'LEGACY_MEDIA_MUTATION_HELP' => 'Aktivér kun denne indstilling, hvis billedemanipulation fejlede efter Grav-opdatering.',
+            'BACKWARD_COMPATIBILITY' => 'Bagudkompatibilitet'
         ]
     ]
 ];

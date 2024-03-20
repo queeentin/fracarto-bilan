@@ -1,43 +1,43 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1710790294,
-    'checksum' => '28ea873de36cc859821ed5d5fbcf6237',
+    'timestamp' => 1710881868,
+    'checksum' => 'c849f086d84bf455cba3747051ada36e',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
                 'file' => 'user/plugins/admin/blueprints/config/media.yaml',
-                'modified' => 1710318268
+                'modified' => 1710754278
             ]
         ],
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1710318266
+                'modified' => 1710779798
             ]
         ],
         'user/plugins' => [
@@ -55,7 +55,7 @@ return [
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1710318266
+                'modified' => 1710754278
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
@@ -2252,6 +2252,19 @@ return [
                     'eager' => 'Eager'
                 ],
                 'name' => 'system.images.defaults.loading',
+                'validation' => 'loose'
+            ],
+            'system.images.defaults.decoding' => [
+                'type' => 'select',
+                'size' => 'small',
+                'label' => 'PLUGIN_ADMIN.IMAGES_DECODING',
+                'highlight' => 'auto',
+                'options' => [
+                    'auto' => 'Auto',
+                    'sync' => 'Sync',
+                    'async' => 'Async'
+                ],
+                'name' => 'system.images.defaults.decoding',
                 'validation' => 'loose'
             ],
             'system.images.seofriendly' => [
@@ -5663,7 +5676,8 @@ return [
                     'debug' => 'system.images.debug',
                     'auto_fix_orientation' => 'system.images.auto_fix_orientation',
                     'defaults' => [
-                        'loading' => 'system.images.defaults.loading'
+                        'loading' => 'system.images.defaults.loading',
+                        'decoding' => 'system.images.defaults.decoding'
                     ],
                     'seofriendly' => 'system.images.seofriendly',
                     'cls' => [

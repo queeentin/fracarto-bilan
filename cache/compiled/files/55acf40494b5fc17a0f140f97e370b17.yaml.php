@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/sk.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 27298,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -194,10 +194,10 @@ return [
             'PASSWORD' => 'Heslo',
             'PASSWORD_CONFIRM' => 'Potvrdenie hesla',
             'TITLE' => 'Názov',
-            'LANGUAGE' => 'Jazyk',
             'ACCOUNT' => 'Účet',
             'EMAIL_VALIDATION_MESSAGE' => 'Musí byť platná e-mailová adresa',
             'PASSWORD_VALIDATION_MESSAGE' => 'Heslo musí obsahovať najmenej jedno číslo a jedno veľké písmeno a malé písmeno a aspoň 8 znakov',
+            'LANGUAGE' => 'Jazyk',
             'LANGUAGE_HELP' => 'Obľúbený jazyk',
             'MEDIA' => 'Médiá',
             'DEFAULTS' => 'Predvolené nastavenia',

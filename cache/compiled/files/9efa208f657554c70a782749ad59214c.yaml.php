@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/lv.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 13935,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -187,10 +187,10 @@ return [
             'PASSWORD' => 'Parole',
             'PASSWORD_CONFIRM' => 'Apstipriniet paroli',
             'TITLE' => 'Virsraksts',
-            'LANGUAGE' => 'Valoda',
             'ACCOUNT' => 'Konts',
             'EMAIL_VALIDATION_MESSAGE' => 'Jābūt derīgai e-pasta adresei',
             'PASSWORD_VALIDATION_MESSAGE' => 'Parolei jāsatur vismaz viens cipars, viens lielais un viens mazais burts, un jāsastāv no vismaz 8 vai vairāk rakstzīmēm',
+            'LANGUAGE' => 'Valoda',
             'LANGUAGE_HELP' => 'Iestatiet izlases valodu',
             'MEDIA' => 'Multivide',
             'DEFAULTS' => 'Noklusējums',

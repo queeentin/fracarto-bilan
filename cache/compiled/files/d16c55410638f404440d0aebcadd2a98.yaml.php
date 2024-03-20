@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/si.yaml',
-    'modified' => 1710318268,
-    'size' => 121130,
+    'modified' => 1710754278,
+    'size' => 121153,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'කරුණාකර ඔබගේ බ්‍රවුසරයේ JavaScript සක්‍රීය කරන්න.',
@@ -209,10 +209,10 @@ return [
             'PASSWORD' => 'මුරපදය',
             'PASSWORD_CONFIRM' => 'මුරපදය තහවුරු කරන්න',
             'TITLE' => 'ශීර්ෂය',
-            'LANGUAGE' => 'භාෂාව',
             'ACCOUNT' => 'ගිණුම',
             'EMAIL_VALIDATION_MESSAGE' => 'වලංගු ඊමේල් ලිපිනයක් විය යුතුය',
             'PASSWORD_VALIDATION_MESSAGE' => 'මුරපදයේ අවම වශයෙන් එක් අංකයක් සහ එක් ලොකු අකුරු සහ කුඩා අකුරක් සහ අවම වශයෙන් අක්ෂර 8ක් හෝ වැඩි ගණනක් අඩංගු විය යුතුය',
+            'LANGUAGE' => 'භාෂාව',
             'LANGUAGE_HELP' => 'ප්රියතම භාෂාව සකසන්න',
             'MEDIA' => 'මාධ්යය',
             'DEFAULTS' => 'පෙරනිමි',

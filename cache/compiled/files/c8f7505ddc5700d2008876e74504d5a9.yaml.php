@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/system/config/system.yaml',
-    'modified' => 1710318266,
-    'size' => 18168,
+    'modified' => 1710779798,
+    'size' => 18254,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -215,7 +215,8 @@ return [
                 'retina_scale' => 1
             ],
             'defaults' => [
-                'loading' => 'auto'
+                'loading' => 'auto',
+                'decoding' => 'auto'
             ],
             'watermark' => [
                 'image' => 'system://images/watermark.png',

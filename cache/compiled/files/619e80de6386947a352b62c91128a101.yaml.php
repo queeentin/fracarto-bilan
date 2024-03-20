@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/pt.yaml',
-    'modified' => 1710318268,
-    'size' => 34185,
+    'modified' => 1710754278,
+    'size' => 34208,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Por favor, ative o JavaScript no seu navegador.',
@@ -211,10 +211,10 @@ return [
             'PASSWORD' => 'Palavra-passe',
             'PASSWORD_CONFIRM' => 'Confirma a tua Palavra-passe',
             'TITLE' => 'Título',
-            'LANGUAGE' => 'Idioma',
             'ACCOUNT' => 'Conta',
             'EMAIL_VALIDATION_MESSAGE' => 'Deve ser um endereço de email válido',
             'PASSWORD_VALIDATION_MESSAGE' => 'A palavra-passe deve conter pelo menos um número e uma letra maiúscula e minúsculas e pelo menos 8 ou mais caracteres',
+            'LANGUAGE' => 'Idioma',
             'LANGUAGE_HELP' => 'Definir o idioma preferido',
             'MEDIA' => 'Suporte multimédia',
             'DEFAULTS' => 'Padrões',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/sv.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 34082,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -204,10 +204,10 @@ return [
             'PASSWORD' => 'Lösenord',
             'PASSWORD_CONFIRM' => 'Bekräfta lösenord',
             'TITLE' => 'Titel',
-            'LANGUAGE' => 'Språk',
             'ACCOUNT' => 'Konto',
             'EMAIL_VALIDATION_MESSAGE' => 'Måste vara en giltig e-postadress',
             'PASSWORD_VALIDATION_MESSAGE' => 'Lösenordet måste innehålla minst en siffra och en versal och gemen och minst 8 tecken',
+            'LANGUAGE' => 'Språk',
             'LANGUAGE_HELP' => 'Ställ in favoritspråk',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Standard',

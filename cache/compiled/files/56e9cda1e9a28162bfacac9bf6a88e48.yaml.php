@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/my.yaml',
-    'modified' => 1710318268,
-    'size' => 66161,
+    'modified' => 1710754278,
+    'size' => 66184,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'ကျေးဇူးပြုပြီးမင်းရဲ့ browser မှာ JavaScript ကိုဖွင့်ပေးပါ။ ',
@@ -210,10 +210,10 @@ return [
             'PASSWORD' => 'Password',
             'PASSWORD_CONFIRM' => 'Confirm Password',
             'TITLE' => 'Title',
-            'LANGUAGE' => 'Language',
             'ACCOUNT' => 'Account',
             'EMAIL_VALIDATION_MESSAGE' => 'Must be a valid email address',
             'PASSWORD_VALIDATION_MESSAGE' => 'Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters',
+            'LANGUAGE' => 'Language',
             'LANGUAGE_HELP' => 'Set the favorite language',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Defaults',

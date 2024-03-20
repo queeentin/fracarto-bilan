@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/nl.yaml',
-    'modified' => 1710318268,
-    'size' => 51780,
+    'modified' => 1710754278,
+    'size' => 51803,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Schakel JavaScript in uw browser in.',
@@ -210,10 +210,10 @@ return [
             'PASSWORD' => 'Wachtwoord',
             'PASSWORD_CONFIRM' => 'Bevestig wachtwoord',
             'TITLE' => 'Titel',
-            'LANGUAGE' => 'Taal',
             'ACCOUNT' => 'Account',
             'EMAIL_VALIDATION_MESSAGE' => 'Moet een geldig e-mailadres zijn',
             'PASSWORD_VALIDATION_MESSAGE' => 'Wachtwoord moet ten minste één nummer, één hoofdletter, één kleine letter en minstens 8 of meer tekens bevatten',
+            'LANGUAGE' => 'Taal',
             'LANGUAGE_HELP' => 'Favoriete taal instellen',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Standaardwaarden',

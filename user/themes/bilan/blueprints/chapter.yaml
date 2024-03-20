@@ -1,0 +1,22 @@
+blueprint: chapter
+
+title: Markdown sections
+extends@:
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          fields:
+
+            content:
+              unset@: true
+
+            header.media_order:
+              unset@: true

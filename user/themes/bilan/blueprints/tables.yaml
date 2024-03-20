@@ -1,4 +1,4 @@
-blueprint: tables
+blueprint: table
 
 title: Markdown tables
 extends@:
@@ -14,6 +14,12 @@ form:
       fields:
         content:
           fields:
+
+            content:
+              unset@: true
+
+            header.media_order:
+              unset@: true
 
             header.sections:
               type: list

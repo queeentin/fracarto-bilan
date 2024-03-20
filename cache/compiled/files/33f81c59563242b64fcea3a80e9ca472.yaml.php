@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/languages/fi.yaml',
-    'modified' => 1710318268,
+    'modified' => 1710754278,
     'size' => 10640,
     'data' => [
         'PLUGIN_ADMIN' => [
@@ -181,10 +181,10 @@ return [
             'PASSWORD' => 'Salasana',
             'PASSWORD_CONFIRM' => 'Toista salasana',
             'TITLE' => 'Otsikko',
-            'LANGUAGE' => 'Kieli',
             'ACCOUNT' => 'Käyttäjätili',
             'EMAIL_VALIDATION_MESSAGE' => 'Sähköpostin pitää olla validi',
             'PASSWORD_VALIDATION_MESSAGE' => 'Salasanan tulee sisältää vähintään yksi numero ja yksi iso ja pieni kirjain, ja olla vähintään 8 merkkiä pitkä',
+            'LANGUAGE' => 'Kieli',
             'LANGUAGE_HELP' => 'Aseta suosikki kieli',
             'MEDIA' => 'Media',
             'DEFAULTS' => 'Oletukset',

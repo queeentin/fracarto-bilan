@@ -85,7 +85,10 @@ class __TwigTemplate_168cdcfee3100f60a1d6a8b3a2df120eb281c1fd7fabf46f1c9dff540cb
             }
             echo "\">
     <div class=\"form-label\">
-        <label class=\"media-collapser\">
+        <label class=\"media-collapser ";
+            // line 33
+            echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "labelclasses", []), "html", null, true);
+            echo "\">
           <i class=\"fa fa-fw small fa-chevron-";
             // line 34
             echo (($this->getAttribute(($context["pageMediaStore"] ?? null), "collapsed", [])) ? ("right") : ("down"));
@@ -181,7 +184,7 @@ class __TwigTemplate_168cdcfee3100f60a1d6a8b3a2df120eb281c1fd7fabf46f1c9dff540cb
 
     public function getDebugInfo()
     {
-        return array (  163 => 60,  158 => 57,  153 => 54,  145 => 52,  143 => 51,  138 => 49,  134 => 48,  130 => 47,  126 => 46,  122 => 45,  118 => 44,  112 => 41,  106 => 38,  102 => 37,  95 => 35,  91 => 34,  83 => 31,  80 => 30,  77 => 29,  74 => 28,  71 => 27,  68 => 26,  65 => 25,  63 => 24,  60 => 23,  58 => 21,  57 => 20,  56 => 19,  55 => 16,  54 => 15,  53 => 12,  52 => 11,  50 => 8,  47 => 7,  45 => 6,  42 => 5,  37 => 1,  35 => 3,  29 => 1,);
+        return array (  166 => 60,  161 => 57,  156 => 54,  148 => 52,  146 => 51,  141 => 49,  137 => 48,  133 => 47,  129 => 46,  125 => 45,  121 => 44,  115 => 41,  109 => 38,  105 => 37,  98 => 35,  94 => 34,  90 => 33,  83 => 31,  80 => 30,  77 => 29,  74 => 28,  71 => 27,  68 => 26,  65 => 25,  63 => 24,  60 => 23,  58 => 21,  57 => 20,  56 => 19,  55 => 16,  54 => 15,  53 => 12,  52 => 11,  50 => 8,  47 => 7,  45 => 6,  42 => 5,  37 => 1,  35 => 3,  29 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -226,7 +229,7 @@ class __TwigTemplate_168cdcfee3100f60a1d6a8b3a2df120eb281c1fd7fabf46f1c9dff540cb
 
     <div class=\"pagemedia-field form-field grid vertical {% if field.classes is defined %}{{ field.classes }}{% endif %}\">
     <div class=\"form-label\">
-        <label class=\"media-collapser\">
+        <label class=\"media-collapser {{ field.labelclasses }}\">
           <i class=\"fa fa-fw small fa-chevron-{{ pageMediaStore.collapsed ? 'right' : 'down' }}\"></i>
           {{ field.label|t }} <span data-pagemedia-count>({{ admin.page.media|length }})</span>
         </label>

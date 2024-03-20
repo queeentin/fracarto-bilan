@@ -1,0 +1,43 @@
+.communes h2{
+    page-break-after: avoid;
+}
+
+.communes #container{
+    position: absolute;
+    bottom: 0;
+    columns: 2;
+}
+
+.communes p{
+    text-align: left;
+    text-indent: 0;
+    hyphens: none;
+}
+
+.communes .dptmt{
+    display: flex;
+    gap: 4mm;
+    break-inside: avoid-column;
+}
+
+.communes .dptmt:first-child{
+    margin-bottom: 13pt;
+}
+
+.communes .head p:first-child{
+    font-weight: 900;
+}
+
+.communes .head p:nth-child(2){
+    font-family: "Fana";
+}
+
+.communes ul li{
+    list-style: none;
+}
+
+.communes #sum{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/plugins/admin/blueprints.yaml',
-    'modified' => 1710318266,
+    'modified' => 1710754278,
     'size' => 25885,
     'data' => [
         'name' => 'Admin Panel',
         'slug' => 'admin',
         'type' => 'plugin',
-        'version' => '1.10.44',
+        'version' => '1.10.45',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
