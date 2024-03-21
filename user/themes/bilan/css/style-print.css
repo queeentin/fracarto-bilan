@@ -170,7 +170,7 @@ hr {
 /* Columns x-position */
 
 .pagedjs_area{
-    background-image: url("../images/fond-grille.png");
+    /* background-image: url("../images/fond-grille.png"); */
     background-size: cover;
 }
 

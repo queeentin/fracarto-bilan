@@ -39,13 +39,13 @@ class __TwigTemplate_85816ab4f5349455f3d69ecb54dda11b9fcd0d722291a44301a674bd2f7
 ";
         // line 4
         $this->displayBlock('head', $context, $blocks);
-        // line 32
+        // line 53
         echo "
 <body>
     ";
-        // line 34
+        // line 55
         $this->displayBlock('body', $context, $blocks);
-        // line 37
+        // line 58
         echo "</body>
 
 </html>
@@ -85,39 +85,60 @@ class __TwigTemplate_85816ab4f5349455f3d69ecb54dda11b9fcd0d722291a44301a674bd2f7
     <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1\">
     <title>Book template Paged.js</title>
 
+    <!-- Table to div -->
+    <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>
+    <script type=\"application/javascript\" src=\"";
+        // line 20
+        echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://js/dividize.js"), "html", null, true);
+        echo "\"></script>
+
     <!-- Paged.js-->
     <script src=\"";
-        // line 19
+        // line 23
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://pagedjs/paged.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 20
+        // line 24
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://pagedjs/interface.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 21
+        // line 25
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://pagedjs/reload-in-place.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 22
+        // line 26
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://js/handlers.js"), "html", null, true);
         echo "\"></script>
-    <script src=\"";
-        // line 23
-        echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://js/scripts.js"), "html", null, true);
-        echo "\"></script>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 24
+        // line 27
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://pagedjs/interface-header.css"), "html", null, true);
         echo "\"/>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"";
-        // line 25
+        // line 28
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://pagedjs/interface.css"), "html", null, true);
         echo "\"/>
 
+    <script type=\"application/javascript\">
+        class linkCleaning extends Paged.Handler {
+            constructor(chunker, polisher, caller) {
+                super(chunker, polisher, caller);
+            }
+
+            beforePageLayout(page) {
+                //   Before the content is layout by Paged.js, please do the following:
+                \$(document).ready(function(){
+                    \$(\"table\").dividize({
+                        preserveDim : true
+                    });
+                });
+            }
+        }
+        Paged.registerHandlers(linkCleaning);
+    </script>
+
     <!-- Fonts -->
     <link rel=\"stylesheet\" href=\"";
-        // line 28
+        // line 49
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://fonts/fonts.css"), "html", null, true);
         echo "\">
     
@@ -125,17 +146,17 @@ class __TwigTemplate_85816ab4f5349455f3d69ecb54dda11b9fcd0d722291a44301a674bd2f7
 ";
     }
 
-    // line 34
+    // line 55
     public function block_body($context, array $blocks = [])
     {
-        // line 35
+        // line 56
         echo "        ";
         $this->displayBlock('content', $context, $blocks);
-        // line 36
+        // line 57
         echo "    ";
     }
 
-    // line 35
+    // line 56
     public function block_content($context, array $blocks = [])
     {
     }
@@ -152,7 +173,7 @@ class __TwigTemplate_85816ab4f5349455f3d69ecb54dda11b9fcd0d722291a44301a674bd2f7
 
     public function getDebugInfo()
     {
-        return array (  139 => 35,  135 => 36,  132 => 35,  129 => 34,  121 => 28,  115 => 25,  111 => 24,  107 => 23,  103 => 22,  99 => 21,  95 => 20,  91 => 19,  80 => 11,  76 => 10,  73 => 9,  71 => 8,  62 => 6,  59 => 5,  56 => 4,  49 => 37,  47 => 34,  43 => 32,  41 => 4,  36 => 2,  33 => 1,);
+        return array (  160 => 56,  156 => 57,  153 => 56,  150 => 55,  142 => 49,  118 => 28,  114 => 27,  110 => 26,  106 => 25,  102 => 24,  98 => 23,  92 => 20,  80 => 11,  76 => 10,  73 => 9,  71 => 8,  62 => 6,  59 => 5,  56 => 4,  49 => 58,  47 => 55,  43 => 53,  41 => 4,  36 => 2,  33 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -182,14 +203,35 @@ class __TwigTemplate_85816ab4f5349455f3d69ecb54dda11b9fcd0d722291a44301a674bd2f7
     <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1\">
     <title>Book template Paged.js</title>
 
+    <!-- Table to div -->
+    <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>
+    <script type=\"application/javascript\" src=\"{{ url('theme://js/dividize.js') }}\"></script>
+
     <!-- Paged.js-->
     <script src=\"{{ url('theme://pagedjs/paged.js') }}\"></script>
     <script src=\"{{ url('theme://pagedjs/interface.js') }}\"></script>
     <script src=\"{{ url('theme://pagedjs/reload-in-place.js') }}\"></script>
     <script src=\"{{ url('theme://js/handlers.js') }}\"></script>
-    <script src=\"{{ url('theme://js/scripts.js') }}\"></script>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ url('theme://pagedjs/interface-header.css') }}\"/>
     <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ url('theme://pagedjs/interface.css') }}\"/>
+
+    <script type=\"application/javascript\">
+        class linkCleaning extends Paged.Handler {
+            constructor(chunker, polisher, caller) {
+                super(chunker, polisher, caller);
+            }
+
+            beforePageLayout(page) {
+                //   Before the content is layout by Paged.js, please do the following:
+                \$(document).ready(function(){
+                    \$(\"table\").dividize({
+                        preserveDim : true
+                    });
+                });
+            }
+        }
+        Paged.registerHandlers(linkCleaning);
+    </script>
 
     <!-- Fonts -->
     <link rel=\"stylesheet\" href=\"{{ url('theme://fonts/fonts.css') }}\">

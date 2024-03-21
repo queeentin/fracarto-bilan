@@ -6,7 +6,9 @@
     font-size: 7pt;
     line-height: 9pt;
     border-collapse: collapse;
-    break-inside: auto
+}
+
+tbody{
 }
 
 table *{

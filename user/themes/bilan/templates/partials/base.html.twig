@@ -15,14 +15,35 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Book template Paged.js</title>
 
+    <!-- Table to div -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="application/javascript" src="{{ url('theme://js/dividize.js') }}"></script>
+
     <!-- Paged.js-->
     <script src="{{ url('theme://pagedjs/paged.js') }}"></script>
     <script src="{{ url('theme://pagedjs/interface.js') }}"></script>
     <script src="{{ url('theme://pagedjs/reload-in-place.js') }}"></script>
     <script src="{{ url('theme://js/handlers.js') }}"></script>
-    <script src="{{ url('theme://js/scripts.js') }}"></script>
     <link rel="stylesheet" type="text/css" href="{{ url('theme://pagedjs/interface-header.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ url('theme://pagedjs/interface.css') }}"/>
+
+    <script type="application/javascript">
+        class linkCleaning extends Paged.Handler {
+            constructor(chunker, polisher, caller) {
+                super(chunker, polisher, caller);
+            }
+
+            beforePageLayout(page) {
+                //   Before the content is layout by Paged.js, please do the following:
+                $(document).ready(function(){
+                    $("table").dividize({
+                        preserveDim : true
+                    });
+                });
+            }
+        }
+        Paged.registerHandlers(linkCleaning);
+    </script>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ url('theme://fonts/fonts.css') }}">

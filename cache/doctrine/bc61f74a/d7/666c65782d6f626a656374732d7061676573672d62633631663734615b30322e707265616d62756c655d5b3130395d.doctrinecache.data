@@ -1,4 +1,4 @@
-1710898668
+1711059525
 O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:9:"preambule";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:10:"Préambule";s:12:"body_classes";s:8:"preamble";}s:11:"frontmatter";s:40:"title: Préambule
 body_classes: preamble";s:8:"markdown";s:23:"Texte CT
 
