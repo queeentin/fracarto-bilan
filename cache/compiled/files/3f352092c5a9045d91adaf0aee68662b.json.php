@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/data/flex/indexes/pages.json',
-    'modified' => 1711059026,
-    'size' => 7821,
+    'modified' => 1711130827,
+    'size' => 7835,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1711059026,
+        'timestamp' => 1711130827,
         'count' => 21,
         'index' => [
             '' => [
@@ -96,13 +96,13 @@ return [
                 'key' => 'actions-du-frac-artotheque-en-2022/des-collections-pour-tous',
                 'storage_key' => '03.actions-du-frac-artotheque-en-2022/03.des-collections-pour-tous',
                 'template' => 'text',
-                'storage_timestamp' => 1710879022,
+                'storage_timestamp' => 1711062412,
                 'markdown' => [
                     '' => [
-                        'text' => 1710850364
+                        'text' => 1711062412
                     ]
                 ],
-                'checksum' => 'c9f6114f183348c578f4c6dc30e38eda'
+                'checksum' => 'b48357bb71e3191180f573094484eebe'
             ],
             '03.actions-du-frac-artotheque-en-2022/04.des-collections-qui-voyagent' => [
                 'key' => 'actions-du-frac-artotheque-en-2022/des-collections-qui-voyagent',
@@ -203,26 +203,26 @@ return [
             '05.annexes/01.liste-des-acquisitions-2023-de-la-collection-frac' => [
                 'key' => 'annexes/liste-des-acquisitions-2023-de-la-collection-frac',
                 'storage_key' => '05.annexes/01.liste-des-acquisitions-2023-de-la-collection-frac',
-                'template' => 'other',
-                'storage_timestamp' => 1710895657,
+                'template' => 'acquisitions',
+                'storage_timestamp' => 1711115413,
                 'markdown' => [
                     '' => [
-                        'other' => 1710895608
+                        'acquisitions' => 1711115413
                     ]
                 ],
-                'checksum' => '06944b062c0b4bd750b9faebcaed5c8e'
+                'checksum' => '1c1f0b664451bae40b36a5655f793273'
             ],
             '05.annexes/02.liste-des-prets-et-depots-de-la-collection-frac-2023' => [
                 'key' => 'annexes/liste-des-prets-et-depots-de-la-collection-frac-2023',
                 'storage_key' => '05.annexes/02.liste-des-prets-et-depots-de-la-collection-frac-2023',
                 'template' => 'tables',
-                'storage_timestamp' => 1710895749,
+                'storage_timestamp' => 1711130827,
                 'markdown' => [
                     '' => [
-                        'tables' => 1710318268
+                        'tables' => 1711130827
                     ]
                 ],
-                'checksum' => 'aa109618e0d2e8b6a035dea9a45bfcf0'
+                'checksum' => '944e4251fa69fe8b512d26317cd65cb2'
             ],
             '05.annexes/03.liste-des-premieres-oeuvres-presentees-dans-la-reserve-virtuelle-pour-louverture-du-futur-frac-artotheque' => [
                 'key' => 'annexes/liste-des-premieres-oeuvres-presentees-dans-la-reserve-virtuelle-pour-louverture-du-futur-frac-artotheque',

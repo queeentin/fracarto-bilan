@@ -1,0 +1,33 @@
+.acquisitions{
+    column-count: 3;
+    page-break-after: always;
+}
+
+.acquisitions .artsheet{
+    break-inside: avoid-column;
+    margin-bottom: 13pt;
+}
+
+.acquisitions .artsheet .number{
+    font-family: "Big Daily";
+    font-weight: 900;
+    font-style: italic;
+}
+
+.acquisitions .artsheet .author{
+    font-weight: 800;
+}
+
+.acquisitions .artsheet .title{
+    font-weight: 600;
+}
+
+.acquisitions p{
+    text-indent: 0;
+    text-align: center;
+    hyphens: none;
+}
+
+.acquisitions .title, .acquisitions .description{
+    margin-bottom: 13pt;
+}

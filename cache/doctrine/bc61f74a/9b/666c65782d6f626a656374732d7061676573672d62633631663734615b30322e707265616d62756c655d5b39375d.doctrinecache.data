@@ -1,7 +1,0 @@
-1710898265
-O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:9:"preambule";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:10:"Préambule";s:12:"body_classes";s:8:"preamble";}s:11:"frontmatter";s:40:"title: Préambule
-body_classes: preamble";s:8:"markdown";s:23:"Texte CT
-
----
-
-Texte CT";}s:7:"storage";a:6:{s:3:"key";s:9:"preambule";s:11:"storage_key";s:12:"02.preambule";s:8:"template";s:5:"other";s:17:"storage_timestamp";i:1710882587;s:8:"markdown";a:1:{s:0:"";a:1:{s:5:"other";i:1710882587;}}s:8:"checksum";s:32:"2ce92bbf77b3865aabeb558eeb768b9a";}}
