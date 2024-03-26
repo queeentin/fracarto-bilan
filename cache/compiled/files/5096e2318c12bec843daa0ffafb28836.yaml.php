@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/config/system.yaml',
-    'modified' => 1711105616,
+    'modified' => 1711477986,
     'size' => 575,
     'data' => [
         'absolute_urls' => false,

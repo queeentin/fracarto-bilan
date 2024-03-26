@@ -4,6 +4,8 @@
 @import "preamble.css";
 @import "communes.css";
 @import "acquisitions.css";
+@import "list.css";
+@import "sommaire.css";
 
 /* Page properties */
 
@@ -37,14 +39,17 @@
 
 /* Headers */
 
-h1{
-    font-family: "Fana";
-    font-size: 51pt;
-    line-height: 54pt;
+div.cover{
     page-break-before: always;
     page-break-after: always;
+}
+
+pre{
+    font-family: "Fana";
+    font-size: 49pt;
+    line-height: 54pt;
     width: 100%;
-    word-break: break-all;
+    margin: 0;
 }
 
 h2{
@@ -54,8 +59,6 @@ h2{
     font-size: 46pt;
     line-height: 39pt;
     text-align: center;
-    page-break-before: always;
-    page-break-after: always;
     margin: 0;
 }
 
@@ -171,8 +174,12 @@ hr {
 /* Columns x-position */
 
 .pagedjs_area{
-    /* background-image: url("../images/fond-grille.png"); */
+    background-image: url("../images/fond-grille.png");
     background-size: cover;
+}
+
+.interface-preview .pagedjs_area{
+    background-image: none;
 }
 
 .pos-1{
@@ -219,4 +226,24 @@ hr {
 }
 .col-7{
     width: var(--page-width);
+}
+
+/* Cover image */
+
+.cover figure{
+    position: absolute;
+    top: -19mm;
+    left: -18mm;
+    width: 216mm;
+    height: 310mm;
+    z-index: -1;
+    page-break-after: always;
+    background-color: yellowgreen;
+}
+
+.cover figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: screen;
 }

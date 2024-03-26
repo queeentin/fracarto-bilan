@@ -11,7 +11,14 @@
 
                 {# Blueprint chapter #}
                 <div class="{{ parent_page.header.body_classes }}">
-                    <h1>{{ parent_page.title }}</h1>
+                    <div class="cover">
+                        <pre>{{ parent_page.header.tiitle|raw }}</pre>
+                        <figure>
+                            {% set cover = parent_page.header.cover %}
+                            {% set imageKey = (cover|keys)|first %}
+                            <img src="user/pages/{{ parent_page.folder() ~ '/' ~ cover[imageKey].path }}">
+                        </figure>
+                    </div>
                     {{ parent_page.content|raw|markdown }}
                 </div>
 
@@ -21,14 +28,28 @@
                         {% if child_page.blueprint.blueprint == "other" %}
                             <div class="{{ child_page.header.body_classes }}">
                                 {% if child_page.header.visibletitle %}
-                                    <h2>{{ child_page.title }}</h2>
+                                    <div class="cover">
+                                        <h2>{{ child_page.header.tiitle }}</h2>
+                                        <figure>
+                                            {% set cover = child_page.header.cover %}
+                                            {% set imageKey = (cover|keys)|first %}
+                                            <img src="user/pages/{{ parent_page.folder() ~ '/' ~ child_page.folder() ~ '/' ~ cover[imageKey].path }}">
+                                        </figure>
+                                    </div>
                                 {% endif %}
                                 {{ child_page.content|raw|markdown }}
                             </div>
 
                         {# Blueprints text, tables #}
                         {% else %}
-                            <h2>{{ child_page.title }}</h2>
+                            <div class="cover">
+                                <h2>{{ child_page.header.tiitle }}</h2>
+                                <figure>
+                                    {% set cover = child_page.header.cover %}
+                                    {% set imageKey = (cover|keys)|first %}
+                                    <img src="user/pages/{{ parent_page.folder() ~ '/' ~ child_page.folder() ~ '/' ~ cover[imageKey].path }}">
+                                </figure>
+                            </div>
                             {% for item in child_page.header.sections %}
                                 {% set item_class = child_page.blueprint.blueprint %}
                                 <div class="{{item_class}} {{ item.class_name }}">

@@ -1,6 +1,8 @@
 ---
 title: Chiffres
 body_classes: chiffres
+visibletitle: false
+cover: {  }
 ---
 
 **<span>8</span> expositions tout public concernant <br><span>26</span> œuvres de la collection Frac et <br><span>32</span> œuvres de la collection Artothèque**

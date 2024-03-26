@@ -1,6 +1,7 @@
 ---
 title: Carte
-sections:
+visibletitle: false
+cover: {  }
 ---
 
 CARTE en double page : liste des villes toutes actions classées par département

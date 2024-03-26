@@ -1,5 +1,7 @@
 ---
 title: Outro
+tiitle: outro
+cover: {  }
 ---
 
 Le FRAC-ARTOTHÈQUE NOUVELLE-AQUITAINE

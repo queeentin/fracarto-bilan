@@ -2,6 +2,8 @@
 title: 'Liste des communes et communautés adhérentes au FACLim 2023'
 body_classes: communes
 visibletitle: true
+tiitle: 'Liste des communes et communautés adhérentes au FACLim 2023'
+cover: {  }
 ---
 
 <div id="container"  class="pos-2">

@@ -2,15 +2,21 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/03.actions-du-frac-artotheque-en-2022/01.chiffres/other.md',
-    'modified' => 1710880589,
-    'size' => 2278,
+    'modified' => 1711480666,
+    'size' => 2310,
     'data' => [
         'header' => [
             'title' => 'Chiffres',
-            'body_classes' => 'chiffres'
+            'body_classes' => 'chiffres',
+            'visibletitle' => false,
+            'cover' => [
+                
+            ]
         ],
         'frontmatter' => 'title: Chiffres
-body_classes: chiffres',
+body_classes: chiffres
+visibletitle: false
+cover: {  }',
         'markdown' => '**<span>8</span> expositions tout public concernant <br><span>26</span> œuvres de la collection Frac et <br><span>32</span> œuvres de la collection Artothèque**
 Corrèze : Argentat <br>
 Creuse : Châtelus-le-Marcheix, Saint-Goussaud<br>

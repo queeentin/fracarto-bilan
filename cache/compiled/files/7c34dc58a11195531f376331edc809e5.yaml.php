@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/themes/bilan/blueprints/other.yaml',
-    'modified' => 1710895319,
-    'size' => 546,
+    'modified' => 1711459088,
+    'size' => 486,
     'data' => [
         'blueprint' => 'other',
         'title' => 'Markdown sections',
@@ -31,9 +31,6 @@ return [
                                     'validate' => [
                                         'type' => 'bool'
                                     ]
-                                ],
-                                'header.media_order' => [
-                                    'unset@' => true
                                 ]
                             ]
                         ]

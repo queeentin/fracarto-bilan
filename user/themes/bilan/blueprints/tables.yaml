@@ -33,6 +33,8 @@ form:
                   type: select
                   label: Type de tableau
                   options:
+                    t-col-2: 2 colonnes
+                    t-col-3: 3 colonnes
                     t-col-4: 4 colonnes
                     t-col-5: 5 colonnes
                     t-col-5b: 5 colonnes bis

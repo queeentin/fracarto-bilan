@@ -1,4 +1,3 @@
-.preamble h1{
-    page-break-before: avoid !important;
+.preamble .cover{
     page-break-after: avoid !important;
 }

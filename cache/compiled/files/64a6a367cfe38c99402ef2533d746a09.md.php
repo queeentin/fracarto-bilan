@@ -2,15 +2,19 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/03.actions-du-frac-artotheque-en-2022/02.carte/other.md',
-    'modified' => 1710880791,
-    'size' => 206,
+    'modified' => 1711480679,
+    'size' => 228,
     'data' => [
         'header' => [
             'title' => 'Carte',
-            'sections' => NULL
+            'visibletitle' => false,
+            'cover' => [
+                
+            ]
         ],
         'frontmatter' => 'title: Carte
-sections:',
+visibletitle: false
+cover: {  }',
         'markdown' => 'CARTE en double page : liste des villes toutes actions classées par département
 
 ---

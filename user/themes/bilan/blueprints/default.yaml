@@ -4,3 +4,27 @@ title: Markdown sections
 extends@:
   type: default
   context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:          
+          fields:
+
+            header.title:
+              unset@: true
+
+            header.tiitle:
+              type: textarea
+              label: Titre
+            header.cover:
+              type: file
+              label: Image de fond
+              accept:
+                - image/*
+              multiple: false
+              preview_images: true

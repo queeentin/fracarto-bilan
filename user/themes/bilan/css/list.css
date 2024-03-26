@@ -1,0 +1,66 @@
+.list .cover{
+    page-break-after: avoid;
+}
+
+.list h2{
+    letter-spacing: -0.013em;
+}
+
+.list > figure{
+    margin: 0;
+    width: 100%;
+    margin-top: 12mm;
+    page-break-after: always;
+}
+
+.list #container{
+    column-count: 2;
+    column-gap: 4mm;
+}
+
+.list .artist{
+    display: flex;
+    gap: 4mm;
+    margin-bottom: 9pt;
+    border-top: 0.25pt solid black;
+}
+
+.list p{
+    font-size: 7pt !important;
+    line-height: 9pt !important;
+    font-weight: 800;
+    text-indent: 0 !important;
+    white-space: nowrap;
+    width: 30mm;
+}
+
+.list ul{
+    flex: 1 1 0;
+    font-size: 7pt !important;
+    line-height: 9pt !important;
+}
+
+.list li{
+    padding: 0.5em 0;
+    list-style-type: none;
+}
+
+.list ul li:not(:first-of-type){
+    border-top: 0.25pt solid black;
+}
+
+.list figure.paysage{
+    margin: 0 0 9pt 0;
+}
+
+.list figure.portrait{
+    margin: 0 0 9pt 34mm;
+}
+
+.list figure figcaption{
+    font-size: 7pt;
+    line-height: 9pt;
+    position: relative;
+    left: unset;
+    width: 100%;
+}

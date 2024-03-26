@@ -25,6 +25,3 @@ form:
                   0: 'Non'
               validate:
                   type: bool
-
-            header.media_order:
-              unset@: true

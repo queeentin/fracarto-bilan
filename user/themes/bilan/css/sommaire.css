@@ -1,0 +1,47 @@
+.sommaire h2{
+    page-break-after: avoid;
+}
+
+.sommaire #container{
+    column-count: 2;
+    column-gap: 4mm;
+    margin-top: 52pt;
+}
+
+.sommaire #container:first-child{
+    page-break-after: always;
+}
+
+.sommaire p{
+    display: flex;
+    text-indent: 0;
+    text-align: left;
+}
+
+.sommaire #container p:not(:first-child){
+    margin: 13pt 0;
+}
+
+.sommaire #container p span:first-child{
+    margin-right: 0.5em;
+}
+
+.sommaire #container p.h1{
+    font-weight: 900;
+}
+
+.sommaire #container p.h2{
+    margin-left: 2em;
+    font-weight: 900;
+    border-bottom: 0.25pt solid black;
+}
+
+.sommaire #container p.h3{
+    font-weight: 600;
+    margin-left: 4em;
+}
+
+.sommaire #container p.h4{
+    font-weight: 300;
+    margin: 0 0 0 6em;
+}
