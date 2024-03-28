@@ -1,0 +1,83 @@
+1711551726
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:67:"annexes/liste-des-communes-et-communautes-adherentes-au-faclim-2023";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:5:{s:5:"title";s:61:"Liste des communes et communautés adhérentes au FACLim 2023";s:12:"body_classes";s:8:"communes";s:12:"visibletitle";b:1;s:6:"tiitle";s:61:"Liste des communes et communautés adhérentes au FACLim 2023";s:5:"cover";a:1:{s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";a:4:{s:4:"name";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:4584198;s:4:"path";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";}}}s:11:"frontmatter";s:409:"title: 'Liste des communes et communautés adhérentes au FACLim 2023'
+body_classes: communes
+visibletitle: true
+tiitle: 'Liste des communes et communautés adhérentes au FACLim 2023'
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg
+        type: image/jpeg
+        size: 4584198
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";s:8:"markdown";s:2130:"<div id="container"  class="pos-2">
+    <div class="dptmt">
+        <div class="head col-1">
+            <p>Corrèze</p>
+            <p>5</p>
+            <p style="letter-spacing:  -.02em">dont une communauté de communes</p>
+        </div>
+        <ul class="col-2">
+            <li>Égletons</li>
+            <li>La Roche-Canillac</li>
+            <li>Lamazière-Basse</li>
+            <li>Tulle</li>
+            <li>Xaintrie Val’ Dordogne (communauté de communes)</li>
+        </ul>
+    </div>
+
+    <div class="dptmt">
+        <div class="head col-1">
+            <p>Creuse</p>
+            <p>7</p>
+        </div>
+        <ul class="col-2">
+            <li>Bourganeuf</li>
+            <li>Châtelus-le-Marcheix</li>
+            <li>La Villedieu</li>
+            <li>Moutier-d'Ahun</li>
+            <li>Royère-de-Vassivière</li>
+            <li>Saint-Goussaud</li>
+            <li>Saint-Martin-Château</li>
+        </ul>
+    </div>
+
+    <div class="dptmt">
+        <div class="head col-1">
+            <p>Haute&#8209;Vienne</p>
+            <p>24</p>
+        </div>
+        <ul class="col-2">
+            <li>Champagnac-la-rivière</li>
+            <li>Compreignac</li>
+            <li>Condat-sur-Vienne</li>
+            <li>Droux</li>
+            <li>Eymoutiers</li>
+            <li>La Geneytouse</li>
+            <li>Le Chalard</li>
+            <li>Le Palais-sur-Vienne</li>
+            <li>Le Vigen</li>
+            <li>Meuzac</li>
+            <li>Nedde</li>
+            <li>Oradour-sur-Glane</li>
+            <li>Peyrat-le-Château</li>
+            <li>Razès</li>
+            <li>Rilhac-Rancon </li>
+            <li>Rochechouart</li>
+            <li>Saint-Brice-sur-Vienne</li>
+            <li>Saint-Gilles-les-Forêts</li>
+            <li>Saint-Junien</li>
+            <li>Saint-Léonard-de-Noblat</li>
+            <li>Saint-Martin-de-Jussac</li>
+            <li>Saint-Sulpice-Laurière</li>
+            <li>Saint-Victurnien</li>
+            <li>Saint-Yrieix-la-Perche</li>
+        </ul>
+    </div>
+
+    <div id="sum">
+		<div class="head">
+            <p>Total</p>
+            <p>36</p>
+        </div>
+	</div>
+
+</div>";}s:7:"storage";a:6:{s:3:"key";s:67:"annexes/liste-des-communes-et-communautes-adherentes-au-faclim-2023";s:11:"storage_key";s:73:"05.annexes/06.liste-des-communes-et-communautes-adherentes-au-faclim-2023";s:8:"template";s:5:"other";s:17:"storage_timestamp";i:1711550604;s:8:"markdown";a:1:{s:0:"";a:1:{s:5:"other";i:1711530564;}}s:8:"checksum";s:32:"b13019ce9e02bfeb96dc08a8062df819";}}

@@ -1,0 +1,20 @@
+1711585637
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:34:"actions-du-frac-artotheque-en-2022";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:37:"Actions du frac—artothèque en 2022";s:6:"tiitle";s:72:"Actions
+ du
+  frac—
+arto
+ thèque
+nou
+ velle–
+aqui
+  taine
+
+en
+ 2022";s:5:"cover";a:1:{s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-09.jpg";a:4:{s:4:"name";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-09.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:4238573;s:4:"path";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-09.jpg";}}}s:11:"frontmatter";s:365:"title: 'Actions du frac—artothèque en 2022'
+tiitle: "Actions\n du\n  frac—\narto\n thèque\nnou\n velle–\naqui\n  taine\n\nen\n 2022"
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-09.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-09.jpg
+        type: image/jpeg
+        size: 4238573
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-09.jpg";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:34:"actions-du-frac-artotheque-en-2022";s:11:"storage_key";s:37:"03.actions-du-frac-artotheque-en-2022";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1711483334;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"chapter";i:1711483334;}}s:8:"children";a:6:{s:11:"01.chiffres";b:0;s:8:"02.carte";b:0;s:28:"03.des-collections-pour-tous";b:0;s:31:"04.des-collections-qui-voyagent";b:0;s:29:"05.tableaux-de-frequentations";b:0;s:44:"06.enrichissement-et-gestion-des-collections";b:0;}s:8:"checksum";s:32:"3364e3a5b8cba84211d078e8ffabdd06";}}

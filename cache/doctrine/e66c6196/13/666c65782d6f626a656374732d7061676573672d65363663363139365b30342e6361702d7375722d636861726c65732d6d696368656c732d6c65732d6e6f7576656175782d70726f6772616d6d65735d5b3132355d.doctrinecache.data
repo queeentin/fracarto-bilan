@@ -1,0 +1,19 @@
+1711531254
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:47:"cap-sur-charles-michels-les-nouveaux-programmes";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:51:"Cap sur charles—michels : les nouveaux Programmes";s:6:"tiitle";s:60:"cap
+  sur
+charles
+ mi
+  chels
+
+ les
+nou
+  veaux
+ pro
+grammes";s:5:"cover";a:1:{s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-19.jpg";a:4:{s:4:"name";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-19.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:3859862;s:4:"path";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-19.jpg";}}}s:11:"frontmatter";s:366:"title: 'Cap sur charles—michels : les nouveaux Programmes'
+tiitle: "cap\n  sur\ncharles\n mi\n  chels\n\n les\nnou\n  veaux\n pro\ngrammes"
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-19.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-19.jpg
+        type: image/jpeg
+        size: 3859862
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-19.jpg";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:47:"cap-sur-charles-michels-les-nouveaux-programmes";s:11:"storage_key";s:50:"04.cap-sur-charles-michels-les-nouveaux-programmes";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1711484566;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"chapter";i:1711484566;}}s:8:"children";a:2:{s:25:"01.programmes-artistiques";b:0;s:49:"02.programmes-de-developpement-et-de-valorisation";b:0;}s:8:"checksum";s:32:"e1e0d4999b2cb20da88c4a7b250f592b";}}

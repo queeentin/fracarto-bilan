@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/03.actions-du-frac-artotheque-en-2022/01.chiffres/other.md',
-    'modified' => 1711480666,
-    'size' => 2310,
+    'modified' => 1711537975,
+    'size' => 2305,
     'data' => [
         'header' => [
             'title' => 'Chiffres',
@@ -48,8 +48,6 @@ Creuse : Aubusson, Châtelus-le-Marcheix, Saint-Goussaud <br>
 Haute-Vienne : Beaumont-du-Lac, Limoges, Rochechouart, Saint-Sulpice-Laurière
 
 **<span>4</span>  formations professionnelles et formations des publics**
-Haute-Vienne : Beaumont-du-Lac, Limoges, Verneuil-sur-Vienne
-
----'
+Haute-Vienne : Beaumont-du-Lac, Limoges, Verneuil-sur-Vienne'
     ]
 ];

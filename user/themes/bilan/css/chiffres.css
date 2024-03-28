@@ -1,5 +1,11 @@
 div.chiffres{
-    break-before: always;
+    page-break-before: always;
+    page-break-after: always;
+    height: 270mm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h2.chiffres {
@@ -7,8 +13,7 @@ h2.chiffres {
 }
 
 .chiffres p{
-    margin-left: 27.7mm;
-    width: 134.6mm;
+    width: calc(var(--column-width) * 5 + var(--gutter-width) * 4);
     margin-bottom: 1em;
     text-align: center;
     text-indent: 0;

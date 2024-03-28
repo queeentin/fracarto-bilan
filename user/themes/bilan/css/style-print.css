@@ -6,6 +6,7 @@
 @import "acquisitions.css";
 @import "list.css";
 @import "sommaire.css";
+@import "intro-outro.css";
 
 /* Page properties */
 
@@ -68,16 +69,22 @@ h3, h4, h5{
     margin: 13pt 0;
 }
 
+.pagedjs_area h3:first-of-type{
+    margin-top: 0;
+}
+
 h3{
     font-family: "Area Web";
     font-weight: 800;
     text-transform: uppercase;
+    page-break-after: avoid;
 }
 
 h4{
     font-family: "Area Web";
     font-weight: 700;
     text-decoration: underline;
+    page-break-after: avoid;
 }
 
 h5{
@@ -238,7 +245,6 @@ hr {
     height: 310mm;
     z-index: -1;
     page-break-after: always;
-    background-color: yellowgreen;
 }
 
 .cover figure img{
@@ -246,4 +252,12 @@ hr {
     width: 100%;
     object-fit: cover;
     mix-blend-mode: screen;
+}
+
+.cover.lvl1 figure{
+    background-color: #ffe6ff;
+}
+
+.cover.lvl2 figure{
+    background-color: #a0eb67;
 }

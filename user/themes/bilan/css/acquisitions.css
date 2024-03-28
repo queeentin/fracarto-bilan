@@ -1,6 +1,16 @@
-.acquisitions{
-    column-count: 3;
+.acquisitions h3{
+    position: absolute;
+    width: calc(var(--column-width) * 4 + var(--gutter-width) * 3);
+}
+
+.acquisitions img{
+    width: 100%;
+    z-index: -1;
     page-break-after: always;
+}
+
+.acquisitions > div{
+    column-count: 3;
 }
 
 .acquisitions .artsheet{
@@ -28,6 +38,6 @@
     hyphens: none;
 }
 
-.acquisitions .title, .acquisitions .description{
+.acquisitions .title{
     margin-bottom: 13pt;
 }

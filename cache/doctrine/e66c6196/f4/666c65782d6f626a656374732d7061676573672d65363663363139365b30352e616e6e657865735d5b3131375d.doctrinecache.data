@@ -1,0 +1,10 @@
+1711531141
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:7:"annexes";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:7:"Annexes";s:6:"tiitle";s:10:"an
+  nexes";s:5:"cover";a:1:{s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg";a:4:{s:4:"name";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:5203919;s:4:"path";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg";}}}s:11:"frontmatter";s:261:"title: Annexes
+tiitle: "an\n  nexes"
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg
+        type: image/jpeg
+        size: 5203919
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:7:"annexes";s:11:"storage_key";s:10:"05.annexes";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1711484575;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"chapter";i:1711484575;}}s:8:"children";a:6:{s:52:"01.liste-des-acquisitions-2023-de-la-collection-frac";b:0;s:55:"02.liste-des-prets-et-depots-de-la-collection-frac-2023";b:0;s:108:"03.liste-des-premieres-oeuvres-presentees-dans-la-reserve-virtuelle-pour-louverture-du-futur-frac-artotheque";b:0;s:37:"04.listes-des-abonnes-artotheque-2023";b:0;s:62:"05.liste-des-communes-et-communautes-adherentes-au-faclim-2023";b:0;s:59:"06.relais-artotheque-peuple-et-culture-correze-artobus-2023";b:0;}s:8:"checksum";s:32:"af7082785545f7ec7385ec7da7b30a24";}}

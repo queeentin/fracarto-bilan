@@ -2,19 +2,27 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/06.outro/text.md',
-    'modified' => 1711480389,
-    'size' => 439,
+    'modified' => 1711585585,
+    'size' => 550,
     'data' => [
         'header' => [
             'title' => 'Outro',
-            'tiitle' => 'outro',
             'cover' => [
-                
+                '3e-de-couv34.jpg' => [
+                    'name' => '3e-de-couv34.jpg',
+                    'type' => 'image/jpeg',
+                    'size' => 792653,
+                    'path' => '3e-de-couv34.jpg'
+                ]
             ]
         ],
         'frontmatter' => 'title: Outro
-tiitle: outro
-cover: {  }',
+cover:
+    3e-de-couv34.jpg:
+        name: 3e-de-couv34.jpg
+        type: image/jpeg
+        size: 792653
+        path: 3e-de-couv34.jpg',
         'markdown' => 'Le FRAC-ARTOTHÈQUE NOUVELLE-AQUITAINE
 est financé par :
 la Région Nouvelle-Aquitaine 

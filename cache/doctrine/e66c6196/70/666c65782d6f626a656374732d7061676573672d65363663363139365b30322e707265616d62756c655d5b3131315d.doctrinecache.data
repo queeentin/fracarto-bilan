@@ -1,4 +1,4 @@
-1711486497
+1711531055
 O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:9:"preambule";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:5:{s:5:"title";s:10:"Préambule";s:12:"body_classes";s:8:"preamble";s:12:"visibletitle";b:1;s:6:"tiitle";s:14:"préam
    bule";s:5:"cover";a:1:{s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";a:4:{s:4:"name";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:4584198;s:4:"path";s:45:"20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg";}}}s:11:"frontmatter";s:310:"title: Préambule
 body_classes: preamble

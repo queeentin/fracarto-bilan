@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/05.annexes/05.liste-des-communes-et-communautes-adherentes-au-faclim-2023/other.md',
-    'modified' => 1711480609,
-    'size' => 2336,
+    'modified' => 1711530564,
+    'size' => 2549,
     'data' => [
         'header' => [
             'title' => 'Liste des communes et communautés adhérentes au FACLim 2023',
@@ -11,14 +11,24 @@ return [
             'visibletitle' => true,
             'tiitle' => 'Liste des communes et communautés adhérentes au FACLim 2023',
             'cover' => [
-                
+                '20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg' => [
+                    'name' => '20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg',
+                    'type' => 'image/jpeg',
+                    'size' => 4584198,
+                    'path' => '20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg'
+                ]
             ]
         ],
         'frontmatter' => 'title: \'Liste des communes et communautés adhérentes au FACLim 2023\'
 body_classes: communes
 visibletitle: true
 tiitle: \'Liste des communes et communautés adhérentes au FACLim 2023\'
-cover: {  }',
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg
+        type: image/jpeg
+        size: 4584198
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-12.jpg',
         'markdown' => '<div id="container"  class="pos-2">
     <div class="dptmt">
         <div class="head col-1">

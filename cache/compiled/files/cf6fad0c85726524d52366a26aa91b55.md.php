@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/05.annexes/06.relais-artotheque-peuple-et-culture-correze-artobus-2023/text.md',
-    'modified' => 1711480618,
-    'size' => 25107,
+    'modified' => 1711530571,
+    'size' => 25320,
     'data' => [
         'header' => [
             'title' => 'Relais Artothèque Peuple et Culture Corrèze / Artobus 2023',
@@ -156,7 +156,12 @@ L’association Peuple et Culture organise depuis des années des expositions et
             'media_order' => 'Sélection PEC lycée horticole.jpg,Ste Féréole PEC.jpg,Border 1.jpg,Border 2.jpg',
             'tiitle' => 'Relais Artothèque Peuple et Culture Corrèze / Artobus 2023',
             'cover' => [
-                
+                '20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg' => [
+                    'name' => '20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg',
+                    'type' => 'image/jpeg',
+                    'size' => 5203919,
+                    'path' => '20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg'
+                ]
             ]
         ],
         'frontmatter' => 'title: \'Relais Artothèque Peuple et Culture Corrèze / Artobus 2023\'
@@ -187,7 +192,12 @@ sections:
         class_name: pos-4
 media_order: \'Sélection PEC lycée horticole.jpg,Ste Féréole PEC.jpg,Border 1.jpg,Border 2.jpg\'
 tiitle: \'Relais Artothèque Peuple et Culture Corrèze / Artobus 2023\'
-cover: {  }',
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg
+        type: image/jpeg
+        size: 5203919
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-17.jpg',
         'markdown' => 'En 1991, l’Artothèque du Limousin confie à Peuple et Culture la galerie de prêt pour le département de la Corrèze. Cette mission s’inscrit plus globalement dans les actions conduites par Peuple et Culture depuis 1983 en matière d’art contemporain accompagnées de médiation qui vise à faciliter le contact entre le public, les œuvres et les artistes. Les actions du relais de Tulle contribuent à amplifier de façon singulière le travail de diffusion et de sensibilisation à l’art contemporain à l’échelle du département par une démarche volontaire de diffusion et de médiation des œuvres de l’artothèque du Limousin et la pratique artistique en milieu scolaire. En 1999, la création du dispositif Artobus, véhicule équipé pour le transport des œuvres, a amplifié considérablement le rayon d’action du relais en créant véritablement les bonnes conditions pour une meilleure circulation de la collection sur tout le territoire. Le relais est également partenaire pour l’accueil de groupes de personnes et des classes des écoles lors des expositions « Collection en mouvement » organisées en Corrèze par le Frac-Artothèque Nouvelle-Aquitaine.
 
 Les particuliers peuvent à moindre coût choisir des œuvres pour leur domicile et, s’ils le souhaitent, être accompagné dans le choix de leurs emprunts. Ils construisent leur relation à la collection, en se laissant porter par le sens développé dans les multiples pratiques et formes représentées par les artistes contemporains. Au-delà du sens, en habitant avec les œuvres entrées dans leur quotidien, et se familiarisant avec elles, ils vivent souvent une véritable aventure personnelle et intime. Le relais propose également une possibilité de prêt et de médiation sous forme de rencontre pour des collectivités ou associations engagées auprès de personnes en difficulté et a priori peu en contact avec des œuvres d’art contemporain.

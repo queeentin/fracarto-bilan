@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/05.annexes/04.listes-des-abonnes-artotheque-2023/tables.md',
-    'modified' => 1711480600,
-    'size' => 5972,
+    'modified' => 1711530557,
+    'size' => 6132,
     'data' => [
         'header' => [
             'title' => 'Listes des abonnés Artothèque 2023',
@@ -73,7 +73,12 @@ return [
             ],
             'tiitle' => 'Listes des abonnés Artothèque 2023',
             'cover' => [
-                
+                '20211018-A3+-340x460-07.jpg' => [
+                    'name' => '20211018-A3+-340x460-07.jpg',
+                    'type' => 'image/jpeg',
+                    'size' => 11587241,
+                    'path' => '20211018-A3+-340x460-07.jpg'
+                ]
             ]
         ],
         'frontmatter' => 'title: \'Listes des abonnés Artothèque 2023\'
@@ -89,7 +94,12 @@ sections:
         content: "### Relais Artothèque CIAP Vassivière 2023 \\n\\n|Abonnés particuliers               |13 personnes                                                                   |\\n|----------------------------------|----------------------------------------------------------------|\\n|Abonnés scolaires                  |Cité scolaire Bernard Palissy (Saint Léonard de Noblat)                        |\\n|Abonnés associations et entreprises|Maison de Santé des Portes de Vassivière (Eymoutiers)                          |"
         class_name: t-col-2
 tiitle: \'Listes des abonnés Artothèque 2023\'
-cover: {  }',
+cover:
+    20211018-A3+-340x460-07.jpg:
+        name: 20211018-A3+-340x460-07.jpg
+        type: image/jpeg
+        size: 11587241
+        path: 20211018-A3+-340x460-07.jpg',
         'markdown' => ''
     ]
 ];

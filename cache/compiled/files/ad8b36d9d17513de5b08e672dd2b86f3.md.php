@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/04.cap-sur-charles-michels-les-nouveaux-programmes/02.programmes-de-developpement-et-de-valorisation/text.md',
-    'modified' => 1711480554,
-    'size' => 8330,
+    'modified' => 1711530661,
+    'size' => 8549,
     'data' => [
         'header' => [
             'title' => 'Programmes de développement',
@@ -94,7 +94,12 @@ D’une part, l’un des enjeux du programme des Apprentis Collectionneurs, à s
             'media_order' => 'Développement-Collège-des-Amis-Limoges1.jpg,Développement-Collège-des-Amis-Limoges2.jpg,Développement-Apprentis-collectionneurs-Limoges.jpg',
             'tiitle' => 'Programmes de développement',
             'cover' => [
-                
+                '20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg' => [
+                    'name' => '20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg',
+                    'type' => 'image/jpeg',
+                    'size' => 5936137,
+                    'path' => '20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg'
+                ]
             ]
         ],
         'frontmatter' => 'title: \'Programmes de développement\'
@@ -116,7 +121,12 @@ sections:
         class_name: pos-4
 media_order: \'Développement-Collège-des-Amis-Limoges1.jpg,Développement-Collège-des-Amis-Limoges2.jpg,Développement-Apprentis-collectionneurs-Limoges.jpg\'
 tiitle: \'Programmes de développement\'
-cover: {  }',
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg
+        type: image/jpeg
+        size: 5936137
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg',
         'markdown' => ''
     ]
 ];

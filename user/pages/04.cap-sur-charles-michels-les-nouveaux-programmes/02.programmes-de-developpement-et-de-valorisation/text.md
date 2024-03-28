@@ -18,6 +18,11 @@ sections:
         class_name: pos-4
 media_order: 'Développement-Collège-des-Amis-Limoges1.jpg,Développement-Collège-des-Amis-Limoges2.jpg,Développement-Apprentis-collectionneurs-Limoges.jpg'
 tiitle: 'Programmes de développement'
-cover: {  }
+cover:
+    20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg:
+        name: 20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg
+        type: image/jpeg
+        size: 5936137
+        path: 20211214-A4+-300x320-2-Noir-20%-300dpi-27-0.jpg
 ---
 

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/themes/bilan/blueprints/tables.yaml',
-    'modified' => 1711380725,
-    'size' => 1000,
+    'modified' => 1711572285,
+    'size' => 971,
     'data' => [
         'blueprint' => 'table',
         'title' => 'Markdown tables',
@@ -36,18 +36,24 @@ return [
                                             ]
                                         ],
                                         '.class_name' => [
-                                            'type' => 'select',
+                                            'type' => 'selectize',
                                             'label' => 'Type de tableau',
-                                            'options' => [
-                                                't-col-2' => '2 colonnes',
-                                                't-col-3' => '3 colonnes',
-                                                't-col-4' => '4 colonnes',
-                                                't-col-5' => '5 colonnes',
-                                                't-col-5b' => '5 colonnes bis',
-                                                't-col-5t' => '5 colonnes ter',
-                                                't-col-6' => '6 colonnes'
-                                            ],
-                                            'default' => '4 colonnes'
+                                            'selectize' => [
+                                                'options' => [
+                                                    0 => [
+                                                        'text' => 'flag',
+                                                        'value' => 'flag'
+                                                    ],
+                                                    1 => [
+                                                        'text' => 'sum-row',
+                                                        'value' => 'sum-row'
+                                                    ],
+                                                    2 => [
+                                                        'text' => 'head-row',
+                                                        'value' => 'head-row'
+                                                    ]
+                                                ]
+                                            ]
                                         ]
                                     ]
                                 ]

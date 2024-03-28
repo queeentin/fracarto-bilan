@@ -25,6 +25,16 @@ form:
               type: list
               style: vertical
               fields:
+                .subtitle:
+                  type: text
+                  label: Titre
+                .pictures:
+                  type: file
+                  label: Images des œuvres
+                  accept:
+                    - image/*
+                  multiple: true
+                  preview_images: true
                 .content:
                   type: markdown
                   validate:

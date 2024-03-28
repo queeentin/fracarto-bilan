@@ -37,5 +37,3 @@ Haute-Vienne : Beaumont-du-Lac, Limoges, Rochechouart, Saint-Sulpice-Laurière
 
 **<span>4</span>  formations professionnelles et formations des publics**
 Haute-Vienne : Beaumont-du-Lac, Limoges, Verneuil-sur-Vienne
-
----

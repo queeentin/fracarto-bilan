@@ -1,0 +1,16 @@
+.sommaire .cover figure, .backcover .cover figure{
+    background-color: #ff783c !important;
+}
+
+.outro .cover{
+    page-break-before: always;
+    page-break-after: avoid;
+}
+
+.outro .cover figure{
+    background-color: none;
+}
+
+.outro .cover figure img{
+    mix-blend-mode: normal;
+}

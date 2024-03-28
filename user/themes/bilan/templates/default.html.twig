@@ -7,11 +7,12 @@
         <div id="render-book"></div>
     
         <template id="book-content">
+        
             {% for parent_page in pages.children %}
 
                 {# Blueprint chapter #}
                 <div class="{{ parent_page.header.body_classes }}">
-                    <div class="cover">
+                    <div class="cover lvl1">
                         <pre>{{ parent_page.header.tiitle|raw }}</pre>
                         <figure>
                             {% set cover = parent_page.header.cover %}
@@ -28,7 +29,7 @@
                         {% if child_page.blueprint.blueprint == "other" %}
                             <div class="{{ child_page.header.body_classes }}">
                                 {% if child_page.header.visibletitle %}
-                                    <div class="cover">
+                                    <div class="cover lvl2">
                                         <h2>{{ child_page.header.tiitle }}</h2>
                                         <figure>
                                             {% set cover = child_page.header.cover %}
@@ -40,22 +41,40 @@
                                 {{ child_page.content|raw|markdown }}
                             </div>
 
-                        {# Blueprints text, tables #}
                         {% else %}
-                            <div class="cover">
-                                <h2>{{ child_page.header.tiitle }}</h2>
-                                <figure>
-                                    {% set cover = child_page.header.cover %}
-                                    {% set imageKey = (cover|keys)|first %}
-                                    <img src="user/pages/{{ parent_page.folder() ~ '/' ~ child_page.folder() ~ '/' ~ cover[imageKey].path }}">
-                                </figure>
-                            </div>
-                            {% for item in child_page.header.sections %}
-                                {% set item_class = child_page.blueprint.blueprint %}
-                                <div class="{{item_class}} {{ item.class_name }}">
-                                    {{ item.content|raw|markdown }}
+                            <div class="{{ child_page.header.body_classes }}">
+                                <div class="cover lvl2">
+                                    <h2>{{ child_page.header.tiitle }}</h2>
+                                    <figure>
+                                        {% set cover = child_page.header.cover %}
+                                        {% set imageKey = (cover|keys)|first %}
+                                        <img src="user/pages/{{ parent_page.folder() ~ '/' ~ child_page.folder() ~ '/' ~ cover[imageKey].path }}">
+                                    </figure>
                                 </div>
-                            {% endfor %}
+                                {# Blueprints acquisitions #}
+                                {% if child_page.blueprint.blueprint == "acquisitions" %}
+                                    {% for item in child_page.header.sections %}
+                                        {% set item_class = child_page.blueprint.blueprint %}
+                                        <div class="{{item_class}}">
+                                            <h3>{{ item.subtitle }}</h3>
+                                            {% for picture in item.pictures %}
+                                                <img src="user/pages/{{ parent_page.folder() ~ '/' ~ child_page.folder() ~ '/' ~ picture.name }}">
+                                            {% endfor %}
+                                            <div>{{ item.content|raw }}</div>
+                                        </div>
+                                    {% endfor %}
+                                {# Blueprints text, tables #}
+                                {% else %}
+                                    <div>
+                                    {% for item in child_page.header.sections %}
+                                        {% set item_class = child_page.blueprint.blueprint %}
+                                        <div class="{{item_class}} {{ item.class_name|replace({',': ' '}) }}">
+                                            {{ item.content|raw|markdown }}
+                                        </div>
+                                    {% endfor %}
+                                    </div>
+                                {% endif %}
+                                </div>
                         {% endif %}
 
                 {% endfor %}

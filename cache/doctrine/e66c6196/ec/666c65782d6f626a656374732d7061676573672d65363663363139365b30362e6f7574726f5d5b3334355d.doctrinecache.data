@@ -1,0 +1,9 @@
+1711587174
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:5:"outro";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:5:"Outro";s:5:"cover";a:1:{s:14:"3e-de-couv.jpg";a:4:{s:4:"name";s:14:"3e-de-couv.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:821032;s:4:"path";s:14:"3e-de-couv.jpg";}}s:12:"body_classes";s:5:"outro";}s:11:"frontmatter";s:163:"title: Outro
+cover:
+    3e-de-couv.jpg:
+        name: 3e-de-couv.jpg
+        type: image/jpeg
+        size: 821032
+        path: 3e-de-couv.jpg
+body_classes: outro";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:5:"outro";s:11:"storage_key";s:8:"06.outro";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1711586502;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"chapter";i:1711586502;}}s:8:"checksum";s:32:"c55be01d11cce5956f7c8fb6e94f6ace";}}

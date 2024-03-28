@@ -30,14 +30,13 @@ form:
                   validate:
                     type: textarea
                 .class_name:
-                  type: select
+                  type: selectize
                   label: Type de tableau
-                  options:
-                    t-col-2: 2 colonnes
-                    t-col-3: 3 colonnes
-                    t-col-4: 4 colonnes
-                    t-col-5: 5 colonnes
-                    t-col-5b: 5 colonnes bis
-                    t-col-5t: 5 colonnes ter
-                    t-col-6: 6 colonnes
-                  default: 4 colonnes
+                  selectize:
+                      options:
+                          - text: "flag"
+                            value: "flag"
+                          - text: "sum-row"
+                            value: "sum-row"
+                          - text: "head-row"
+                            value: "head-row"

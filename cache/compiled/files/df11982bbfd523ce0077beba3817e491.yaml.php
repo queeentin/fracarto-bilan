@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/themes/bilan/blueprints/acquisitions.yaml',
-    'modified' => 1711109592,
-    'size' => 551,
+    'modified' => 1711550838,
+    'size' => 866,
     'data' => [
         'blueprint' => 'acquisitions',
         'title' => 'Markdown tables',
@@ -29,6 +29,19 @@ return [
                                     'type' => 'list',
                                     'style' => 'vertical',
                                     'fields' => [
+                                        '.subtitle' => [
+                                            'type' => 'text',
+                                            'label' => 'Titre'
+                                        ],
+                                        '.pictures' => [
+                                            'type' => 'file',
+                                            'label' => 'Images des œuvres',
+                                            'accept' => [
+                                                0 => 'image/*'
+                                            ],
+                                            'multiple' => true,
+                                            'preview_images' => true
+                                        ],
                                         '.content' => [
                                             'type' => 'markdown',
                                             'validate' => [

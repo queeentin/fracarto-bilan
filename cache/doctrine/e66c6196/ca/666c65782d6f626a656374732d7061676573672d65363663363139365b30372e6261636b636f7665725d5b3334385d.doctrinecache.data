@@ -1,0 +1,9 @@
+1711587508
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:9:"backcover";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:9:"Backcover";s:12:"body_classes";s:9:"backcover";s:5:"cover";a:1:{s:45:"20210908-A4+-300x320-2-Noir-20%-300dpi-04.jpg";a:4:{s:4:"name";s:45:"20210908-A4+-300x320-2-Noir-20%-300dpi-04.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:4025304;s:4:"path";s:45:"20210908-A4+-300x320-2-Noir-20%-300dpi-04.jpg";}}}s:11:"frontmatter";s:265:"title: Backcover
+body_classes: backcover
+cover:
+    20210908-A4+-300x320-2-Noir-20%-300dpi-04.jpg:
+        name: 20210908-A4+-300x320-2-Noir-20%-300dpi-04.jpg
+        type: image/jpeg
+        size: 4025304
+        path: 20210908-A4+-300x320-2-Noir-20%-300dpi-04.jpg";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:9:"backcover";s:11:"storage_key";s:12:"07.backcover";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1711586908;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"chapter";i:1711586908;}}s:8:"checksum";s:32:"2d20ad174800873ae6a24b8353a7822f";}}

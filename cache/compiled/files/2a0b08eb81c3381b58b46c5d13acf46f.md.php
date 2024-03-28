@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => '/Users/quentin/Documents/Projets/FRAC Arto/B_rapport d\'activité/2024/bilan-2023/user/pages/05.annexes/03.liste-des-premieres-oeuvres-presentees-dans-la-reserve-virtuelle-pour-louverture-du-futur-frac-artotheque/other.md',
-    'modified' => 1711485897,
-    'size' => 31498,
+    'modified' => 1711530541,
+    'size' => 31741,
     'data' => [
         'header' => [
             'title' => 'Liste des premières œuvres presentées dans la Réserve virtuelle pour l’ouverture du futur Frac-Artothèque',
@@ -283,7 +283,12 @@ return [
             'media_order' => 'Programmes-numériques-Réserve-virtuelle-Cohen.JPG,Programmes-numériques-Réserve-virtuelle-Alftan.jpg,Programmes-numériques-Réserve-virtuelle-Harris.JPEG,Programmes-numériques-Réserve-virtuelle-SaintPhalle.jpg,charts.svg',
             'tiitle' => 'Liste des premières œuvres presentées dans la Réserve virtuelle pour l’ouverture du futur Frac-Artothèque',
             'cover' => [
-                
+                '20211214-A4+-300x320-2-Noir-20%-300dpi-24 copie-0.jpg' => [
+                    'name' => '20211214-A4+-300x320-2-Noir-20%-300dpi-24 copie-0.jpg',
+                    'type' => 'image/jpeg',
+                    'size' => 4818286,
+                    'path' => '20211214-A4+-300x320-2-Noir-20%-300dpi-24 copie-0.jpg'
+                ]
             ]
         ],
         'frontmatter' => 'title: \'Liste des premières œuvres presentées dans la Réserve virtuelle pour l’ouverture du futur Frac-Artothèque\'
@@ -295,7 +300,12 @@ sections:
 body_classes: list
 media_order: \'Programmes-numériques-Réserve-virtuelle-Cohen.JPG,Programmes-numériques-Réserve-virtuelle-Alftan.jpg,Programmes-numériques-Réserve-virtuelle-Harris.JPEG,Programmes-numériques-Réserve-virtuelle-SaintPhalle.jpg,charts.svg\'
 tiitle: \'Liste des premières œuvres presentées dans la Réserve virtuelle pour l’ouverture du futur Frac-Artothèque\'
-cover: {  }',
+cover:
+    \'20211214-A4+-300x320-2-Noir-20%-300dpi-24 copie-0.jpg\':
+        name: \'20211214-A4+-300x320-2-Noir-20%-300dpi-24 copie-0.jpg\'
+        type: image/jpeg
+        size: 4818286
+        path: \'20211214-A4+-300x320-2-Noir-20%-300dpi-24 copie-0.jpg\'',
         'markdown' => '<figure>
     <img src="user/pages/05.annexes/03.liste-des-premieres-oeuvres-presentees-dans-la-reserve-virtuelle-pour-louverture-du-futur-frac-artotheque/charts.svg"/>
 </figure>
